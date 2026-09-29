@@ -1,0 +1,79 @@
+import { AlbumCollection } from "@/components/gallery/album-collection";
+import { BrandLogo } from "@/components/ui/brand-logo";
+import {
+  PageIntro,
+  Section,
+  TextLink,
+  MediaSlot,
+} from "@/components/ui/editorial";
+import { Timeline } from "@/components/history/timeline";
+import { pageMetadata } from "@/lib/metadata";
+export const metadata = pageMetadata(
+  "Notre histoire",
+  "/history",
+  "Des premiers rendez-vous en 2013 à une communauté de transmission : découvrez l’histoire documentée de SEAFA.",
+);
+export default function HistoryPage() {
+  return (
+    <main>
+      <PageIntro
+        eyebrow="Depuis 2013"
+        title="Les racines d’une famille."
+        description="D’abord des retrouvailles autour du ballon. Puis une organisation, des valeurs partagées et une communauté qui se transmet de génération en génération."
+      />
+      <Section
+        id="chronologie"
+        eyebrow="Notre mémoire"
+        title="Les étapes de notre parcours."
+      >
+        <p>Ouvrez chaque étape pour découvrir le récit et ses sources.</p>
+        <BrandLogo
+          variant="stacked"
+          sizes="(max-width: 640px) 160px, 200px"
+          className="my-8 h-auto w-40 sm:w-50"
+        />
+        <Timeline />
+        <div className="empty-note">
+          <h3>Une histoire toujours en mouvement</h3>
+          <p>
+            La suite de notre histoire, de 2021 à 2026, sera prochainement
+            documentée. Les albums photographiques disponibles peuvent déjà être
+            consultés dans la galerie.
+          </p>
+          <TextLink href="/contact">Contribuer à notre mémoire</TextLink>
+        </div>
+      </Section>
+      <Section id="presidents" title="Présidents de SEAFA">
+        <div className="split">
+          <article>
+            <MediaSlot
+              mediaId="media-interviews-arnaud-badogomba-first-president"
+              label="Arnaud"
+              portrait
+            />
+            <h3>Arnaud · 2013–2019</h3>
+            <p>Président de SEAFA de 2013 à 2019.</p>
+            <TextLink href="/interviews/arnaud-bados-badogomba">
+              Lire son témoignage
+            </TextLink>
+          </article>
+          <article>
+            <h3>Jimmy · président actuel</h3>
+            <p>Jimmy assure actuellement la présidence de SEAFA.</p>
+            <p className="source">
+              Portrait et date de début du mandat à confirmer.
+            </p>
+          </article>
+        </div>
+      </Section>
+      <Section id="archives" title="Les souvenirs se partagent." tone="warm">
+        <p>
+          Retrouvez les photographies des premières années et les archives de
+          SEAFA.
+        </p>
+        <AlbumCollection types={["history"]} />
+        <TextLink href="/gallery">Explorer la galerie</TextLink>
+      </Section>
+    </main>
+  );
+}

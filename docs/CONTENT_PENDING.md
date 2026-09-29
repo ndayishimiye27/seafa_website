@@ -1,0 +1,23 @@
+# Contenus à compléter avant lancement
+
+- [ ] Historique 2020 si des sources existent, puis 2021–2026.
+- [x] Photographies historiques fournies sous `/media/history` et intégrées ; identités et dates inconnues restent à confirmer.
+- [x] Album du 13e anniversaire (26 septembre 2026) intégré aux événements, à la galerie et aux événements récents de l’accueil.
+- [x] Portraits PNG restaurés de Bados, Alain, Idan et Claver intégrés aux cartes et pages de détail.
+- [ ] Remettre les originaux de ces quatre portraits : le dossier manquait lors de la revue du 29 septembre ; des versions optimisées identifiées dans le cache local ont été rétablies temporairement.
+- [ ] Photographies d’activité individuelles avec identités confirmées.
+- [ ] Citations exactes approuvées : les textes actuels sont des synthèses sans guillemets.
+- [x] Notice de Darcy retirée de la sélection publique à la demande de SEAFA ; les quatre autres entretiens sont conservés.
+- [ ] Confirmer l’orthographe publique préférée d’Idan (le livret donne « Nzisabira Idane Carlène »).
+- [ ] Pays, portraits et initiatives actuels de la diaspora ; ne pas réutiliser une résidence historique comme actuelle.
+- [ ] Direction actuelle : noms, fonctions, mandats et autorisations.
+- [ ] Effectif actuel : noms, postes, portraits et statistiques approuvées.
+- [ ] Confirmer le conflit de récompenses : Alain, 2016 p. 11 / 2017 p. 14 ; Yannick, 2017 p. 11. Aucun de ces deux prix n’est publié.
+- [ ] Compléter les photographies de remise et d’action de Jack (2015) et Malolo (2018).
+- [ ] Actualités vérifiées et nouveaux événements avec dates confirmées.
+- [ ] Résultats de Challenges, capitaines et compositions publiables.
+- [ ] Coordonnées officielles et interlocuteur pour la confidentialité.
+- [ ] Hébergement, volume privé persistant, personnes habilitées, délai de conservation et traitement régulier des demandes.
+- [ ] Domaine de production ; activer l’indexation uniquement après revue.
+- [x] Icônes d’application approuvées : fichiers fournis sous `/media/brand/logos`.
+- [x] Logos approuvés intégrés au site, aux métadonnées et aux aperçus sociaux.
