@@ -99,9 +99,9 @@ export default function JoinPage() {
               </p>
 
               <p className="mt-2 text-sm leading-6 text-amber-900/75">
-                Le formulaire crée uniquement une demande d’adhésion. Il ne crée
-                pas automatiquement un compte de membre et ne garantit pas
-                l’acceptation.
+                Le formulaire prépare une candidature à envoyer par WhatsApp ou
+                e-mail. Il ne crée pas automatiquement un compte de membre et ne
+                garantit pas l’acceptation.
               </p>
             </div>
 

@@ -1,49 +1,5 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
-import {
-  membershipFields,
-  matchRequestFields,
-} from "../../src/content/form-fields";
-
-for (const [path, fields] of [
-  ["/join", membershipFields],
-  ["/request-match", matchRequestFields],
-] as const) {
-  test(`${path} submits the rendered fields successfully`, async ({ page }) => {
-    await page.route("**/api/**", async (route) => {
-      await route.fulfill({
-        status: 201,
-        contentType: "application/json",
-        body: JSON.stringify({
-          success: true,
-          message: "Votre demande a été enregistrée dans le système.",
-          reference: `SEAFA-${path === "/join" ? "APP" : "COR"}-2026-00000001`,
-          token: "a".repeat(64),
-          statusUrl: "https://system.example.invalid/application-access",
-        }),
-      });
-    });
-    await page.goto(path);
-    for (const field of fields) {
-      const input = page.locator(`[name="${field.name}"]`);
-      if (field.type === "checkbox") await input.check();
-      else if (field.type === "select")
-        await input.selectOption(field.options![0][0]);
-      else if (field.type === "email") await input.fill("test@example.test");
-      else if (field.type === "tel") await input.fill("+257 12345678");
-      else if (field.type === "datetime-local")
-        await input.fill("2027-10-01T15:00");
-      else
-        await input.fill(
-          "Demande de test navigateur pour la validation du formulaire.",
-        );
-    }
-    await page.locator('button[type="submit"]').click();
-    await expect(page.locator("form").getByRole("status")).toContainText(
-      "enregistrée",
-    );
-  });
-}
 const routes = [
   "/",
   "/about",

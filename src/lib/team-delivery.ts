@@ -16,7 +16,7 @@ import {
 } from "@/lib/delivery-config";
 import { storageDirectory, rateLimit } from "@/lib/submission-storage";
 
-type Data = Record<string, string | boolean>;
+type Data = Record<string, string | boolean | string[]>;
 type DeliveryState = "pending" | "accepted" | "unknown" | "review";
 interface Delivery {
   state: DeliveryState;
@@ -67,12 +67,16 @@ export function formatSubmission(
       return (
         field.label +
         " : " +
-        (label ??
-          (typeof value === "boolean"
-            ? value
-              ? "Oui"
-              : "Non"
-            : value || "Non renseigné"))
+        (Array.isArray(value)
+          ? value
+              .map((v) => field.options?.find(([key]) => key === v)?.[1] ?? v)
+              .join(", ")
+          : (label ??
+            (typeof value === "boolean"
+              ? value
+                ? "Oui"
+                : "Non"
+              : value || "Non renseigné")))
       );
     }),
     ...(kind === "match-requests"

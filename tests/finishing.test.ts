@@ -50,13 +50,13 @@ test("membership conditional requirements follow system categories", () => {
       .errors.country,
   );
   assert.ok(
-    validateSubmission("join", { category: "active" }).errors.preferredPosition,
+    validateSubmission("join", { category: "active" }).errors.positions,
   );
   assert.ok(
     !validateSubmission("join", {
       category: "active",
       preferredPosition: "centre_back",
-    }).errors.preferredPosition,
+    }).errors.positions,
   );
   assert.ok(
     validateSubmission("join", { category: "invented" }).errors.category,

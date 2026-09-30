@@ -228,9 +228,11 @@ test("all three delivery messages include every field with French labels", () =>
     const data = Object.fromEntries(
       formFields[kind].map((field) => [
         field.name,
-        field.type === "checkbox"
-          ? true
-          : (field.options?.[0][0] ?? "Texte de test"),
+        field.type === "positions"
+          ? ["GK", "ST"]
+          : field.type === "checkbox"
+            ? true
+            : (field.options?.[0][0] ?? "Texte de test"),
       ]),
     );
     const message = formatSubmission(kind, data, "REFERENCE-TEST");

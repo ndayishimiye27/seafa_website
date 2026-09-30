@@ -2,7 +2,15 @@
 
 État vérifié le 29 septembre 2026. Aucun destinataire réel, jeton ou compte de service n’est configuré par cette modification. Aucun message réel n’a été envoyé et aucun déploiement n’a été effectué.
 
-## Les trois formulaires
+## Mise à jour du 30 septembre 2026
+
+Les formulaires **/join** et **/request-match** préparent désormais des brouillons côté navigateur, au choix vers WhatsApp **+257 79 690 359** ou **jambojeanjimmy52@gmail.com**. Ils ne font aucun appel aux API de réception et ne créent aucune copie serveur. L’utilisateur doit appuyer sur Envoyer dans son application. Le site ne peut vérifier ni l’installation de l’application ni l’envoi/la réception. Les longs messages restent disponibles intégralement pour copie manuelle ; aucune troncature silencieuse.
+
+L’adhésion utilise le tableau **positions**, contenant de 1 à 5 codes distincts parmi les 21 postes proposés. Les anciennes propriétés preferredPosition/secondaryPosition sont converties en codes lorsque positions est absent ; un mélange des deux formats est rejeté. Le contrat de tout futur système privé doit accepter le tableau complet, sans réduction à deux postes.
+
+Le formulaire **/contact** conserve le fonctionnement serveur décrit ci-dessous. Les API et outils de reprise existants restent disponibles pour des intégrations explicitement configurées, mais ne sont jamais sollicités par les nouveaux parcours d’adhésion et de match. Les paragraphes historiques suivants sur l’activation serveur ne s’appliquent donc plus aux boutons de ces deux pages.
+
+## Les trois formulaires — état du 29 septembre
 
 | Formulaire           | Page           | Endpoint                 | Contenu transmis                                                                                                                         |
 | -------------------- | -------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |

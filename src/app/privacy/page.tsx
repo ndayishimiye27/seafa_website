@@ -38,13 +38,26 @@ export default function PrivacyPage() {
           </p>
           <h3>L’utilisation et la réception</h3>
           <p>
+            Les candidatures et propositions de match préparent un message dans
+            votre navigateur, sans l’enregistrer sur le serveur du site. Vous
+            choisissez WhatsApp (+257 79 690 359) ou l’e-mail
+            (jambojeanjimmy52@gmail.com). À l’ouverture, le brouillon est
+            transmis à l’application choisie selon ses propres règles de
+            confidentialité. Vous devez encore appuyer sur Envoyer. Le site ne
+            confirme ni l’envoi ni la réception. Les réponses ne sont placées ni
+            dans les journaux ni dans un outil d’analyse du site. Les brouillons
+            ne sont pas conservés par le site après fermeture ou rechargement de
+            la page.
+          </p>
+          <h3>Le formulaire de contact</h3>
+          <p>
             {submissionsEnabled()
               ? system
-                ? "Les demandes sont enregistrées dans le système privé SEAFA pour leur examen par le Secrétariat."
+                ? "Les messages de contact sont enregistrés auprès du service de réception configuré pour leur examen par le Secrétariat."
                 : email
                   ? "Les demandes complètes sont transmises au service d’envoi d’e-mails configuré pour SEAFA. Une confirmation signifie que ce service a accepté l’envoi, pas que le message a été lu."
                   : "En développement, les demandes sont conservées localement ; leur transmission au Secrétariat reste à effectuer."
-              : "Les envois en ligne sont actuellement désactivés. Les champs ne peuvent pas être soumis depuis le site et aucune demande n’est enregistrée par ces formulaires."}{" "}
+              : "L’envoi par le formulaire de contact est actuellement désactivé. Cette limitation ne concerne pas les brouillons WhatsApp ou e-mail des candidatures et propositions de match."}{" "}
             Les données servent à répondre à votre demande, examiner une
             candidature ou préparer un échange sur un match. Elles ne sont pas
             publiées sur le site.
@@ -65,6 +78,12 @@ export default function PrivacyPage() {
             </p>
           )}
           <h3>Accès et conservation</h3>
+          <p>
+            Les règles de file d’envoi et de limitation ci-dessous concernent le
+            formulaire de contact. Après ouverture ou copie d’un brouillon, sa
+            conservation dépend de votre application et, après envoi, de la
+            boîte de réception de SEAFA.
+          </p>
           <p>
             L’accès aux dossiers et à la boîte de réception est réservé aux
             personnes habilitées par SEAFA. Lorsqu’un code de suivi est remis
@@ -89,12 +108,12 @@ export default function PrivacyPage() {
             Le code du site n’ajoute ni outil de mesure d’audience, ni
             publicité, ni cookie de suivi. Les services de livraison ne
             reçoivent des données que lorsqu’ils sont configurés et qu’un
-            formulaire est envoyé. Le navigateur conserve temporairement une clé
-            de demande et une empreinte de son contenu pour éviter les doublons
-            lors d’une nouvelle tentative. Le système membre utilise ses propres
-            cookies de connexion. L’hébergeur peut produire ses propres journaux
-            techniques ; ses modalités devront être précisées lors de la mise en
-            ligne définitive.
+            message de contact est envoyé. Pour ce formulaire, le navigateur
+            conserve temporairement une clé de demande et une empreinte de son
+            contenu pour éviter les doublons lors d’une nouvelle tentative. Le
+            système membre utilise ses propres cookies de connexion. L’hébergeur
+            peut produire ses propres journaux techniques ; ses modalités
+            devront être précisées lors de la mise en ligne définitive.
           </p>
           <h3>Photographies et témoignages</h3>
           <p>
@@ -106,10 +125,9 @@ export default function PrivacyPage() {
           <h3>Nous faire part d’une demande</h3>
           <p>
             Pour consulter, corriger ou demander la suppression des informations
-            que vous avez confiées, adressez-vous à SEAFA. Les coordonnées
-            officielles sont en cours de confirmation. Tant que les formulaires
-            restent fermés, utilisez votre interlocuteur habituel au sein de
-            SEAFA.
+            que vous avez confiées, adressez-vous à SEAFA. Les coordonnées de
+            réception sont jambojeanjimmy52@gmail.com et le numéro WhatsApp +257
+            79 690 359.
           </p>
           <TextLink href="/contact">Consulter la page contact</TextLink>
           <h3>Évolution de cette page</h3>

@@ -27,7 +27,7 @@ export function intakeConfiguration() {
 export async function deliverToSystem(
   request: Request,
   kind: FormKind,
-  data: Record<string, string | boolean>,
+  data: Record<string, string | boolean | string[]>,
 ) {
   const config = intakeConfiguration();
   if (!config) return null;

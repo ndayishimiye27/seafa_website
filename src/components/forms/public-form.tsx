@@ -4,6 +4,7 @@ import type { FormEvent } from "react";
 import Link from "next/link";
 import { formFields, validateSubmission } from "@/content/form-fields";
 import type { FormKind } from "@/content/form-fields";
+import { ComposerForm } from "./composer-form";
 export function PublicForm({
   kind,
   enabled = false,
@@ -11,6 +12,10 @@ export function PublicForm({
   kind: FormKind;
   enabled?: boolean;
 }) {
+  if (kind !== "contact") return <ComposerForm kind={kind} />;
+  return <IntakeForm kind={kind} enabled={enabled} />;
+}
+function IntakeForm({ kind, enabled }: { kind: FormKind; enabled: boolean }) {
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [message, setMessage] = useState("");
   const [category, setCategory] = useState("");

@@ -83,7 +83,11 @@ export async function handleSubmission(request: Request, kind: FormKind) {
     return reply("La demande est invalide.", 400);
   const raw = body as Record<string, unknown>;
   if (raw.website) return reply("La demande n’a pas été acceptée.", 400);
-  const allowed = new Set([...formFields[kind].map((f) => f.name), "website"]);
+  const allowed = new Set([
+    ...formFields[kind].map((f) => f.name),
+    "website",
+    ...(kind === "join" ? ["preferredPosition", "secondaryPosition"] : []),
+  ]);
   if (Object.keys(raw).some((k) => !allowed.has(k)))
     return reply("La demande contient des champs non reconnus.", 400);
   const { data, errors } = validateSubmission(kind, raw);

@@ -1,3 +1,5 @@
+import { positionOptions, legacyPositions } from "@/content/positions";
+export type SubmissionData = Record<string, string | boolean | string[]>;
 export type FormKind = "contact" | "join" | "match-requests";
 export interface FormField {
   name: string;
@@ -10,7 +12,8 @@ export interface FormField {
     | "date"
     | "datetime-local"
     | "select"
-    | "checkbox";
+    | "checkbox"
+    | "positions";
   required?: boolean;
   min?: number;
   max?: number;
@@ -43,19 +46,6 @@ const telephone: FormField = {
   max: 30,
   autocomplete: "tel",
 };
-const playingPositions = [
-  ["goalkeeper", "Gardien"],
-  ["right_back", "Arrière droit"],
-  ["left_back", "Arrière gauche"],
-  ["centre_back", "Défenseur central"],
-  ["defensive_midfielder", "Milieu défensif"],
-  ["central_midfielder", "Milieu central"],
-  ["attacking_midfielder", "Milieu offensif"],
-  ["right_winger", "Ailier droit"],
-  ["left_winger", "Ailier gauche"],
-  ["second_striker", "Second attaquant"],
-  ["striker", "Avant-centre"],
-] as const;
 const privacy: FormField = {
   name: "privacyConsent",
   label: "J’accepte l’utilisation de ces informations pour traiter ma demande.",
@@ -131,16 +121,11 @@ export const membershipFields: FormField[] = [
   },
   { name: "residence", label: "Lieu de résidence", type: "text", max: 120 },
   {
-    name: "preferredPosition",
-    label: "Poste préféré",
-    type: "select",
-    options: playingPositions,
-  },
-  {
-    name: "secondaryPosition",
-    label: "Autre poste de jeu",
-    type: "select",
-    options: playingPositions,
+    name: "positions",
+    label: "Postes de jeu",
+    type: "positions",
+    required: true,
+    options: positionOptions,
   },
   {
     name: "footballExperience",
@@ -219,6 +204,10 @@ export const formFields: Record<FormKind, FormField[]> = {
 export function normalizeText(value: string) {
   return value
     .normalize("NFC")
+    .replace(
+      /[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g,
+      "\uFFFD",
+    )
     .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "")
     .trim();
 }
@@ -228,8 +217,41 @@ export function validateSubmission(
   now = new Date(),
 ) {
   const errors: Record<string, string> = {};
-  const data: Record<string, string | boolean> = {};
+  const data: SubmissionData = {};
   for (const f of formFields[kind]) {
+    if (f.type === "positions") {
+      const legacy = [raw.preferredPosition, raw.secondaryPosition].filter(
+        (v) => v !== undefined && v !== "",
+      );
+      const selected =
+        raw.positions === undefined
+          ? [
+              ...new Set(
+                legacy.map((v) =>
+                  typeof v === "string" ? (legacyPositions[v] ?? v) : v,
+                ),
+              ),
+            ]
+          : raw.positions;
+      if (
+        !Array.isArray(selected) ||
+        selected.length < 1 ||
+        selected.length > 5 ||
+        selected.some(
+          (v) =>
+            typeof v !== "string" ||
+            !positionOptions.some(([code]) => code === v),
+        ) ||
+        new Set(selected).size !== selected.length ||
+        (raw.positions !== undefined && legacy.length > 0)
+      )
+        errors.positions =
+          "Choisissez de 1 à 5 postes distincts parmi les postes proposés.";
+      data.positions = Array.isArray(selected)
+        ? selected.filter((v): v is string => typeof v === "string")
+        : [];
+      continue;
+    }
     if (f.type === "checkbox") {
       data[f.name] = raw[f.name] === true;
       if (f.required && !data[f.name])
@@ -274,11 +296,6 @@ export function validateSubmission(
   if (kind === "join") {
     if (data.category === "diaspora" && !data.country)
       errors.country = "Indiquez votre pays de résidence.";
-    if (
-      data.category === "active" &&
-      (!data.preferredPosition || data.preferredPosition === "community")
-    )
-      errors.preferredPosition = "Choisissez votre poste de jeu.";
   }
   return { data, errors };
 }

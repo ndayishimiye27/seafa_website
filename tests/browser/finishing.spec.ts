@@ -13,10 +13,7 @@ test("membership required labels follow category and homepage photos do not repe
   await expect(page.locator('[name="country"]')).not.toHaveAttribute(
     "required",
   );
-  await expect(page.locator('[name="preferredPosition"]')).toHaveAttribute(
-    "required",
-    "",
-  );
+  await expect(page.locator('[name="positions"]')).toHaveCount(21);
   await page.goto("/");
   const sources = await page
     .locator("main img")

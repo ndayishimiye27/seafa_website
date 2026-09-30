@@ -2,6 +2,10 @@
 
 Le contrat effectivement implémenté remplace les anciennes notes de préparation. Voir [FORM_DELIVERY.md](FORM_DELIVERY.md) pour l’e-mail, WhatsApp, le stockage et les reprises.
 
+## Mise à jour du 30 septembre 2026
+
+Les candidatures et propositions de match publiques passent par un brouillon WhatsApp/e-mail à envoyer par le visiteur. Elles ne sollicitent pas l’intake privé. Le formulaire de contact conserve son intégration configurée. L’API de candidature valide désormais **positions: string[]** (1 à 5 codes distincts). Les deux anciennes propriétés de poste sont converties uniquement si positions est absent ; le tableau complet doit être pris en charge avant toute remise en service d’un intake privé pour ces candidatures.
+
 ## Réception principale existante
 
 - SEAFA_SYSTEM_INTAKE_URL : URL HTTPS dont le chemin est exactement /api/public/submissions, sans identifiants, paramètres ni fragment.
