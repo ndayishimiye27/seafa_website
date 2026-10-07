@@ -68,7 +68,7 @@ for (const width of [320, 375, 768, 1024, 1440]) {
 }
 for (const route of routes) {
   test(`automated accessibility: ${route}`, async ({ page }) => {
-    await page.goto(route);
+    await page.goto(route, { waitUntil: "domcontentloaded" });
     const result = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
       .analyze();

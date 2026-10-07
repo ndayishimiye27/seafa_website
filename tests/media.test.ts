@@ -25,10 +25,15 @@ const localFiles = readdirSync("public/media", { recursive: true })
   .map((p) => "/media/" + p.replaceAll("\\", "/"));
 test("catalogue covers every supplied image exactly once, with exact spelling and real dimensions", async () => {
   const images = localFiles.filter((p) => /\.(png|jpg|jpeg)$/i.test(p));
-  assert.deepEqual(mediaAssets.map((m) => m.src).sort(), images.sort());
+  assert.deepEqual(
+    mediaAssets.map((m) => decodeURIComponent(m.src)).sort(),
+    images.sort(),
+  );
   assert.equal(new Set(mediaAssets.map((m) => m.id)).size, mediaAssets.length);
   for (const media of mediaAssets) {
-    const actual = await sharp("public" + media.src).metadata();
+    const actual = await sharp(
+      "public" + decodeURIComponent(media.src),
+    ).metadata();
     assert.equal(media.width, actual.width, media.src);
     assert.equal(media.height, actual.height, media.src);
     assert.ok(media.alt.trim());
@@ -37,9 +42,14 @@ test("catalogue covers every supplied image exactly once, with exact spelling an
 });
 test("albums are complete, chronological and connected to real detail records", () => {
   const albums = getPublishedAlbums();
-  assert.equal(albums.length, 45);
+  assert.equal(albums.length, 48);
   const covered = new Set(
-    albums.flatMap((a) => a.images.map((i) => i.mediaId)),
+    albums.flatMap((a) => [
+      ...a.images.map((i) => i.mediaId),
+      ...(a.videos ?? []).flatMap((video) =>
+        video.posterMediaId ? [video.posterMediaId] : [],
+      ),
+    ]),
   );
   assert.deepEqual(
     [...covered].sort(),
@@ -87,7 +97,19 @@ test("albums are complete, chronological and connected to real detail records", 
   );
   for (const folder of folders) {
     const expected = localFiles
-      .filter((p) => p.startsWith(folder + "/") && !excludedPhotoSources[p])
+      .filter(
+        (p) =>
+          p.startsWith(folder + "/") &&
+          /\.(png|jpe?g)$/i.test(p) &&
+          !excludedPhotoSources[
+            p.includes("#")
+              ? p
+                  .split("/")
+                  .map((part) => encodeURIComponent(part))
+                  .join("/")
+              : p
+          ],
+      )
       .sort();
     const album = albums.find((a) =>
       resolveAlbumImages(a).some((i) => i.media.src.startsWith(folder + "/")),
@@ -95,7 +117,7 @@ test("albums are complete, chronological and connected to real detail records", 
     assert.ok(album, folder);
     assert.deepEqual(
       resolveAlbumImages(album)
-        .map((i) => i.media.src)
+        .map((i) => decodeURIComponent(i.media.src))
         .filter((src) => src.startsWith(folder + "/"))
         .sort(),
       expected,

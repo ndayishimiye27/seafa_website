@@ -33,7 +33,7 @@ test("every supplied album and connected detail route resolves with its full gal
       })),
   ];
   for (const { path, album } of routes) {
-    const response = await page.goto(path);
+    const response = await page.goto(path, { waitUntil: "domcontentloaded" });
     expect(response?.status(), path).toBe(200);
     await expect(
       page.getByRole("button", { name: /Ouvrir l’image/ }),
@@ -156,7 +156,7 @@ for (const width of [375, 1440]) {
     await page.goto("/team");
     for (const person of archivedPeople)
       await expect(
-        page.getByRole("heading", { name: person.name, exact: true }),
+        page.getByRole("heading", { name: person.name, exact: true }).first(),
       ).toBeVisible();
     await expect(
       page.getByText("Président — archive de 2024", { exact: true }),
@@ -218,7 +218,7 @@ for (const width of [375, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/gallery");
     for (const [label, count] of [
-      ["Activités", 9],
+      ["Activités", 12],
       ["Rencontres et célébrations", 15],
       ["Prix et distinctions", 4],
       ["Histoire", 4],
@@ -233,7 +233,7 @@ for (const width of [375, 1440]) {
       .click();
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(10);
+    ).toHaveCount(12);
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth + 1,
@@ -242,6 +242,6 @@ for (const width of [375, 1440]) {
     await page.getByRole("button", { name: "Tout", exact: true }).click();
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(45);
+    ).toHaveCount(48);
   });
 }

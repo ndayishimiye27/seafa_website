@@ -37,7 +37,9 @@ async function main() {
       height: meta.height!,
       sha256: createHash("sha256").update(bytes).digest("hex"),
       hash,
-      registered: mediaAssets.some((m) => decodeURI(m.src) === path.slice(6)),
+      registered: mediaAssets.some(
+        (m) => decodeURIComponent(m.src) === path.slice(6),
+      ),
       exifPresent: Boolean(meta.exif),
     });
   }

@@ -45,7 +45,7 @@ export function AlbumFilterGrid({
   const yearOf = (album: Album) =>
     album.eventDate?.value.slice(0, 4) ?? "unknown";
   const years = [...new Set(albums.map(yearOf))].sort((a, b) =>
-    a === "unknown" ? 1 : b === "unknown" ? -1 : a.localeCompare(b),
+    a === "unknown" ? 1 : b === "unknown" ? -1 : b.localeCompare(a),
   );
 
   const availableTypes = useMemo(

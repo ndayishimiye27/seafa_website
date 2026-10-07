@@ -38,6 +38,12 @@ export function AlbumMetadata({ album }: AlbumMetadataProps) {
         <dt className="font-semibold text-slate-900">Photographies</dt>
         <dd className="mt-1 text-slate-600">{album.images.length}</dd>
       </div>
+      {album.videos?.length ? (
+        <div>
+          <dt className="font-semibold text-slate-900">Vidéos</dt>
+          <dd className="mt-1 text-slate-600">{album.videos.length}</dd>
+        </div>
+      ) : null}
     </dl>
   );
 }

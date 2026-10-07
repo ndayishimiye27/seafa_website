@@ -1,0 +1,50 @@
+[
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-01.mp4",
+    "width": 640,
+    "height": 360,
+    "duration": 9.383991
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-02.mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 3.866667
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-03.mp4",
+    "width": 960,
+    "height": 544,
+    "duration": 2.901995
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-04.mp4",
+    "width": 406,
+    "height": 720,
+    "duration": 2.218
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-05.mp4",
+    "width": 406,
+    "height": 720,
+    "duration": 10.709
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-06.mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 9.322
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-07.mp4",
+    "width": 640,
+    "height": 360,
+    "duration": 3.605
+  },
+  {
+    "src": "/media/videos/sages-jeunes-2025/sequence-08.mp4",
+    "width": 480,
+    "height": 640,
+    "duration": 28.537007
+  }
+]

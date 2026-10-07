@@ -1,10 +1,26 @@
 import { anniversaryMedia } from "@/data/anniversary-2026";
 import type { MediaAsset } from "@/types/content";
 import { addedMedia } from "@/data/media-additions";
+import { octoberMedia } from "@/data/october-media";
+import presidencyPhotos from "@/data/presidency-photos.json";
+import { octoberVideoMedia } from "@/data/october-video-media";
 
 /** Exact browser URLs and intrinsic dimensions of the supplied library. */
 export const mediaAssets: MediaAsset[] = [
   ...addedMedia,
+  ...octoberMedia,
+  ...octoberVideoMedia,
+  ...presidencyPhotos
+    .filter((photo) => !photo.src.endsWith("president-tony-2022-2024.jpg"))
+    .map((photo, index) => ({
+      ...photo,
+      id: `presidency-photo-${index}`,
+      alt: [
+        "Arnaud Badogomba, premier président de SEAFA",
+        "Jimmy Jambo, président actuel de SEAFA",
+        "Romeo, ancien président de SEAFA",
+      ][index],
+    })),
   ...anniversaryMedia,
   {
     id: "media-brand-logos-main",
@@ -1443,10 +1459,10 @@ export const mediaAssets: MediaAsset[] = [
   },
   {
     id: "media-people-president-tony-2024",
-    src: "/media/people/president-tony-2024.jpg",
+    src: "/media/president hierachy/president-tony-2022-2024.jpg",
     alt: "Portrait de Tony en 2024",
-    width: 1706,
-    height: 2560,
+    width: 1056,
+    height: 1436,
   },
   {
     id: "media-people-romeo",

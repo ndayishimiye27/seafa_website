@@ -1,11 +1,7 @@
+import { Presidency } from "@/components/home/presidency";
 import { AlbumCollection } from "@/components/gallery/album-collection";
 import { BrandLogo } from "@/components/ui/brand-logo";
-import {
-  PageIntro,
-  Section,
-  TextLink,
-  MediaSlot,
-} from "@/components/ui/editorial";
+import { PageIntro, Section, TextLink } from "@/components/ui/editorial";
 import { Timeline } from "@/components/history/timeline";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
@@ -43,29 +39,7 @@ export default function HistoryPage() {
           <TextLink href="/contact">Contribuer à notre mémoire</TextLink>
         </div>
       </Section>
-      <Section id="presidents" title="Présidents de SEAFA">
-        <div className="split">
-          <article>
-            <MediaSlot
-              mediaId="media-interviews-arnaud-badogomba-first-president"
-              label="Arnaud"
-              portrait
-            />
-            <h3>Arnaud · 2013–2019</h3>
-            <p>Président de SEAFA de 2013 à 2019.</p>
-            <TextLink href="/interviews/arnaud-bados-badogomba">
-              Lire son témoignage
-            </TextLink>
-          </article>
-          <article>
-            <h3>Jimmy · président actuel</h3>
-            <p>Jimmy assure actuellement la présidence de SEAFA.</p>
-            <p className="source">
-              Portrait et date de début du mandat à confirmer.
-            </p>
-          </article>
-        </div>
-      </Section>
+      <Presidency history />
       <Section id="archives" title="Les souvenirs se partagent." tone="warm">
         <p>
           Retrouvez les photographies des premières années et les archives de

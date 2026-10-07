@@ -1,13 +1,47 @@
 import { validateContent } from "@/lib/content-validation";
 import { mediaAssets } from "@/data/media";
+import { albums } from "@/data/albums";
 import { existsSync } from "node:fs";
 import { resolve, sep } from "node:path";
 
 const result = validateContent();
 const publicRoot = resolve("public");
+for (const album of albums) {
+  for (const video of album.videos ?? []) {
+    if (
+      video.posterMediaId &&
+      !mediaAssets.some((media) => media.id === video.posterMediaId)
+    ) {
+      result.valid = false;
+      result.errors.push({
+        severity: "error",
+        contentType: "album",
+        contentId: album.id,
+        field: "videos",
+        message: `Missing video poster: ${video.posterMediaId}`,
+      });
+    }
+    const file = resolve(publicRoot, "." + video.src);
+    if (
+      !video.title.trim() ||
+      !video.src.startsWith("/media/") ||
+      !file.startsWith(publicRoot + sep) ||
+      !existsSync(file)
+    ) {
+      result.valid = false;
+      result.errors.push({
+        severity: "error",
+        contentType: "album",
+        contentId: album.id,
+        field: "videos",
+        message: `Missing or invalid local video: ${video.src}`,
+      });
+    }
+  }
+}
 for (const media of mediaAssets) {
   if (!media.src.startsWith("/")) continue;
-  const file = resolve(publicRoot, "." + media.src);
+  const file = resolve(publicRoot, "." + decodeURIComponent(media.src));
   if (!file.startsWith(publicRoot + sep) || !existsSync(file)) {
     result.valid = false;
     result.errors.push({

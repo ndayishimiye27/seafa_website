@@ -1,0 +1,98 @@
+[
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.45.54.mp4",
+    "originalBytes": 926838,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-01.mp4",
+    "derivativeBytes": 1125142,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-01.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": false
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.33.mp4",
+    "originalBytes": 757505,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-02.mp4",
+    "derivativeBytes": 1196946,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-02.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": false
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.47.mp4",
+    "originalBytes": 610734,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-03.mp4",
+    "derivativeBytes": 730866,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-03.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": false
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.49 (1).mp4",
+    "originalBytes": 3058403,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-04.mp4",
+    "derivativeBytes": 566163,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-04.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": true
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.49.mp4",
+    "originalBytes": 13994679,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-05.mp4",
+    "derivativeBytes": 3361854,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-05.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": true
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.47.22 (1).mp4",
+    "originalBytes": 10397018,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-06.mp4",
+    "derivativeBytes": 3761716,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-06.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": true
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.47.22.mp4",
+    "originalBytes": 398099,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-07.mp4",
+    "derivativeBytes": 568159,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-07.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": false
+  },
+  {
+    "original": "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.47.23.mp4",
+    "originalBytes": 3545037,
+    "derivative": "/media/videos/sages-jeunes-2025/sequence-08.mp4",
+    "derivativeBytes": 3410216,
+    "poster": "/media/video-posters/sages-jeunes-2025/sequence-08.png",
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "fastStart": true,
+    "hdrToneMapped": false
+  }
+]

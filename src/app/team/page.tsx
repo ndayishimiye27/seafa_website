@@ -210,6 +210,14 @@ export default function TeamPage() {
               <ArchivedPortraits section="leadership" />
             </>
           )}
+          {leadership.length > 0 && (
+            <div className="mt-10">
+              <h3 className="mb-4 text-xl font-bold text-[#071d3b]">
+                Portraits de nos anciennes présidences
+              </h3>
+              <ArchivedPortraits section="leadership" />
+            </div>
+          )}
         </div>
       </section>
 
@@ -294,6 +302,11 @@ export default function TeamPage() {
                       {member.biography}
                     </p>
                   ) : null}
+                  {member.id === "president-arnaud" && (
+                    <p className="mt-3 text-sm text-white/75">
+                      Premier président — portrait d’archive
+                    </p>
+                  )}
                 </article>
               ))}
 

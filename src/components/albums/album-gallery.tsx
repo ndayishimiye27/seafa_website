@@ -42,7 +42,7 @@ export function AlbumGallery({ album }: AlbumGalleryProps) {
               <button
                 type="button"
                 onClick={() => setSelectedIndex(index)}
-                className={`group relative block w-full overflow-hidden rounded-2xl bg-slate-100 text-left focus:outline-none focus:ring-2 focus:ring-[#b7923d] focus:ring-offset-4 ${
+                className={`group relative block w-full overflow-hidden rounded-md bg-slate-100 text-left focus:outline-none focus:ring-2 focus:ring-[#b7923d] focus:ring-offset-4 ${
                   isWide
                     ? "aspect-[4/3] lg:h-full lg:min-h-[32rem]"
                     : "aspect-[4/3]"

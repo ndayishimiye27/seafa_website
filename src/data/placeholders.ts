@@ -1,7 +1,5 @@
 import type {
-  FormerPresident,
   HonoraryMember,
-  LeadershipMember,
   Match,
   Player,
   SupportMember,
@@ -9,13 +7,14 @@ import type {
 
 export const players: Player[] = [];
 
-export const leadership: LeadershipMember[] = [];
+import { currentPresident } from "@/data/presidency";
+export const leadership = [currentPresident];
 
 export const support: SupportMember[] = [];
 
 export const honoraryMembers: HonoraryMember[] = [];
 
-export const formerPresidents: FormerPresident[] = [];
+export { presidentialSuccession as formerPresidents } from "@/data/presidency";
 
 export { milestones } from "@/data/history";
 

@@ -35,6 +35,7 @@ test("gallery has one display per curated photo and only evidenced years", () =>
       "2021",
       "2022",
       "2024",
+      "2025",
       "2026",
     ],
   );

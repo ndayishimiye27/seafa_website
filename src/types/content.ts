@@ -200,6 +200,12 @@ export interface AlbumImage {
 }
 
 export interface Album {
+  videos?: {
+    src: string;
+    title: string;
+    originalSrc?: string;
+    posterMediaId?: ID;
+  }[];
   category?:
     | "football"
     | "challenges"

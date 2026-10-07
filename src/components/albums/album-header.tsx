@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { resolveAlbumCover } from "@/lib/media";
 
 import { AlbumMetadata } from "@/components/albums/album-metadata";
 import type { Album } from "@/types/content";
@@ -25,6 +27,7 @@ export function AlbumHeader({
   backLabel = "Retour à la galerie",
 }: AlbumHeaderProps) {
   const category = album.categoryLabel ?? albumTypeLabels[album.type];
+  const cover = resolveAlbumCover(album);
 
   return (
     <header className="bg-[#071d3b] text-white">
@@ -47,6 +50,18 @@ export function AlbumHeader({
           {backLabel}
         </Link>
 
+        {cover && (
+          <div className="relative mt-8 aspect-[16/9] max-h-[500px] bg-[#102b4d]">
+            <Image
+              src={cover.src}
+              alt={cover.alt}
+              fill
+              preload
+              sizes="(max-width: 1280px) 100vw, 1280px"
+              className="object-contain"
+            />
+          </div>
+        )}
         <div className="mt-8">
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-white/85">
             {category}

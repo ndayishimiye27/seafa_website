@@ -10,7 +10,12 @@
 - [x] Notice de Darcy retirée de la sélection publique à la demande de SEAFA ; les quatre autres entretiens sont conservés.
 - [ ] Confirmer l’orthographe publique préférée d’Idan (le livret donne « Nzisabira Idane Carlène »).
 - [ ] Pays, portraits et initiatives actuels de la diaspora ; ne pas réutiliser une résidence historique comme actuelle.
-- [ ] Direction actuelle : noms, fonctions, mandats et autorisations.
+- [x] Présidence actuelle : Jimmy Jambo, depuis 2024, avec le portrait fourni ; succession intégrée sur la page Histoire.
+- [ ] Autres membres de la direction : noms complets, fonctions et hiérarchie non fournis. Nom complet de Romeo à confirmer.
+- [ ] Mandat d’Arnaud Badogomba : le site documentait 2013–2019 ; le nouveau fichier indique 2015–2022. Les dates historiques existantes ont été conservées en attendant clarification.
+- [ ] Portrait de Malolo supprimé du dossier source : la référence cassée a été retirée de l’album d’archives ; son prix historique reste publié.
+- [x] Conférence santé du 3 juin 2022 et tournoi du 4 octobre au 3 novembre 2024 : descriptions kirundi conservées, traductions françaises intégrées.
+- [x] Rencontre SEAFA–Lumitel de mars 2026 et sages–jeunes de décembre 2025 : albums et détails intégrés, sans inventer de jours précis ni de scores.
 - [ ] Effectif actuel : noms, postes, portraits et statistiques approuvées.
 - [ ] Confirmer le conflit de récompenses : Alain, 2016 p. 11 / 2017 p. 14 ; Yannick, 2017 p. 11. Aucun de ces deux prix n’est publié.
 - [ ] Compléter les photographies de remise et d’action de Jack (2015) et Malolo (2018).

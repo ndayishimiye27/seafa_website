@@ -94,8 +94,7 @@ for (const width of [320, 768, 1440])
       await expect(input).toBeChecked();
     }
     const sixth = pitch.locator('input[value="RW"]');
-    await sixth.focus();
-    await page.keyboard.press("Space");
+    await expect(sixth).toBeDisabled();
     await expect(sixth).not.toBeChecked();
     await expect(pitch).toContainText("déjà choisi 5 postes");
     await pitch.locator('input[value="SW"]').uncheck();
@@ -104,7 +103,9 @@ for (const width of [320, 768, 1440])
     await pitch.getByRole("button", { name: "Afficher la liste" }).click();
     await expect(sixth).toBeChecked();
     await expect(
-      pitch.getByText("Ailier droit", { exact: true }),
+      pitch
+        .locator(".position-accessible-list")
+        .getByText("Ailier droit", { exact: true }),
     ).toBeVisible();
     expect(
       (

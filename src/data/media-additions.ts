@@ -657,14 +657,6 @@ export const addedMedia: MediaAsset[] = [
     caption: "Visite chez les Badogomba",
   },
   {
-    id: "photo-91cc586aa4a5f388",
-    src: "/media/malolo.jpeg",
-    alt: "Portrait de Malolo",
-    width: 848,
-    height: 1279,
-    caption: "Archives photographiques",
-  },
-  {
     id: "photo-759dab90cdb1097b",
     src: "/media/match 2015/4509f792-7456-47bc-8c62-f8817d0d37d5.jpg",
     alt: "Match — 2015 : photographie 1",

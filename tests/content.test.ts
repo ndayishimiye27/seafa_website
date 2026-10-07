@@ -34,10 +34,12 @@ test("content references and publication boundaries", () => {
     getPublishedAwards().some((p) => p.year === 2017),
     false,
   );
-  assert.equal(getPublishedAlbums().length, 45);
+  assert.equal(getPublishedAlbums().length, 48);
   for (const media of getAllMediaAssets()) {
     assert.ok(media.alt.trim());
-    assert.ok(existsSync(resolve("public", media.src.slice(1))));
+    assert.ok(
+      existsSync(resolve("public", decodeURIComponent(media.src).slice(1))),
+    );
   }
   const urls = sitemap().map((p) => p.url);
   assert.equal(new Set(urls).size, urls.length);

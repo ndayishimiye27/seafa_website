@@ -1,4 +1,6 @@
 import { anniversaryAlbum } from "@/data/anniversary-2026";
+import { octoberAlbums, tournamentDescription } from "@/data/october-content";
+import { octoberGroups } from "@/data/october-media";
 import type { Album } from "@/types/content";
 import { mediaAssets } from "@/data/media";
 import {
@@ -1931,10 +1933,31 @@ const mediaById = new Map(mediaAssets.map((media) => [media.id, media]));
 const seen = new Set<string>();
 export const albums: Album[] = [
   anniversaryAlbum,
-  ...pendingAlbums,
+  ...pendingAlbums.filter((album) => album.id !== "seafa-lumitel"),
+  ...octoberAlbums,
   ...suppliedAlbums,
   ...albumAdditions,
 ].map((album) => {
+  if (album.id === "activities-2024-tournament") {
+    album = {
+      ...album,
+      title: "Tournoi de la communauté Saint Esprit — 2024",
+      eventDate: { value: "2024-10-04", precision: "day" },
+      endDate: { value: "2024-11-03", precision: "day" },
+      summary:
+        "Un tournoi pour réunir la communauté de Saint Esprit autour du football, de la solidarité et du partage des connaissances.",
+      description: tournamentDescription,
+      images: [
+        ...album.images,
+        ...octoberGroups["activities-2024-tournament"].photos
+          .filter((id) => !album.images.some((image) => image.mediaId === id))
+          .map((mediaId, index) => ({
+            mediaId,
+            order: album.images.length + index + 1,
+          })),
+      ],
+    };
+  }
   const images = [
     ...album.images,
     ...(additionalAlbumPhotos[album.id] ?? []).map((mediaId, index) => ({

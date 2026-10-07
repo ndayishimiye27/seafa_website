@@ -61,6 +61,7 @@ for (const width of [375, 1440]) {
     await expect(
       page.getByRole("heading", { name: "Connexion bientôt disponible" }),
     ).toBeVisible();
+    await expect(page).toHaveTitle(/\S/);
     await page.screenshot({
       path: `tmp/finishing-login-${width}.png`,
       fullPage: true,

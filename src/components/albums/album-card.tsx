@@ -32,7 +32,7 @@ export function AlbumCard({
   const category = album.categoryLabel ?? albumTypeLabels[album.type];
 
   return (
-    <article className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-[#b7923d]/50 hover:shadow-xl focus-within:ring-2 focus-within:ring-[#b7923d] focus-within:ring-offset-4">
+    <article className="group overflow-hidden rounded-md border border-slate-200 bg-white transition duration-300 hover:border-[#b7923d] focus-within:ring-2 focus-within:ring-[#b7923d] focus-within:ring-offset-4">
       <Link
         href={href}
         className="block focus:outline-none"
@@ -75,6 +75,7 @@ export function AlbumCard({
           <span className="absolute bottom-4 right-4 rounded-full bg-black/55 px-3 py-1 text-xs font-medium text-white backdrop-blur">
             {album.images.length}{" "}
             {album.images.length === 1 ? "photo" : "photos"}
+            {album.videos?.length ? ` / ${album.videos.length} vidéos` : ""}
           </span>
         </div>
 

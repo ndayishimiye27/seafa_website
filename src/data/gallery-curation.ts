@@ -1,6 +1,8 @@
 import type { Album } from "@/types/content";
+import { octoberDuplicateSources } from "@/data/october-media";
 // Exact matches and visually repeated compositions reviewed; all originals retained.
 export const excludedPhotoSources: Record<string, string> = {
+  ...octoberDuplicateSources,
   // Anniversary 2026: visually reviewed near-duplicates; keep one composition.
   "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.56.jpeg":
     "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.55.jpeg",
@@ -164,6 +166,7 @@ export const albumAdditions: Album[] = [
   },
 ];
 export const additionalAlbumPhotos: Record<string, string[]> = {
+  people: ["presidency-photo-0", "presidency-photo-1", "presidency-photo-2"],
   "events-2016-anniversary": [
     "photo-7a91d4b80dc76510",
     "photo-77ca82cd78d1b6b4",
@@ -185,7 +188,6 @@ export const additionalAlbumPhotos: Record<string, string[]> = {
     "photo-926c50b9a8eaf2e6",
     "photo-afeaf989d5cc0396",
     "photo-b1d52698e89390d8",
-    "photo-91cc586aa4a5f388",
   ],
   "history-archives": [
     "photo-911ffbb917ede8f7",

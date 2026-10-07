@@ -1,4 +1,5 @@
 import { anniversaryEvent } from "@/data/anniversary-2026";
+import { octoberEvents } from "@/data/october-content";
 import type { Event } from "@/types/content";
 
 /**
@@ -248,6 +249,7 @@ const suppliedEvents: Event[] = [
 ];
 export const events: Event[] = [
   anniversaryEvent,
+  ...octoberEvents,
   ...pendingEvents,
   ...suppliedEvents,
 ];

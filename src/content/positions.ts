@@ -1,5 +1,5 @@
 export const positions = [
-  ["GK", "Gardien", 6, 3],
+  ["GK", "Gardien de but", 6, 3],
   ["SW", "Libéro", 5, 3],
   ["LB", "Arrière gauche", 4, 1],
   ["LWB", "Piston gauche", 3, 1],

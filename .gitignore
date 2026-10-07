@@ -8,3 +8,6 @@ out/
 tmp/
 test-results/
 playwright-report/
+*.log
+playwright.config.t
+.vercel/

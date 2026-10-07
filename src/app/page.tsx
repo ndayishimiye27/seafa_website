@@ -1,4 +1,5 @@
 import { HighlightsSlideshow } from "@/components/highlights/highlights-slideshow";
+import { Presidency } from "@/components/home/presidency";
 import { TrainingVideo } from "@/components/activities/training-video";
 import { ActivityCard } from "@/components/activities/activity-card";
 import {
@@ -39,7 +40,12 @@ export default function HomePage() {
     activeHighlights.map((item) => item.relatedContent?.id),
   );
   const featuredActivities = getPublishedActivities()
-    .filter((activity) => !highlightedIds.has(activity.id))
+    .filter(
+      (activity) =>
+        !highlightedIds.has(activity.id) &&
+        !events.some((event) => event.albumId === activity.albumId) &&
+        !awards.some((award) => award.albumId === activity.albumId),
+    )
     .slice(0, 3);
   const usedAlbums = new Set(
     [
@@ -96,6 +102,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <Presidency />
       <Section
         id="introduction"
         eyebrow="L’esprit SEAFA"

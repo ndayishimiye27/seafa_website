@@ -1,4 +1,8 @@
 import type { Activity } from "@/types/content";
+import {
+  octoberActivities,
+  tournamentDescription,
+} from "@/data/october-content";
 
 /**
  * Public activities registry.
@@ -348,6 +352,21 @@ const suppliedActivities: Activity[] = [
   },
 ];
 export const activities: Activity[] = [
-  ...pendingActivities,
+  ...pendingActivities.filter(
+    (activity) => activity.id !== "activite-seafa-lumitel",
+  ),
+  ...octoberActivities,
   ...suppliedActivities,
-];
+].map((activity): Activity =>
+  activity.id === "activity-activities-2024-tournament"
+    ? {
+        ...activity,
+        title: "Tournoi de la communauté Saint Esprit — 2024",
+        date: { value: "2024-10-04", precision: "day" },
+        endDate: { value: "2024-11-03", precision: "day" },
+        summary:
+          "La communauté de Saint Esprit réunie autour du football et de la solidarité.",
+        description: tournamentDescription,
+      }
+    : activity,
+);
