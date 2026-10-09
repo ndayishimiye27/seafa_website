@@ -2,7 +2,7 @@ import { test, expect, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { formFields } from "../../src/content/form-fields";
 
-async function fill(page: Page, kind: "join" | "match-requests") {
+async function fill(page: Page, kind: "contact" | "join" | "match-requests") {
   for (const field of formFields[kind]) {
     const input = page.locator(`[name="${field.name}"]`);
     if (field.type === "positions") {
@@ -26,7 +26,7 @@ async function fill(page: Page, kind: "join" | "match-requests") {
 }
 
 for (const width of [375, 1440])
-  for (const kind of ["join", "match-requests"] as const)
+  for (const kind of ["contact", "join", "match-requests"] as const)
     for (const channel of ["whatsapp", "email"] as const) {
       test(`${kind} prepares ${channel} without server submission at ${width}px`, async ({
         page,
@@ -39,7 +39,23 @@ for (const width of [375, 1440])
         page.on("request", (r) => {
           if (r.method() === "POST") posts.push(r.url());
         });
-        await page.goto(kind === "join" ? "/join" : "/request-match");
+        await page.goto(
+          kind === "contact"
+            ? "/contact"
+            : kind === "join"
+              ? "/join"
+              : "/request-match",
+        );
+        await expect(page.locator('button[type="submit"]')).toBeEnabled();
+        await expect(
+          page.getByRole("radio", {
+            name: "Envoyer par WhatsApp",
+            exact: true,
+          }),
+        ).toBeVisible();
+        await expect(
+          page.getByRole("radio", { name: "Envoyer par e-mail", exact: true }),
+        ).toBeVisible();
         await fill(page, kind);
         await page.locator(`[name="delivery"][value="${channel}"]`).check();
         await page.locator('button[type="submit"]').click();
@@ -59,6 +75,16 @@ for (const width of [375, 1440])
         const url = new URL(
           (await preview.getByRole("link").getAttribute("href"))!,
         );
+        expect(url.pathname).toBe(
+          channel === "whatsapp"
+            ? "/25779690359"
+            : "jambojeanjimmy52@gmail.com",
+        );
+        const visibleText = await page.locator("main").innerText();
+        expect(visibleText).not.toContain("jambojeanjimmy52@gmail.com");
+        expect(visibleText).not.toContain("+25779690359");
+        expect(visibleText).not.toContain("+257 79 690 359");
+        expect(visibleText).not.toContain("Jimmy");
         expect(
           url.searchParams.get(channel === "whatsapp" ? "text" : "body"),
         ).toBe(body);
@@ -178,9 +204,6 @@ test("invalid and long drafts remain local, with manual copy fallback", async ({
   await page.goto("/join");
   await page.locator('button[type="submit"]').click();
   await expect(page.locator("form").getByRole("alert")).toContainText(
-    "Choisissez WhatsApp ou e-mail",
-  );
-  await expect(page.locator("form").getByRole("alert")).toContainText(
     "1 à 5 postes",
   );
   await fill(page, "join");
@@ -195,6 +218,14 @@ test("invalid and long drafts remain local, with manual copy fallback", async ({
   await page.getByRole("button", { name: "Copier le message" }).click();
   await expect(page.locator("form")).toContainText("copiez-le manuellement");
   await expect(
-    page.getByRole("link", { name: "Ouvrir mon application e-mail" }),
+    page.getByRole("link", { name: "Envoyer par e-mail", exact: true }),
   ).toHaveAttribute("href", /^mailto:jambojeanjimmy52@gmail.com\?subject=/);
+  const fullUrl = new URL(
+    (await page
+      .getByRole("link", { name: "Envoyer par e-mail", exact: true })
+      .getAttribute("href"))!,
+  );
+  expect(fullUrl.searchParams.get("body")).toBe(
+    await page.locator("#draft-message").inputValue(),
+  );
 });

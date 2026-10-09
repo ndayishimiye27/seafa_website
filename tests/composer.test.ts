@@ -60,8 +60,8 @@ test("positions accept one to five distinct codes and preserve legacy choices", 
   );
 });
 
-test("both composers encode complete French answers without header or query injection", () => {
-  for (const kind of ["join", "match-requests"] as const) {
+test("all three composers encode complete French answers without header or query injection", () => {
+  for (const kind of ["contact", "join", "match-requests"] as const) {
     const raw = Object.fromEntries(
       formFields[kind].map((f) => [
         f.name,
@@ -91,6 +91,7 @@ test("both composers encode complete French answers without header or query inje
     assert.equal(email.pathname, "jambojeanjimmy52@gmail.com");
     assert.equal(email.searchParams.get("subject"), draft.subject);
     assert.equal(email.searchParams.get("body"), draft.body);
+    assert.doesNotMatch(draft.subject, /[\r\n]/);
     assert.equal([...email.searchParams.keys()].length, 2);
     assert.doesNotThrow(() =>
       encodeURIComponent(normalizeText("\uD800 texte")),

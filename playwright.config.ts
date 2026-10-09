@@ -8,12 +8,6 @@ export default defineConfig({
     : {
         command: "node node_modules/next/dist/bin/next start --port 3100",
         url: "http://localhost:3100",
-        env: {
-          SEAFA_SYSTEM_INTAKE_URL:
-            "https://system.example.invalid/api/public/submissions",
-          SEAFA_SYSTEM_INTAKE_SECRET:
-            "synthetic-browser-test-secret-at-least-32-characters",
-        },
         reuseExistingServer: !process.env.CI,
         timeout: 240000,
       },

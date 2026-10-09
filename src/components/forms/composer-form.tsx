@@ -7,8 +7,6 @@ import {
   createDraft,
   composerUrl,
   composerUrlLimit,
-  teamEmail,
-  teamWhatsApp,
   type ComposerKind,
   type DeliveryChoice,
 } from "@/lib/composer";
@@ -16,7 +14,7 @@ import {
 export function ComposerForm({ kind }: { kind: ComposerKind }) {
   const [positions, setPositions] = useState<string[]>([]);
   const [category, setCategory] = useState("");
-  const [choice, setChoice] = useState<DeliveryChoice | "">("");
+  const [choice, setChoice] = useState<DeliveryChoice | "">("whatsapp");
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [draft, setDraft] = useState<ReturnType<typeof createDraft> | null>(
     null,
@@ -63,7 +61,7 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
         } else window.location.href = url;
       } catch {
         note =
-          "L’application n’a pas pu être ouverte. Copiez le message et utilisez les coordonnées ci-dessous. Rien n’a été envoyé.";
+          "L’application n’a pas pu être ouverte. Utilisez le lien ci-dessous ou copiez le message. Rien n’a été envoyé.";
       }
     }
     setMessage(note);
@@ -216,12 +214,11 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
               onChange={() => setChoice(value)}
             />
             <span>
-              <strong>{value === "whatsapp" ? "WhatsApp" : "E-mail"}</strong>
-              <small>
+              <strong>
                 {value === "whatsapp"
-                  ? "Envoyer via WhatsApp"
+                  ? "Envoyer par WhatsApp"
                   : "Envoyer par e-mail"}
-              </small>
+              </strong>
             </span>
           </label>
         ))}
@@ -232,11 +229,7 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
         )}
       </fieldset>
       <button className="button" type="submit">
-        {choice === "whatsapp"
-          ? "Continuer dans WhatsApp"
-          : choice === "email"
-            ? "Continuer par e-mail"
-            : "Préparer ma demande"}
+        {choice === "whatsapp" ? "Envoyer par WhatsApp" : "Envoyer par e-mail"}
       </button>
       {draft && choice && (
         <section
@@ -244,10 +237,6 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
           aria-label="Brouillon de votre demande"
         >
           <h3>Votre message à envoyer</h3>
-          <p>
-            À l’attention de SEAFA ·{" "}
-            {choice === "whatsapp" ? "WhatsApp" : "E-mail"}
-          </p>
           <p>Objet : {draft.subject}</p>
           <label htmlFor="draft-message">
             Message complet (à copier si nécessaire)
@@ -284,27 +273,23 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
             rel="noreferrer noopener"
             referrerPolicy="no-referrer"
             target={choice === "whatsapp" ? "_blank" : undefined}
-            href={
-              composerUrl(choice, draft).length <= composerUrlLimit
-                ? composerUrl(choice, draft)
-                : choice === "whatsapp"
-                  ? `https://wa.me/${teamWhatsApp}`
-                  : `mailto:${teamEmail}?subject=${encodeURIComponent(draft.subject)}`
-            }
+            href={composerUrl(choice, draft)}
           >
-            Ouvrir{" "}
-            {choice === "whatsapp" ? "WhatsApp" : "mon application e-mail"}
+            {choice === "whatsapp"
+              ? "Envoyer par WhatsApp"
+              : "Envoyer par e-mail"}
           </a>
           <p>
-            Si rien ne s’ouvre, lancez votre application manuellement et
-            utilisez les coordonnées et le message ci-dessus. Le site ne peut
-            pas vérifier si une application e-mail est installée ni si le
-            message a été envoyé.
+            Si rien ne s’ouvre, utilisez le lien ci-dessus ou copiez le message
+            dans votre application. Le site ne peut pas vérifier si une
+            application e-mail est installée ni si le message a été envoyé.
           </p>
         </section>
       )}
       <p className="form-help">
-        Cette demande ne vaut ni admission ni confirmation d’un match.{" "}
+        {kind === "contact"
+          ? "Vous devez envoyer le message dans votre application."
+          : "Cette demande ne vaut ni admission ni confirmation d’un match."}{" "}
         <Link href="/privacy">Politique de confidentialité</Link> ·{" "}
         <Link href="/code-of-conduct">Code de conduite</Link>
       </p>

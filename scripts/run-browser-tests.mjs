@@ -2,10 +2,6 @@ import { spawn, spawnSync } from "node:child_process";
 
 const env = {
   ...process.env,
-  SEAFA_SYSTEM_INTAKE_URL:
-    "https://system.example.invalid/api/public/submissions",
-  SEAFA_SYSTEM_INTAKE_SECRET:
-    "synthetic-browser-test-secret-at-least-32-characters",
 };
 
 const build = spawnSync(

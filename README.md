@@ -21,19 +21,25 @@ npm start
 npm run verify:routes
 ```
 
-Tests navigateur : `npx playwright install chromium`, démarrer la version de production sur le port 3100 avec un `SUBMISSIONS_DIR` de test privé, puis `npm run test:browser`. Ne jamais utiliser les données réelles pour les tests. `BASE_URL` permet de changer le serveur. Les tests couvrent 320, 375, 768, 1024 et 1440 px, les liens, les métadonnées, les formulaires, le clavier et axe. `npm run format` applique le formatage.
+Tests navigateur : `npx playwright install chromium`, puis `npm run test:browser`. Le script construit et démarre la version de production sur le port 3100 ; aucun service de réception ni secret d’envoi n’est nécessaire. Ne jamais utiliser les données réelles pour les tests. `BASE_URL` permet de vérifier un serveur existant. Les tests couvrent les liens, les métadonnées, les formulaires, le clavier, axe et les dimensions mobiles et desktop. `npm run format` applique le formatage.
+
+## Formulaires publics
+
+Les demandes de contact, propositions de match et candidatures préparent un message français complet après validation dans le navigateur. Le visiteur choisit « Envoyer par WhatsApp » ou « Envoyer par e-mail », puis confirme lui-même l’envoi dans son application. Les liens conservent la destination configurée et tous les champs encodés ; aucun nom, numéro ou e-mail du destinataire n’est affiché dans les formulaires. Une ouverture d’application ne vaut pas confirmation d’envoi. Un brouillon complet et une option de copie restent disponibles si l’application ne s’ouvre pas ou si le lien est trop long.
+
+Ces parcours n’appellent pas les routes API, n’enregistrent pas les réponses sur le serveur et ne dépendent pas d’un service de réception. Les anciennes API sécurisées sont conservées pour compatibilité ; la configuration de stockage et de livraison ci-dessous concerne uniquement ces API, pas les formulaires publics.
 
 ## Configuration
 
 - `SITE_URL` : URL canonique confirmée. Repli local : `http://localhost:3000`.
 - `NEXT_PUBLIC_SITE_URL` : ancien nom encore accepté si `SITE_URL` est absent.
 - `SITE_INDEXABLE=true` : autorise l’indexation après validation du lancement. Sinon, noindex et robots bloqué.
-- `SUBMISSIONS_DIR` : chemin **absolu**, privé, hors de `public`, sur un volume **persistant**. Son absence ferme honnêtement les formulaires. Les pages de formulaire et la notice de confidentialité sont rendues à la demande.
+- `SUBMISSIONS_DIR` : configuration facultative des anciennes API ; chemin **absolu**, privé, hors de `public`, sur un volume **persistant**. Les formulaires publics et la notice de confidentialité sont statiques et restent disponibles sans ce volume.
 - `TRUSTED_IP_HEADER` : facultatif ; nom d’un en-tête réseau que le proxy de confiance **écrase**. Ne pas le configurer si les visiteurs peuvent le falsifier. Sans cet en-tête, limite partagée de 30 demandes/10 minutes ; sinon 5 par identifiant/10 minutes.
 
 Les demandes validées sont enregistrées dans un fichier JSON unique avec synchronisation disque avant réponse HTTP 201. Pas d’e-mail automatique. Les erreurs de stockage retournent 503 ; aucun renseignement personnel n’est journalisé par l’application. JSON seulement, limite réelle de 16 Kio, champs autorisés, validation partagée client/serveur, consentements, piège antispam et compteurs atomiques sur le volume. La limite est partagée entre processus utilisant le **même volume**, pas entre volumes indépendants.
 
-Les dossiers et fichiers privés sont créés avec des permissions restrictives sur les systèmes qui les prennent en charge. Configurer les ACL Windows ou permissions de l’hébergement. Le responsable doit lire régulièrement les demandes, traiter les droits des personnes, définir la conservation et supprimer les dossiers clos ; aucune notification ni suppression automatique des demandes n’est promise. Ne pas utiliser un disque éphémère ou un déploiement statique pour ouvrir les formulaires.
+Les dossiers et fichiers privés de l’API historique sont créés avec des permissions restrictives sur les systèmes qui les prennent en charge. Configurer les ACL Windows ou permissions de l’hébergement si cette API est utilisée. Le responsable doit traiter les droits des personnes et définir la conservation des dossiers. Ne pas utiliser un disque éphémère pour conserver ces dossiers ; les formulaires publics n’utilisent pas ce stockage.
 
 ## Gestion du contenu
 
@@ -56,6 +62,6 @@ Les routes dynamiques de brouillons renvoient 404. Le sitemap utilise les regist
 
 Les photos ne sont pas extraites automatiquement du livret. Aucun portrait généré, faux témoignage ou logo de remplacement. Le repère de marque présent dans le projet reste à sa place ; aucun fichier de logo n’était fourni.
 
-Déploiement : installer avec le lockfile, configurer le domaine et le volume privé, exécuter les contrôles puis `npm run build` et `npm start` derrière HTTPS. Restreindre l’accès au volume des demandes, organiser leur traitement et préciser l’hébergeur dans la notice de confidentialité. Vérifier le domaine, les coordonnées, les médias et les rôles actuels avant d’activer `SITE_INDEXABLE`. Un redéploiement est nécessaire après modification des registres statiques ou métadonnées.
+Déploiement : installer avec le lockfile, conserver la configuration de domaine existante, exécuter les contrôles puis `npm run build`. Vercel utilise la configuration du projet et `vercel.json` ; pour un serveur autonome, utiliser `npm start` derrière HTTPS. Un volume privé concerne uniquement les anciennes API de stockage, pas les trois parcours publics WhatsApp/e-mail. Vérifier le domaine, les médias et les rôles actuels avant d’activer `SITE_INDEXABLE`. Un redéploiement est nécessaire après modification des registres statiques ou métadonnées.
 
 Les anciens documents de fondation décrivent parfois une phase antérieure. Ce README, les sources éditoriales et la liste des contenus en attente décrivent la version actuelle. Aucun dépôt Git n’était présent dans le dossier fourni ; une sauvegarde initiale a été conservée dans `tmp/audit/before.zip`.

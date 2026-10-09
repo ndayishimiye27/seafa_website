@@ -1,13 +1,19 @@
-import { formFields, type SubmissionData } from "@/content/form-fields";
-export type ComposerKind = "join" | "match-requests";
+import {
+  formFields,
+  type FormKind,
+  type SubmissionData,
+} from "@/content/form-fields";
+export type ComposerKind = FormKind;
 export type DeliveryChoice = "whatsapp" | "email";
 export const teamEmail = "jambojeanjimmy52@gmail.com";
 export const teamWhatsApp = "25779690359";
 export function createDraft(kind: ComposerKind, data: SubmissionData) {
   const subject =
-    kind === "join"
-      ? "SEAFA — Candidature d’adhésion"
-      : "SEAFA — Proposition de match";
+    kind === "contact"
+      ? `SEAFA — Demande de contact : ${String(data.subject ?? "").replace(/[\r\n]+/g, " ")}`
+      : kind === "join"
+        ? "SEAFA — Candidature d’adhésion"
+        : "SEAFA — Proposition de match";
   const body = [
     subject,
     ...formFields[kind].map((field) => {
@@ -28,7 +34,9 @@ export function createDraft(kind: ComposerKind, data: SubmissionData) {
     ...(kind === "match-requests"
       ? ["Date et heure : heure du Burundi (UTC+02:00)."]
       : []),
-    "Cette demande ne vaut ni admission ni confirmation de match.",
+    kind === "contact"
+      ? "Merci de bien vouloir examiner cette demande."
+      : "Cette demande ne vaut ni admission ni confirmation de match.",
   ].join("\n\n");
   return { subject, body };
 }

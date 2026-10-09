@@ -91,9 +91,14 @@ for (const width of [375, 1440]) {
     ).toBe(true);
   });
 }
-test("form preserves editable data after a failed delivery", async ({
+test("contact preserves editable data when the messaging application cannot open", async ({
   page,
 }) => {
+  await page.addInitScript(() => {
+    window.open = () => {
+      throw new Error("Application unavailable");
+    };
+  });
   await page.goto("/contact");
   await page.locator('[name="fullName"]').fill("Test SEAFA");
   await page.locator('[name="email"]').fill("test@example.test");
@@ -102,19 +107,11 @@ test("form preserves editable data after a failed delivery", async ({
     .locator('[name="message"]')
     .fill("Message de test pour le Secrétariat.");
   await page.locator('[name="privacyConsent"]').check();
-  await page.route("**/api/contact", (route) =>
-    route.fulfill({
-      status: 503,
-      contentType: "application/json",
-      body: JSON.stringify({
-        success: false,
-        message: "La demande n’a pas été enregistrée.",
-      }),
-    }),
-  );
-  await page.getByRole("button", { name: "Envoyer mon message" }).click();
-  await expect(page.locator("form").getByRole("alert")).toContainText(
-    "n’a pas été enregistrée",
+  await page
+    .getByRole("button", { name: "Envoyer par WhatsApp", exact: true })
+    .click();
+  await expect(page.locator(".form-message")).toContainText(
+    "L’application n’a pas pu être ouverte",
   );
   await expect(page.locator('[name="fullName"]')).toHaveValue("Test SEAFA");
 });

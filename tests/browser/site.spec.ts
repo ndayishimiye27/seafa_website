@@ -109,24 +109,24 @@ test("desktop menu closes with Escape and restores focus", async ({ page }) => {
   await expect(more).toBeFocused();
   await expect(more).toHaveAttribute("aria-expanded", "false");
 });
-test("forms show French errors and honest success only after persistence", async ({
+test("contact validates in French and prepares an honest draft without server submission", async ({
   page,
 }) => {
-  await page.route("**/api/contact", (route) =>
-    route.fulfill({
-      status: 201,
-      contentType: "application/json",
-      body: JSON.stringify({
-        success: true,
-        message: "Votre demande a été enregistrée dans le système.",
-        reference: "SEAFA-COR-2026-00000001",
-        token: "a".repeat(64),
-        statusUrl: "https://system.example.invalid/application-access",
-      }),
-    }),
-  );
+  await page.addInitScript(() => {
+    window.open = () => null;
+  });
+  const posts: string[] = [];
+  page.on("request", (request) => {
+    if (request.method() === "POST") posts.push(request.url());
+  });
+  await page.route("**/api/**", (route) => route.abort());
   await page.goto("/contact");
-  await page.getByRole("button", { name: "Envoyer mon message" }).click();
+  const send = page.getByRole("button", {
+    name: "Envoyer par WhatsApp",
+    exact: true,
+  });
+  await expect(send).toBeEnabled();
+  await send.click();
   await expect(page.locator("form").getByRole("alert")).toContainText(
     "Veuillez corriger",
   );
@@ -137,33 +137,21 @@ test("forms show French errors and honest success only after persistence", async
     .getByLabel("Votre message")
     .fill("Une demande créée uniquement pour vérifier le formulaire.");
   await page.getByLabel(/J’accepte/).check();
-  await page.getByRole("button", { name: "Envoyer mon message" }).click();
-  await expect(page.getByRole("status")).toContainText("enregistrée");
-  await expect(page.getByLabel("Nom complet")).toHaveValue("");
-  await page.unroute("**/api/contact");
-  await page.route("**/api/contact", (r) =>
-    r.fulfill({
-      status: 503,
-      contentType: "application/json",
-      body: JSON.stringify({
-        success: false,
-        message: "Service temporairement indisponible.",
-      }),
-    }),
+  await send.click();
+  await expect(
+    page.getByRole("region", { name: "Brouillon de votre demande" }),
+  ).toBeVisible();
+  await expect(page.locator(".form-message")).toContainText(
+    "Rien n’a été envoyé",
   );
-  await page.getByLabel("Nom complet").fill("Test conservé");
-  await page.getByLabel("Adresse e-mail").fill("browser@example.test");
-  await page.getByLabel("Objet").fill("Demande de test");
-  await page
-    .getByLabel("Votre message")
-    .fill("Le texte doit rester présent si la réception échoue.");
-  await page.getByLabel(/J’accepte/).check();
-  await page.getByRole("button", { name: "Envoyer mon message" }).click();
-  await expect(page.locator("form").getByRole("alert")).toContainText(
-    "indisponible",
-  );
-  await expect(page.getByLabel("Nom complet")).toHaveValue("Test conservé");
+  await expect(page.getByLabel("Nom complet")).toHaveValue("Test navigateur");
+  expect(posts).toEqual([]);
+  await page.getByLabel("Nom complet").fill("Test modifié");
+  await expect(
+    page.getByRole("region", { name: "Brouillon de votre demande" }),
+  ).toHaveCount(0);
 });
+
 test("links, metadata and reduced motion", async ({ page, request }) => {
   test.setTimeout(180000);
   const sitemap = await (await request.get("/sitemap.xml")).text();
