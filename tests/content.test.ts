@@ -21,8 +21,8 @@ test("content references and publication boundaries", () => {
   assert.deepEqual(validateContent().errors, []);
   assert.equal(getPublishedMilestones()[0].date?.value, "2013");
   assert.equal(
-    getPublishedMilestones().some((p) => Number(p.date?.value) > 2019),
-    false,
+    getPublishedMilestones().some((p) => p.date?.value === "2026-09-26"),
+    true,
   );
   assert.equal(getPublishedInterviews().length, 4);
   assert.equal(
@@ -34,7 +34,7 @@ test("content references and publication boundaries", () => {
     getPublishedAwards().some((p) => p.year === 2017),
     false,
   );
-  assert.equal(getPublishedAlbums().length, 48);
+  assert.equal(getPublishedAlbums().length, 49);
   for (const media of getAllMediaAssets()) {
     assert.ok(media.alt.trim());
     assert.ok(

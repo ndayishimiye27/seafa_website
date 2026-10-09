@@ -22,5 +22,3 @@ export default function MatchPage() {
     </main>
   );
 }
-
-export const dynamic = "force-dynamic";

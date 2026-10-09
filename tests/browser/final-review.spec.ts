@@ -10,19 +10,29 @@ for (const width of [375, 768, 1440]) {
     for (const path of ["/", "/events"]) {
       await page.goto(path);
       await expect(
-        page.locator('main a[href="/events/anniversaire-2026"]'),
+        page.locator(
+          path === "/"
+            ? 'main a[href="/gallery/anniversaire-2026"]'
+            : 'main a[href="/events/anniversaire-2026"]',
+        ),
       ).toBeVisible();
     }
     await page.goto("/gallery");
     await page
-      .getByRole("combobox", { name: "Année", exact: true })
+      .getByRole("combobox", { name: "Parcourir une année", exact: true })
       .selectOption("2026");
     await page.locator('main a[href="/gallery/anniversaire-2026"]').click();
     await expect(page.locator("h1")).toHaveText("13e anniversaire de SEAFA");
     await expect(page.locator("main")).toContainText("26 septembre 2026");
     await expect(
       page.getByRole("button", { name: /Ouvrir l’image/ }),
-    ).toHaveCount(175);
+    ).toHaveCount(12);
+    await page
+      .getByRole("button", { name: "Voir les 161 autres photographies" })
+      .click();
+    await expect(
+      page.getByRole("button", { name: /Ouvrir l’image/ }),
+    ).toHaveCount(173);
     await page.getByRole("button", { name: /Ouvrir l’image 1 sur/ }).click();
     const dialog = page.getByRole("dialog");
     await expect(dialog).toBeVisible();
@@ -69,10 +79,14 @@ test("Darcy route is unavailable and all four other interviews and reader links 
     await expect(
       page.locator('a[href="/interviews/book?page=27"]'),
     ).toHaveCount(0);
-    for (const interview of getPublishedInterviews())
-      await expect(
-        page.locator(`a[href="/interviews/${interview.slug}"]`),
-      ).toBeVisible();
+    if (path === "/interviews") {
+      for (const interview of getPublishedInterviews())
+        await expect(
+          page.locator(`a[href="/interviews/${interview.slug}"]`),
+        ).toBeVisible();
+    } else {
+      await expect(page.locator('footer a[href="/interviews"]')).toBeVisible();
+    }
   }
   for (const interview of getPublishedInterviews()) {
     await page.goto("/interviews/" + interview.slug);

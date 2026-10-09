@@ -42,7 +42,7 @@ test("catalogue covers every supplied image exactly once, with exact spelling an
 });
 test("albums are complete, chronological and connected to real detail records", () => {
   const albums = getPublishedAlbums();
-  assert.equal(albums.length, 48);
+  assert.equal(albums.length, 49);
   const covered = new Set(
     albums.flatMap((a) => [
       ...a.images.map((i) => i.mediaId),

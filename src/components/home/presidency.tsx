@@ -29,9 +29,7 @@ export function Presidency({ history = false }: { history?: boolean }) {
             partage entre générations.
           </p>
           {!history && (
-            <TextLink href="/history#presidents">
-              Découvrir la succession des présidents
-            </TextLink>
+            <TextLink href="/team">Découvrir notre organisation</TextLink>
           )}
         </div>
       </article>

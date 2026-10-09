@@ -1,6 +1,5 @@
 import type { Activity, Album, Event } from "@/types/content";
 import { octoberGroups } from "@/data/october-media";
-import { octoberMedia } from "@/data/october-media";
 import octoberVideos from "@/data/october-videos.json";
 
 // Kirundi originals remain in their supplied folders. French editorial translations.
@@ -29,15 +28,7 @@ function collection(
   description?: string,
 ): Album {
   const group = octoberGroups[id];
-  const coverSuffix =
-    id === "seafa-lumitel"
-      ? "11.42.17 (2).jpeg"
-      : id === "sages-jeunes-2025"
-        ? "11.46.48 (1).jpeg"
-        : "";
-  const cover =
-    octoberMedia.find((media) => coverSuffix && media.src.endsWith(coverSuffix))
-      ?.id ?? group.photos[0];
+  const cover = group.photos[0];
   const photos = [
     cover,
     ...group.photos.filter((mediaId) => mediaId !== cover),

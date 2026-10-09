@@ -12,12 +12,13 @@
     "lint": "eslint . --max-warnings=0",
     "typecheck": "next typegen && tsc --noEmit",
     "verify:routes": "node scripts/verify-routes.mjs",
-    "format": "prettier --write src tests scripts docs README.md next.config.ts playwright.config.ts package.json tsconfig.json eslint.config.mjs",
-    "format:check": "prettier --check src tests scripts docs README.md next.config.ts playwright.config.ts package.json tsconfig.json eslint.config.mjs",
+    "format": "prettier --write src tests scripts docs README.md next.config.ts vercel.json playwright.config.ts package.json tsconfig.json eslint.config.mjs",
+    "format:check": "prettier --check src tests scripts docs README.md next.config.ts vercel.json playwright.config.ts package.json tsconfig.json eslint.config.mjs",
     "test": "tsx --test tests/*.test.ts",
     "test:browser": "node scripts/run-browser-tests.mjs",
     "verify:content": "tsx src/lib/validate-content.ts",
-    "deliveries:retry": "tsx scripts/retry-deliveries.ts"
+    "deliveries:retry": "tsx scripts/retry-deliveries.ts",
+    "verify:rendering": "node scripts/audit-rendering.mjs"
   },
   "dependencies": {
     "next": "16.3.4",

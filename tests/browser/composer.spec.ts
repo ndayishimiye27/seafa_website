@@ -6,8 +6,14 @@ async function fill(page: Page, kind: "join" | "match-requests") {
   for (const field of formFields[kind]) {
     const input = page.locator(`[name="${field.name}"]`);
     if (field.type === "positions") {
-      await page.locator('[name="positions"][value="GK"]').check();
-      await page.locator('[name="positions"][value="ST"]').check();
+      await page
+        .locator("#join-positions")
+        .getByRole("button", { name: /^GK —/ })
+        .click();
+      await page
+        .locator("#join-positions")
+        .getByRole("button", { name: /^ST —/ })
+        .click();
     } else if (field.type === "checkbox") await input.check();
     else if (field.type === "select")
       await input.selectOption(field.options![0][0]);
@@ -77,45 +83,37 @@ for (const width of [375, 1440])
     }
 
 for (const width of [320, 768, 1440])
-  test(`position selector keyboard, limit, list and contrast at ${width}px`, async ({
+  test(`position selector keyboard, limit, chips and contrast at ${width}px`, async ({
     page,
   }) => {
     await page.setViewportSize({ width, height: 950 });
     await page.goto("/join");
     await expect(page.locator("main")).toHaveCount(1);
     const pitch = page.locator("#join-positions");
-    await expect(pitch.locator('input[type="checkbox"]')).toHaveCount(21);
-    await expect(pitch.locator('input[value="ST"]')).toHaveCount(1);
+    await expect(pitch.locator('input[type="checkbox"]')).toHaveCount(0);
+    await expect(pitch.locator(".position-pitch button")).toHaveCount(21);
     for (const code of ["GK", "SW", "LB", "CB", "ST"]) {
-      const input = pitch.locator(`input[value="${code}"]`);
-      await input.focus();
-      await expect(input).toBeFocused();
+      const marker = pitch.getByRole("button", {
+        name: new RegExp(`^${code} —`),
+      });
+      await expect(marker).toBeEnabled();
+      await marker.focus();
+      await expect(marker).toBeFocused();
       await page.keyboard.press("Space");
-      await expect(input).toBeChecked();
+      await expect(marker).toHaveAttribute("aria-pressed", "true");
     }
-    const sixth = pitch.locator('input[value="RW"]');
+    const sixth = pitch.getByRole("button", { name: /^RW —/ });
     await expect(sixth).toBeDisabled();
-    await expect(sixth).not.toBeChecked();
     await expect(pitch).toContainText("déjà choisi 5 postes");
-    await pitch.locator('input[value="SW"]').uncheck();
-    await sixth.check();
-    await expect(pitch.locator("input:checked")).toHaveCount(5);
-    await pitch.getByRole("button", { name: "Afficher la liste" }).click();
-    await expect(sixth).toBeChecked();
-    await expect(
-      pitch
-        .locator(".position-accessible-list")
-        .getByText("Ailier droit", { exact: true }),
-    ).toBeVisible();
-    expect(
-      (
-        await new AxeBuilder({ page })
-          .include(".public-form")
-          .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
-          .analyze()
-      ).violations,
-    ).toEqual([]);
-    await pitch.getByRole("button", { name: "Afficher le terrain" }).click();
+    await expect(pitch.locator(".position-chip")).toHaveCount(5);
+    await pitch.getByRole("button", { name: /^Retirer SW/ }).click();
+    await sixth.click();
+    await expect(sixth).toHaveAttribute("aria-pressed", "true");
+    await expect(pitch.locator(".position-chip")).toHaveCount(5);
+    await expect(page.locator(".delivery-choice")).not.toContainText("+257");
+    await expect(page.locator(".delivery-choice")).not.toContainText(
+      "jambojeanjimmy52@gmail.com",
+    );
     expect(
       (
         await new AxeBuilder({ page })

@@ -172,7 +172,7 @@ test("links, metadata and reduced motion", async ({ page, request }) => {
   );
   const links = new Set<string>();
   for (const route of paths) {
-    await page.goto(route);
+    await page.goto(route, { waitUntil: "domcontentloaded" });
     await expect(page.locator('link[rel="canonical"]')).toHaveCount(1);
     const canonical = await page
       .locator('link[rel="canonical"]')

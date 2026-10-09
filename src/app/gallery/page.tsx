@@ -37,14 +37,14 @@ export default function GalleryPage() {
       >
         <div className="mb-10 max-w-2xl">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#806026]">
-            Albums officiels
+            Archives SEAFA
           </p>
 
           <h2
             id="gallery-title"
             className="mt-3 text-3xl font-black tracking-tight text-[#071d3b] sm:text-4xl"
           >
-            Explorez nos collections
+            Des années, des rencontres, des souvenirs.
           </h2>
 
           <p className="mt-4 leading-7 text-slate-600">

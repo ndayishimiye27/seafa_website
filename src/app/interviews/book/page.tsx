@@ -1,19 +1,13 @@
 import { BookReader } from "@/components/interviews/book-reader";
 import { PageIntro, Section, TextLink } from "@/components/ui/editorial";
 import { pageMetadata } from "@/lib/metadata";
+import { Suspense } from "react";
 export const metadata = pageMetadata(
   "Le livret SEAFA",
   "/interviews/book",
   "Lisez les entretiens et les archives du livret SEAFA.",
 );
-export default async function BookPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ page?: string }>;
-}) {
-  const query = await searchParams;
-  const value = Number(query.page ?? 1);
-  const page = Number.isInteger(value) && value >= 1 && value <= 29 ? value : 1;
+export default function BookPage() {
   return (
     <main>
       <PageIntro
@@ -28,7 +22,9 @@ export default async function BookPage({
           </a>
           <TextLink href="/interviews">Tous les témoignages</TextLink>
         </div>
-        <BookReader key={page} initialPage={page} />
+        <Suspense fallback={<p role="status">Ouverture du livret…</p>}>
+          <BookReader />
+        </Suspense>
       </Section>
     </main>
   );

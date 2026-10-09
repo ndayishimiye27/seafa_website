@@ -11,6 +11,11 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/gallery/match-2015",
+        destination: "/gallery/events-2016-anniversary",
+        permanent: true,
+      },
       { source: "/squad", destination: "/team", permanent: true },
       {
         source: "/leadership",

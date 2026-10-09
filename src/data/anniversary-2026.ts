@@ -4,7 +4,7 @@ import type { Album, Event, MediaAsset } from "@/types/content";
 export const anniversaryMedia: MediaAsset[] = [
   {
     id: "media-anniversaire-2026-001",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.09.53.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-001.jpeg",
     alt: "Joueurs en maillots bleus réunis pour une photo sur le terrain. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 1.",
     caption: "Joueurs en maillots bleus réunis pour une photo sur le terrain.",
     width: 1080,
@@ -12,7 +12,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-002",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.09.54.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-002.jpeg",
     alt: "Joueurs en maillots bleu clair réunis sur le terrain. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 2.",
     caption: "Joueurs en maillots bleu clair réunis sur le terrain.",
     width: 1080,
@@ -20,7 +20,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-003",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.09.57.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-003.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 3.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 961,
@@ -28,7 +28,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-004",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.09.59.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-004.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 4.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 670,
@@ -36,7 +36,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-005",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.00.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-005.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 5.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 850,
@@ -44,7 +44,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-006",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.01.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-006.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 6.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 922,
@@ -52,7 +52,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-007",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.02.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-007.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 7.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 934,
@@ -60,7 +60,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-008",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.04.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-008.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 8.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -68,7 +68,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-009",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.07.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-009.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 9.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1078,
@@ -76,7 +76,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-010",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.08.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-010.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 10.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 958,
@@ -84,7 +84,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-011",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.11.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-011.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 11.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 827,
@@ -92,7 +92,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-012",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.14.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-012.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 12.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 832,
@@ -100,7 +100,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-013",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.15.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-013.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 13.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -108,7 +108,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-014",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.18.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-014.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 14.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 826,
@@ -116,7 +116,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-015",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.20.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-015.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 15.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -124,7 +124,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-016",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.21.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-016.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 16.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 876,
@@ -132,7 +132,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-017",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.22.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-017.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 17.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 894,
@@ -140,7 +140,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-018",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.24.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-018.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 18.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 673,
@@ -148,7 +148,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-019",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.26.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-019.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 19.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -156,7 +156,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-020",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.27.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-020.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 20.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 942,
@@ -164,7 +164,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-021",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.28.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-021.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 21.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 986,
@@ -172,7 +172,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-022",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.30.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-022.jpeg",
     alt: "Photo de groupe des joueurs réunis sur le terrain. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 22.",
     caption: "Photo de groupe des joueurs réunis sur le terrain.",
     width: 1080,
@@ -180,7 +180,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-023",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.31.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-023.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 23.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 918,
@@ -188,7 +188,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-024",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.33.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-024.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 24.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 924,
@@ -196,7 +196,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-025",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.34.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-025.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 25.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 874,
@@ -204,7 +204,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-026",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.36.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-026.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 26.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -212,7 +212,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-027",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.37.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-027.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 27.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -220,7 +220,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-028",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.39.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-028.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 28.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -228,7 +228,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-029",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.41.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-029.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 29.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -236,7 +236,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-030",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.42.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-030.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 30.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 972,
@@ -244,7 +244,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-031",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.43.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-031.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 31.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 752,
@@ -252,7 +252,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-032",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.44.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-032.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 32.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 988,
@@ -260,7 +260,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-033",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.45.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-033.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 33.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 730,
@@ -268,7 +268,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-034",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.46.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-034.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 34.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 882,
@@ -276,7 +276,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-035",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.47.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-035.jpeg",
     alt: "Joueurs en maillots bleu clair posant ensemble. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 35.",
     caption: "Joueurs en maillots bleu clair posant ensemble.",
     width: 1080,
@@ -284,7 +284,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-036",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.48.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-036.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 36.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -292,7 +292,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-037",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.49.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-037.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 37.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 986,
@@ -300,7 +300,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-038",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.50.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-038.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 38.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 898,
@@ -308,7 +308,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-039",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.51 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-039.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 39.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 956,
@@ -316,7 +316,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-040",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.51.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-040.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 40.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 807,
@@ -324,7 +324,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-041",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.52.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-041.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 41.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 944,
@@ -332,7 +332,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-042",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.54.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-042.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 42.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 928,
@@ -340,7 +340,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-043",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.56.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-043.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 43.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 941,
@@ -348,7 +348,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-044",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.57.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-044.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 44.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 946,
@@ -356,7 +356,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-045",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.58.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-045.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 45.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1242,
@@ -364,7 +364,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-046",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.10.59.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-046.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 46.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1172,
@@ -372,7 +372,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-047",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.01.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-047.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 47.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1006,
@@ -380,7 +380,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-048",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.02.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-048.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 48.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1036,
@@ -388,7 +388,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-049",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.03.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-049.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 49.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -396,7 +396,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-050",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.04.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-050.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 50.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 860,
@@ -404,7 +404,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-051",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.05.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-051.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 51.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 798,
@@ -412,7 +412,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-052",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.06.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-052.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 52.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 854,
@@ -420,7 +420,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-053",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.07.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-053.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 53.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 818,
@@ -428,7 +428,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-054",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.08.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-054.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 54.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -436,7 +436,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-055",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.09.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-055.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 55.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 860,
@@ -444,7 +444,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-056",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.10.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-056.jpeg",
     alt: "Joueurs en maillots bleus posant ensemble. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 56.",
     caption: "Joueurs en maillots bleus posant ensemble.",
     width: 1080,
@@ -452,7 +452,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-057",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.11.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-057.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 57.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 631,
@@ -460,7 +460,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-058",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.12 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-058.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 58.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -468,7 +468,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-059",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.12.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-059.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 59.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1251,
@@ -476,7 +476,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-060",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.13.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-060.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 60.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1096,
@@ -484,7 +484,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-061",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.14 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-061.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 61.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 952,
@@ -492,7 +492,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-062",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.14.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-062.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 62.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1060,
@@ -500,7 +500,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-063",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.15.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-063.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 63.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1034,
@@ -508,7 +508,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-064",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.16 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-064.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 64.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 974,
@@ -516,7 +516,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-065",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.16.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-065.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 65.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 856,
@@ -524,7 +524,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-066",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.17.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-066.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 66.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1032,
@@ -532,7 +532,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-067",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.18.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-067.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 67.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 736,
@@ -540,7 +540,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-068",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.19.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-068.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 68.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -548,7 +548,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-069",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.20.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-069.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 69.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -556,7 +556,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-070",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.21.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-070.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 70.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 896,
@@ -564,7 +564,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-071",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.22.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-071.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 71.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -572,7 +572,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-072",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.23.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-072.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 72.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 774,
@@ -580,7 +580,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-073",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.24.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-073.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 73.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 702,
@@ -588,7 +588,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-074",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.25.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-074.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 74.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 852,
@@ -596,7 +596,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-075",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.26.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-075.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 75.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 912,
@@ -604,7 +604,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-076",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.27 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-076.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 76.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -612,7 +612,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-077",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.27.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-077.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 77.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 864,
@@ -620,7 +620,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-078",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.28.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-078.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 78.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -628,7 +628,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-079",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.30.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-079.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 79.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 746,
@@ -636,7 +636,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-080",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.31.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-080.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 80.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1058,
@@ -644,7 +644,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-081",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.32 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-081.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 81.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 920,
@@ -652,7 +652,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-082",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.32.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-082.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 82.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 995,
@@ -660,7 +660,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-083",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.33.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-083.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 83.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1082,
@@ -668,7 +668,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-084",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.34.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-084.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 84.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 871,
@@ -676,7 +676,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-085",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.35 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-085.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 85.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 793,
@@ -684,7 +684,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-086",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.35.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-086.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 86.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 886,
@@ -692,7 +692,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-087",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.36.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-087.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 87.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -700,7 +700,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-088",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.46.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-088.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 88.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1170,
@@ -708,7 +708,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-089",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.47.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-089.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 89.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 794,
@@ -716,7 +716,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-090",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.48.jpeg",
+    src: "/media/awards/awards anniversaire de 2026/2026-anniversaire-distinction-photo-001.jpeg",
     alt: "Deux participants posant ensemble devant un bâtiment. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 90.",
     caption: "Deux participants posant ensemble devant un bâtiment.",
     width: 686,
@@ -724,7 +724,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-091",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.49.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-090.jpeg",
     alt: "Participants réunis devant un bâtiment. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 91.",
     caption: "Participants réunis devant un bâtiment.",
     width: 776,
@@ -732,7 +732,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-092",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.50.jpeg",
+    src: "/media/awards/awards anniversaire de 2026/2026-anniversaire-distinction-photo-002.jpeg",
     alt: "Deux participants posant ensemble. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 92.",
     caption: "Deux participants posant ensemble.",
     width: 648,
@@ -740,7 +740,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-093",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.51 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-091.jpeg",
     alt: "Participants réunis pour une photographie. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 93.",
     caption: "Participants réunis pour une photographie.",
     width: 720,
@@ -748,7 +748,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-094",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.51.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-092.jpeg",
     alt: "Un participant debout au milieu du rassemblement. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 94.",
     caption: "Un participant debout au milieu du rassemblement.",
     width: 720,
@@ -756,7 +756,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-095",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.54.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-093.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 95.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 842,
@@ -764,7 +764,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-096",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.55.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-094.jpeg",
     alt: "Un participant debout à proximité du terrain. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 96.",
     caption: "Un participant debout à proximité du terrain.",
     width: 720,
@@ -772,7 +772,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-097",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.56.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-095.jpeg",
     alt: "Un participant debout à proximité du terrain. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 97.",
     caption: "Un participant debout à proximité du terrain.",
     width: 720,
@@ -780,7 +780,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-098",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.57.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-096.jpeg",
     alt: "Participants posant ensemble à l’extérieur. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 98.",
     caption: "Participants posant ensemble à l’extérieur.",
     width: 720,
@@ -788,7 +788,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-099",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.58.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-097.jpeg",
     alt: "Participants posant ensemble à l’extérieur. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 99.",
     caption: "Participants posant ensemble à l’extérieur.",
     width: 720,
@@ -796,7 +796,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-100",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.11.59.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-098.jpeg",
     alt: "Participants posant ensemble à l’extérieur. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 100.",
     caption: "Participants posant ensemble à l’extérieur.",
     width: 724,
@@ -804,7 +804,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-101",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.14.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-099.jpeg",
     alt: "Portrait d’un participant en maillot bleu. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 101.",
     caption: "Portrait d’un participant en maillot bleu.",
     width: 764,
@@ -812,7 +812,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-102",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.15.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-100.jpeg",
     alt: "Participants assis pendant un moment de rencontre. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 102.",
     caption: "Participants assis pendant un moment de rencontre.",
     width: 720,
@@ -820,7 +820,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-103",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.16.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-101.jpeg",
     alt: "Participants réunis dans une cour. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 103.",
     caption: "Participants réunis dans une cour.",
     width: 720,
@@ -828,7 +828,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-104",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.17.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-102.jpeg",
     alt: "Participants assis dans une cour. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 104.",
     caption: "Participants assis dans une cour.",
     width: 720,
@@ -836,7 +836,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-105",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.18.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-103.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 105.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 888,
@@ -844,7 +844,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-106",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.19.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-104.jpeg",
     alt: "Participants réunis dans une cour. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 106.",
     caption: "Participants réunis dans une cour.",
     width: 720,
@@ -852,7 +852,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-107",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.20.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-105.jpeg",
     alt: "Participants assis côte à côte. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 107.",
     caption: "Participants assis côte à côte.",
     width: 720,
@@ -860,7 +860,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-108",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.12.21.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-106.jpeg",
     alt: "Participants assis côte à côte. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 108.",
     caption: "Participants assis côte à côte.",
     width: 720,
@@ -868,7 +868,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-109",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.41 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-107.jpeg",
     alt: "Un participant debout parmi les personnes réunies. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 109.",
     caption: "Un participant debout parmi les personnes réunies.",
     width: 720,
@@ -876,7 +876,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-110",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.41.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-108.jpeg",
     alt: "Participants assis pendant le rassemblement. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 110.",
     caption: "Participants assis pendant le rassemblement.",
     width: 720,
@@ -884,7 +884,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-111",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.42.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-109.jpeg",
     alt: "Vue du rassemblement dans une cour. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 111.",
     caption: "Vue du rassemblement dans une cour.",
     width: 744,
@@ -892,7 +892,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-112",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.43 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-110.jpeg",
     alt: "Portrait d’un participant à l’extérieur. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 112.",
     caption: "Portrait d’un participant à l’extérieur.",
     width: 590,
@@ -900,7 +900,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-113",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.43.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-111.jpeg",
     alt: "Portrait d’un participant à l’extérieur. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 113.",
     caption: "Portrait d’un participant à l’extérieur.",
     width: 560,
@@ -908,7 +908,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-114",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.44 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-112.jpeg",
     alt: "Portrait d’un participant à l’extérieur. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 114.",
     caption: "Portrait d’un participant à l’extérieur.",
     width: 844,
@@ -916,7 +916,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-115",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.44.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-113.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 115.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 750,
@@ -924,7 +924,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-116",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.45 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-114.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 116.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 978,
@@ -932,7 +932,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-117",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.45.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-115.jpeg",
     alt: "Deux participants assis côte à côte. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 117.",
     caption: "Deux participants assis côte à côte.",
     width: 678,
@@ -940,7 +940,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-118",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.46 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-116.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 118.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -948,7 +948,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-119",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.46.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-117.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 119.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -956,7 +956,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-120",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.47 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-118.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 120.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 888,
@@ -964,7 +964,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-121",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.47 (2).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-119.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 121.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 814,
@@ -972,7 +972,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-122",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.47.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-120.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 122.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 984,
@@ -980,7 +980,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-123",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.48.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-121.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 123.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1074,
@@ -988,7 +988,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-124",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.49 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-122.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 124.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1047,
@@ -996,7 +996,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-125",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.49 (2).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-123.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 125.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1012,
@@ -1004,7 +1004,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-126",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.49.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-124.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 126.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1012,7 +1012,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-127",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.50 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-125.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 127.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1020,7 +1020,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-128",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.50.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-126.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 128.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1086,
@@ -1028,7 +1028,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-129",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.51.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-127.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 129.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 744,
@@ -1036,7 +1036,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-130",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.52.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-128.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 130.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1044,7 +1044,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-131",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.53 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-129.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 131.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 786,
@@ -1052,7 +1052,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-132",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.53.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-130.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 132.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 876,
@@ -1060,7 +1060,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-133",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.54 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-131.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 133.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1068,7 +1068,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-134",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.54.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-132.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 134.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 996,
@@ -1076,7 +1076,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-135",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.55.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-133.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 135.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 486,
@@ -1084,7 +1084,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-136",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.56.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-134.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 136.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 680,
@@ -1092,7 +1092,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-137",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.57.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-135.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 137.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 804,
@@ -1100,7 +1100,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-138",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.58 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-136.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 138.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1034,
@@ -1108,7 +1108,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-139",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.58.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-137.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 139.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1112,
@@ -1116,7 +1116,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-140",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.17.59.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-138.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 140.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1094,
@@ -1124,7 +1124,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-141",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.00.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-139.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 141.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 974,
@@ -1132,7 +1132,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-142",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.01.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-140.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 142.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 869,
@@ -1140,7 +1140,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-143",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.02 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-141.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 143.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 968,
@@ -1148,7 +1148,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-144",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.02.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-142.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 144.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 889,
@@ -1156,7 +1156,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-145",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.04 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-143.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 145.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1164,7 +1164,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-146",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.04.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-144.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 146.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 926,
@@ -1172,7 +1172,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-147",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.05.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-145.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 147.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 799,
@@ -1180,7 +1180,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-148",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.06.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-146.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 148.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1140,
@@ -1188,7 +1188,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-149",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.12 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-147.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 149.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1014,
@@ -1196,7 +1196,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-150",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.12.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-148.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 150.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1148,
@@ -1204,7 +1204,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-151",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.13 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-149.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 151.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1052,
@@ -1212,7 +1212,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-152",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.13.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-150.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 152.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 808,
@@ -1220,7 +1220,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-153",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.14.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-151.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 153.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1042,
@@ -1228,7 +1228,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-154",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.15.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-152.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 154.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 972,
@@ -1236,7 +1236,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-155",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.16.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-153.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 155.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1092,
@@ -1244,7 +1244,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-156",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.17 (1).jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-154.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 156.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1008,
@@ -1252,7 +1252,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-157",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.17.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-155.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 157.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1280,
@@ -1260,7 +1260,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-158",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.18.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-156.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 158.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 804,
@@ -1268,7 +1268,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-159",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.19.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-157.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 159.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1276,7 +1276,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-160",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.21.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-158.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 160.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1064,
@@ -1284,7 +1284,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-161",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.22.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-159.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 161.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1292,7 +1292,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-162",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.23.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-160.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 162.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1036,
@@ -1300,7 +1300,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-163",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.24.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-161.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 163.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1308,7 +1308,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-164",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.25.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-162.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 164.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1316,7 +1316,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-165",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.26.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-163.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 165.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1280,
@@ -1324,7 +1324,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-166",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.27.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-164.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 166.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 600,
@@ -1332,7 +1332,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-167",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.28.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-165.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 167.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1340,7 +1340,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-168",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.29.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-166.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 168.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1348,7 +1348,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-169",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.30.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-167.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 169.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1264,
@@ -1356,7 +1356,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-170",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.31.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-168.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 170.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1364,7 +1364,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-171",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.32.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-169.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 171.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 755,
@@ -1372,7 +1372,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-172",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.34.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-170.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 172.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1096,
@@ -1380,7 +1380,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-173",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.35.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-171.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 173.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 848,
@@ -1388,7 +1388,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-174",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.37.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-172.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 174.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 798,
@@ -1396,7 +1396,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-175",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.38.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-173.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 175.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 864,
@@ -1404,7 +1404,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-176",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.39.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-174.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 176.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1086,
@@ -1412,7 +1412,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-177",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.40.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-175.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 177.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1068,
@@ -1420,7 +1420,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-178",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.42.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-176.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 178.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1132,
@@ -1428,7 +1428,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-179",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.43.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-177.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 179.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1280,
@@ -1436,7 +1436,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-180",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.44.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-178.jpeg",
     alt: "Photo de groupe des joueurs sur le terrain. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 180.",
     caption: "Photo de groupe des joueurs sur le terrain.",
     width: 1080,
@@ -1444,7 +1444,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-181",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.45.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-179.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 181.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,
@@ -1452,7 +1452,7 @@ export const anniversaryMedia: MediaAsset[] = [
   },
   {
     id: "media-anniversaire-2026-182",
-    src: "/media/anniversaire 2026 au 26 octobre/WhatsApp Image 2026-09-27 at 11.18.46.jpeg",
+    src: "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-180.jpeg",
     alt: "Joueurs sur le terrain de football. 13e anniversaire de SEAFA, 26 septembre 2026 — photo 182.",
     caption: "Moment de football lors du 13e anniversaire de SEAFA.",
     width: 1080,

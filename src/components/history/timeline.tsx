@@ -1,6 +1,6 @@
 import { getPublishedMilestones } from "@/data/history";
 import { getAlbumById } from "@/lib/content";
-import { AlbumGallery } from "@/components/albums/album-gallery";
+import { formatEventDate } from "@/lib/content-utils";
 import { MediaSlot, TextLink } from "@/components/ui/editorial";
 export function Timeline({ compact = false }: { compact?: boolean }) {
   const items = getPublishedMilestones();
@@ -8,27 +8,43 @@ export function Timeline({ compact = false }: { compact?: boolean }) {
     <ol className="timeline">
       {(compact
         ? items.filter((item) =>
-            ["2013", "2014", "2016"].includes(item.date?.value ?? ""),
+            [
+              "history-2013",
+              "history-2016",
+              "history-anniversaire-2026",
+            ].includes(item.id),
           )
         : items
       ).map((item) => {
         const album = item.albumId ? getAlbumById(item.albumId) : null;
         return (
           <li key={item.id}>
-            <span className="timeline-year">{item.date?.value}</span>
+            <span className="timeline-year">
+              {item.date?.value.slice(0, 4)}
+            </span>
             <details open={compact}>
               <summary>
                 <h3>{item.title}</h3>
                 <span aria-hidden="true">+</span>
               </summary>
               <div className="timeline-body">
+                {item.date && item.date.precision !== "year" && (
+                  <p className="source">
+                    <time dateTime={item.date.value}>
+                      {formatEventDate(item.date)}
+                    </time>
+                  </p>
+                )}
                 <p>{item.description}</p>
                 {!compact && (
                   <>
                     <p className="source">{item.source}</p>
                     {album ? (
                       <>
-                        <AlbumGallery album={album} />
+                        <MediaSlot
+                          mediaId={album.coverMediaId}
+                          label={item.title}
+                        />
                         <TextLink href={`/gallery/${album.slug}`}>
                           Voir l’album
                         </TextLink>

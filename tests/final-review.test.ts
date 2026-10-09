@@ -17,7 +17,7 @@ test("13th anniversary has the confirmed date, actual media and connected routes
   assert.equal(anniversaryMedia.length, 182);
   assert.equal(anniversaryAlbum.images.length, 182);
   const published = albums.find((album) => album.id === anniversaryAlbum.id)!;
-  assert.equal(published.images.length, 175);
+  assert.equal(published.images.length, 173);
   for (const image of published.images) {
     const media = anniversaryMedia.find((asset) => asset.id === image.mediaId)!;
     assert.ok(!excludedPhotoSources[media.src]);

@@ -32,9 +32,9 @@ export default function HistoryPage() {
         <div className="empty-note">
           <h3>Une histoire toujours en mouvement</h3>
           <p>
-            La suite de notre histoire, de 2021 à 2026, sera prochainement
-            documentée. Les albums photographiques disponibles peuvent déjà être
-            consultés dans la galerie.
+            Ces étapes s’appuient sur le livret historique et les archives
+            disponibles jusqu’en 2026. Vos photographies et vos souvenirs
+            peuvent aider à préciser les dates et à enrichir ce récit collectif.
           </p>
           <TextLink href="/contact">Contribuer à notre mémoire</TextLink>
         </div>

@@ -14,6 +14,7 @@ interface AlbumGalleryProps {
 
 export function AlbumGallery({ album }: AlbumGalleryProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [expanded, setExpanded] = useState(false);
 
   const images = resolveAlbumImages(album);
 
@@ -31,7 +32,7 @@ export function AlbumGallery({ album }: AlbumGalleryProps) {
   return (
     <>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {images.map((image, index) => {
+        {images.slice(0, expanded ? images.length : 12).map((image, index) => {
           const isWide = index === 0 && images.length >= 3;
 
           return (
@@ -93,6 +94,24 @@ export function AlbumGallery({ album }: AlbumGalleryProps) {
           );
         })}
       </div>
+      {images.length > 12 && (
+        <div className="archive-expand">
+          <p>
+            Une première sélection pour découvrir cette rencontre. Les autres
+            photographies restent accessibles dans l’archive.
+          </p>
+          <button
+            type="button"
+            className="button"
+            aria-expanded={expanded}
+            onClick={() => setExpanded(!expanded)}
+          >
+            {expanded
+              ? "Réduire la collection"
+              : `Voir les ${images.length - 12} autres photographies`}
+          </button>
+        </div>
+      )}
 
       {selectedIndex !== null ? (
         <AlbumLightbox

@@ -1,13 +1,20 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import pages from "@/data/interview-book.json";
-export function BookReader({ initialPage }: { initialPage: number }) {
-  const [number, setNumber] = useState(initialPage);
+export function BookReader() {
+  const searchParams = useSearchParams();
+  const requestedPage = Number(searchParams.get("page") ?? 1);
+  const number =
+    Number.isInteger(requestedPage) &&
+    requestedPage >= 1 &&
+    requestedPage <= pages.length
+      ? requestedPage
+      : 1;
   const [original, setOriginal] = useState(false);
   const page = pages[number - 1];
   function go(value: number) {
-    setNumber(value);
     window.history.replaceState(null, "", `/interviews/book?page=${value}`);
   }
   return (

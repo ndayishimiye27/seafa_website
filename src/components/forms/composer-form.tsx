@@ -201,13 +201,13 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
         tabIndex={-1}
         aria-describedby={errors.delivery ? "delivery-error" : undefined}
       >
-        <legend>Comment souhaitez-vous transmettre votre demande ? *</legend>
+        <legend>Choisissez comment envoyer votre demande *</legend>
         <p>
           Le message sera prérempli : vérifiez-le et appuyez vous-même sur
           Envoyer. Ouvrir l’application ne transmet pas la demande.
         </p>
         {(["whatsapp", "email"] as const).map((value) => (
-          <label className="checkbox-label" key={value}>
+          <label className="delivery-card" key={value}>
             <input
               type="radio"
               name="delivery"
@@ -215,9 +215,14 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
               checked={choice === value}
               onChange={() => setChoice(value)}
             />
-            {value === "whatsapp"
-              ? "WhatsApp — +257 79 690 359"
-              : `E-mail — ${teamEmail}`}
+            <span>
+              <strong>{value === "whatsapp" ? "WhatsApp" : "E-mail"}</strong>
+              <small>
+                {value === "whatsapp"
+                  ? "Envoyer via WhatsApp"
+                  : "Envoyer par e-mail"}
+              </small>
+            </span>
           </label>
         ))}
         {errors.delivery && (
@@ -240,8 +245,8 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
         >
           <h3>Votre message à envoyer</h3>
           <p>
-            Destinataire :{" "}
-            {choice === "whatsapp" ? "+257 79 690 359" : teamEmail}
+            À l’attention de SEAFA ·{" "}
+            {choice === "whatsapp" ? "WhatsApp" : "E-mail"}
           </p>
           <p>Objet : {draft.subject}</p>
           <label htmlFor="draft-message">

@@ -39,7 +39,11 @@ test("gallery has one display per curated photo and only evidenced years", () =>
       "2026",
     ],
   );
-  for (const id of ["visite-badogomba", "archives-ajoutees"])
+  assert.deepEqual(albums.find((a) => a.id === "visite-badogomba")?.eventDate, {
+    value: "2020",
+    precision: "year",
+  });
+  for (const id of ["archives-ajoutees"])
     assert.equal(albums.find((a) => a.id === id)?.eventDate, undefined);
 });
 test("membership conditional requirements follow system categories", () => {

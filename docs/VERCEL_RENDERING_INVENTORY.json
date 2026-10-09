@@ -1,0 +1,402 @@
+{
+  "source": "Next.js production manifests; these are rendering modes, not Vercel function counts",
+  "routes": [
+    {
+      "route": "/",
+      "mode": "STATIC",
+      "generatedPaths": ["/"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/_global-error",
+      "mode": "FRAMEWORK_INTERNAL",
+      "generatedPaths": ["/_global-error"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/_not-found",
+      "mode": "STATIC",
+      "generatedPaths": ["/_not-found"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/about",
+      "mode": "STATIC",
+      "generatedPaths": ["/about"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/activities",
+      "mode": "STATIC",
+      "generatedPaths": ["/activities"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/activities/[slug]",
+      "mode": "SSG",
+      "generatedPaths": [
+        "/activities/activities-2016-match",
+        "/activities/activities-2017-friendly-match",
+        "/activities/activities-2018-december-friendly-match",
+        "/activities/activities-2019-friendly-matches",
+        "/activities/activities-2019-stadium-match-congolese-team",
+        "/activities/activities-2019-tournament",
+        "/activities/activities-2020-friendly-match",
+        "/activities/activities-2024-tournament",
+        "/activities/community-2017-arcade-home-visit",
+        "/activities/community-2019-gitega-trip",
+        "/activities/community-2019-jenda-excursion",
+        "/activities/community-2019-mentoring",
+        "/activities/community-2019-teza-trip",
+        "/activities/community-2019-walk",
+        "/activities/community-2021-placide-conference-saint-esprit",
+        "/activities/community-jenda-group-photo",
+        "/activities/community-kibimba-group-photo",
+        "/activities/conference-sante-2022",
+        "/activities/events-2018-karera-falls",
+        "/activities/events-2018-physiotherapy",
+        "/activities/sages-jeunes-2025",
+        "/activities/seafa-vs-lumitel"
+      ],
+      "generatedPathCount": 22,
+      "fallback": false,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/api/contact",
+      "mode": "API_RUNTIME",
+      "generatedPaths": [],
+      "generatedPathCount": 0,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/api/join",
+      "mode": "API_RUNTIME",
+      "generatedPaths": [],
+      "generatedPathCount": 0,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/api/match-requests",
+      "mode": "API_RUNTIME",
+      "generatedPaths": [],
+      "generatedPathCount": 0,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/awards",
+      "mode": "STATIC",
+      "generatedPaths": ["/awards"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/awards/[slug]",
+      "mode": "SSG",
+      "generatedPaths": [
+        "/awards/archives-distinctions-2014",
+        "/awards/archives-distinctions-2015",
+        "/awards/archives-distinctions-2016",
+        "/awards/archives-distinctions-2018",
+        "/awards/meilleur-joueur-2015",
+        "/awards/meilleur-joueur-2018"
+      ],
+      "generatedPathCount": 6,
+      "fallback": false,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/challenges",
+      "mode": "STATIC",
+      "generatedPaths": ["/challenges"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/code-of-conduct",
+      "mode": "STATIC",
+      "generatedPaths": ["/code-of-conduct"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/community",
+      "mode": "STATIC",
+      "generatedPaths": ["/community"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/contact",
+      "mode": "STATIC",
+      "generatedPaths": ["/contact"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/diaspora",
+      "mode": "STATIC",
+      "generatedPaths": ["/diaspora"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/events",
+      "mode": "STATIC",
+      "generatedPaths": ["/events"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/events/[slug]",
+      "mode": "SSG",
+      "generatedPaths": [
+        "/events/anniversaire-2026",
+        "/events/conference-sante-2022",
+        "/events/events-2014-anniversary",
+        "/events/events-2015-anniversary",
+        "/events/events-2016-anniversary",
+        "/events/events-2017-bubanza-orphanage-visit",
+        "/events/events-2017-new-year-celebration",
+        "/events/events-2018-gala-match",
+        "/events/events-2018-karera-falls",
+        "/events/events-2018-medical-consultation",
+        "/events/events-2018-physiotherapy",
+        "/events/events-2019-anniversary",
+        "/events/events-2021-anniversary",
+        "/events/events-2022-anniversary",
+        "/events/events-2024-gala-match",
+        "/events/events-medical-session",
+        "/events/sages-jeunes-2025",
+        "/events/seafa-lumitel"
+      ],
+      "generatedPathCount": 18,
+      "fallback": false,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/gallery",
+      "mode": "STATIC",
+      "generatedPaths": ["/gallery"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/gallery/[slug]",
+      "mode": "SSG",
+      "generatedPaths": [
+        "/gallery/activities-2016-match",
+        "/gallery/activities-2017-friendly-match",
+        "/gallery/activities-2018-december-friendly-match",
+        "/gallery/activities-2019-friendly-matches",
+        "/gallery/activities-2019-stadium-match-congolese-team",
+        "/gallery/activities-2019-tournament",
+        "/gallery/activities-2020-friendly-match",
+        "/gallery/activities-2024-tournament",
+        "/gallery/anniversaire-2026",
+        "/gallery/archives-ajoutees",
+        "/gallery/awards-2014",
+        "/gallery/awards-2015",
+        "/gallery/awards-2016",
+        "/gallery/awards-2018",
+        "/gallery/brand",
+        "/gallery/community-2017-arcade-home-visit",
+        "/gallery/community-2019-gitega-trip",
+        "/gallery/community-2019-jenda-excursion",
+        "/gallery/community-2019-mentoring",
+        "/gallery/community-2019-teza-trip",
+        "/gallery/community-2019-walk",
+        "/gallery/community-2021-placide-conference-saint-esprit",
+        "/gallery/community-jenda-group-photo",
+        "/gallery/community-kibimba-group-photo",
+        "/gallery/conference-sante-2022",
+        "/gallery/distinctions-anniversaire-2026",
+        "/gallery/events-2014-anniversary",
+        "/gallery/events-2015-anniversary",
+        "/gallery/events-2016-anniversary",
+        "/gallery/events-2017-bubanza-orphanage-visit",
+        "/gallery/events-2017-new-year-celebration",
+        "/gallery/events-2018-gala-match",
+        "/gallery/events-2018-karera-falls",
+        "/gallery/events-2018-medical-consultation",
+        "/gallery/events-2018-physiotherapy",
+        "/gallery/events-2019-anniversary",
+        "/gallery/events-2021-anniversary",
+        "/gallery/events-2022-anniversary",
+        "/gallery/events-2024-gala-match",
+        "/gallery/events-medical-session",
+        "/gallery/history-2013",
+        "/gallery/history-2014",
+        "/gallery/history-archives",
+        "/gallery/interviews",
+        "/gallery/match-songa-2018",
+        "/gallery/people",
+        "/gallery/sages-jeunes-2025",
+        "/gallery/seafa-lumitel",
+        "/gallery/visite-badogomba"
+      ],
+      "generatedPathCount": 49,
+      "fallback": false,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/history",
+      "mode": "STATIC",
+      "generatedPaths": ["/history"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/interviews",
+      "mode": "STATIC",
+      "generatedPaths": ["/interviews"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/interviews/[slug]",
+      "mode": "SSG",
+      "generatedPaths": [
+        "/interviews/alain-nduwimana",
+        "/interviews/arnaud-bados-badogomba",
+        "/interviews/claver-kazobavamwo",
+        "/interviews/idan"
+      ],
+      "generatedPathCount": 4,
+      "fallback": false,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/interviews/book",
+      "mode": "STATIC",
+      "generatedPaths": ["/interviews/book"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/join",
+      "mode": "STATIC",
+      "generatedPaths": ["/join"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/login",
+      "mode": "STATIC",
+      "generatedPaths": ["/login"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/manifest.webmanifest",
+      "mode": "STATIC",
+      "generatedPaths": ["/manifest.webmanifest"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/news",
+      "mode": "STATIC",
+      "generatedPaths": ["/news"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/news/[slug]",
+      "mode": "SSG",
+      "generatedPaths": [],
+      "generatedPathCount": 0,
+      "fallback": false,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/opengraph-image",
+      "mode": "STATIC",
+      "generatedPaths": ["/opengraph-image"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/privacy",
+      "mode": "STATIC",
+      "generatedPaths": ["/privacy"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/request-match",
+      "mode": "STATIC",
+      "generatedPaths": ["/request-match"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/robots.txt",
+      "mode": "STATIC",
+      "generatedPaths": ["/robots.txt"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/sitemap.xml",
+      "mode": "STATIC",
+      "generatedPaths": ["/sitemap.xml"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/team",
+      "mode": "STATIC",
+      "generatedPaths": ["/team"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    },
+    {
+      "route": "/twitter-image",
+      "mode": "STATIC",
+      "generatedPaths": ["/twitter-image"],
+      "generatedPathCount": 1,
+      "fallback": null,
+      "needsPublicPageSSR": false
+    }
+  ],
+  "staticRoutes": 26,
+  "ssgPatterns": 6,
+  "generatedContentPaths": 125,
+  "dynamicPublicPages": [],
+  "apiRoutes": ["/api/contact", "/api/join", "/api/match-requests"]
+}

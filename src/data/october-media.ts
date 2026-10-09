@@ -2,7 +2,7 @@ import type { MediaAsset } from "@/types/content";
 export const octoberMedia: MediaAsset[] = [
   {
     id: "october-3f5b00819c23fb6e",
-    src: "/media/activities/2022/480728679_3911461649091612_7507251689512213_n.jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-006.jpg",
     alt: "Santé des adolescents — 2022 : photographie 1",
     width: 2048,
     height: 1365,
@@ -10,7 +10,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-6c5467440a2d4e18",
-    src: "/media/activities/2022/480766360_3911461655758278_7283754237474783143_n.jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-007.jpg",
     alt: "Santé des adolescents — 2022 : photographie 2",
     width: 2048,
     height: 1365,
@@ -18,7 +18,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-00074bf429853f5b",
-    src: "/media/activities/2022/481237526_3911461899091587_8042888756176467564_n.jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-008.jpg",
     alt: "Santé des adolescents — 2022 : photographie 3",
     width: 2048,
     height: 1366,
@@ -26,7 +26,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-d12f4b175f060dc9",
-    src: "/media/activities/2022/481255795_3911461902424920_356907060574244982_n.jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-009.jpg",
     alt: "Santé des adolescents — 2022 : photographie 4",
     width: 1365,
     height: 2048,
@@ -34,7 +34,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-4ea35f0c719f5b9d",
-    src: "/media/activities/2022/481276675_3911461639091613_7090668571010717199_n.jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-010.jpg",
     alt: "Santé des adolescents — 2022 : photographie 5",
     width: 2048,
     height: 1365,
@@ -42,7 +42,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7992f8e77b0ee31e",
-    src: "/media/activities/2022/⚽🩻 Urwaruka ruhurikiye muri Saint... - Magazine Jimbere(1).jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-002.jpg",
     alt: "Santé des adolescents — 2022 : photographie 6",
     width: 2048,
     height: 1366,
@@ -50,7 +50,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-55aa549a111f3a6c",
-    src: "/media/activities/2022/⚽🩻 Urwaruka ruhurikiye muri Saint... - Magazine Jimbere(2).jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-003.jpg",
     alt: "Santé des adolescents — 2022 : photographie 7",
     width: 2048,
     height: 1365,
@@ -58,7 +58,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-88eda401c46ff1f7",
-    src: "/media/activities/2022/⚽🩻 Urwaruka ruhurikiye muri Saint... - Magazine Jimbere(3).jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-004.jpg",
     alt: "Santé des adolescents — 2022 : photographie 8",
     width: 2048,
     height: 1365,
@@ -66,7 +66,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-44cedca26d12259c",
-    src: "/media/activities/2022/⚽🩻 Urwaruka ruhurikiye muri Saint... - Magazine Jimbere(4).jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-005.jpg",
     alt: "Santé des adolescents — 2022 : photographie 9",
     width: 2048,
     height: 1365,
@@ -74,7 +74,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-e8c7a8120c621ca7",
-    src: "/media/activities/2022/⚽🩻 Urwaruka ruhurikiye muri Saint... - Magazine Jimbere.jpg",
+    src: "/media/activities/2022/2022-conference-sante-photo-001.jpg",
     alt: "Santé des adolescents — 2022 : photographie 10",
     width: 2048,
     height: 1365,
@@ -82,7 +82,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-0210d901a246052f",
-    src: "/media/activities/2024/tournament/490164381_1129641442539849_5760916779620231835_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-006.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 1",
     width: 960,
     height: 640,
@@ -90,7 +90,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-e407d69ab5c36112",
-    src: "/media/activities/2024/tournament/490292200_1129641779206482_2767423955584487504_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-007.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 2",
     width: 960,
     height: 640,
@@ -98,7 +98,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-ec691a72f8828d95",
-    src: "/media/activities/2024/tournament/490442947_1129641759206484_6883035097831507423_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-008.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 3",
     width: 640,
     height: 960,
@@ -106,7 +106,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-0dd855bfd3f3cb6e",
-    src: "/media/activities/2024/tournament/490658815_1129641762539817_2631886237584755439_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-009.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 4",
     width: 960,
     height: 640,
@@ -114,7 +114,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-6a18db1d0c7783ac",
-    src: "/media/activities/2024/tournament/490737380_1129641715873155_7862206936168722311_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-010.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 5",
     width: 960,
     height: 640,
@@ -122,7 +122,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-63b1fe49c007d76d",
-    src: "/media/activities/2024/tournament/490748514_1129641399206520_5543537743389894576_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-011.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 6",
     width: 960,
     height: 640,
@@ -130,7 +130,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-654030e953d10887",
-    src: "/media/activities/2024/tournament/490808771_1129641665873160_4812605081701152637_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-012.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 7",
     width: 960,
     height: 640,
@@ -138,7 +138,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-f12194d16b62d529",
-    src: "/media/activities/2024/tournament/490906026_1129641739206486_5344840646573506846_n.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-013.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 8",
     width: 960,
     height: 640,
@@ -146,7 +146,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-fb369015c17346f2",
-    src: "/media/activities/2024/tournament/%5BP%5D%20%F0%9F%94%B4%E2%9A%BD%EF%B8%8F%20Umugwi%20w%26%23039%3Bumupira%20w%26%23039%3Bamaguru...%20-%20Magazine%20Jimbere(1).jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-002.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 9",
     width: 640,
     height: 960,
@@ -154,7 +154,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7193fe2e8c92c8c3",
-    src: "/media/activities/2024/tournament/%5BP%5D%20%F0%9F%94%B4%E2%9A%BD%EF%B8%8F%20Umugwi%20w%26%23039%3Bumupira%20w%26%23039%3Bamaguru...%20-%20Magazine%20Jimbere(2).jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-003.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 10",
     width: 960,
     height: 640,
@@ -162,7 +162,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-45803974a8205165",
-    src: "/media/activities/2024/tournament/%5BP%5D%20%F0%9F%94%B4%E2%9A%BD%EF%B8%8F%20Umugwi%20w%26%23039%3Bumupira%20w%26%23039%3Bamaguru...%20-%20Magazine%20Jimbere(3).jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-004.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 11",
     width: 960,
     height: 640,
@@ -170,7 +170,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-1508c801b05893aa",
-    src: "/media/activities/2024/tournament/%5BP%5D%20%F0%9F%94%B4%E2%9A%BD%EF%B8%8F%20Umugwi%20w%26%23039%3Bumupira%20w%26%23039%3Bamaguru...%20-%20Magazine%20Jimbere(4).jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-005.jpg",
     alt: "Tournoi SEAFA — 2024 : photographie 12",
     width: 960,
     height: 640,
@@ -178,7 +178,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-alias-feece8e24937ccc2",
-    src: "/media/activities/2024/tournament/%5BP%5D%20%F0%9F%94%B4%E2%9A%BD%EF%B8%8F%20Umugwi%20w%26%23039%3Bumupira%20w%26%23039%3Bamaguru...%20-%20Magazine%20Jimbere.jpg",
+    src: "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-001.jpg",
     alt: "Tournoi SEAFA — 2024",
     width: 960,
     height: 640,
@@ -186,7 +186,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-938ed8222f64cf91",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.02 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-001.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 1",
     width: 719,
     height: 1080,
@@ -194,7 +194,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-0479041b27f54a25",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.02 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-002.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 2",
     width: 719,
     height: 1080,
@@ -202,7 +202,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-8157f0f79862001f",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.02 (3).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-003.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 3",
     width: 719,
     height: 1080,
@@ -210,7 +210,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7141e26be233370a",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.02.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-004.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 4",
     width: 719,
     height: 1080,
@@ -218,7 +218,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-2dd5ec297082435f",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.03 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-005.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 5",
     width: 719,
     height: 1080,
@@ -226,7 +226,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-8dc1155b21d17d07",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.03.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-006.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 6",
     width: 719,
     height: 1080,
@@ -234,7 +234,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-bb75280631375457",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.04 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-007.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 7",
     width: 719,
     height: 1080,
@@ -242,7 +242,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-c16fda2c5e7fd90f",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.04 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-008.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 8",
     width: 719,
     height: 1080,
@@ -250,7 +250,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-5b0ca4885399414f",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.04.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-009.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 9",
     width: 719,
     height: 1080,
@@ -258,7 +258,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-ede8a512dca61330",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.05 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-010.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 10",
     width: 1080,
     height: 922,
@@ -266,7 +266,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-14c891bcf93384b8",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.05 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-011.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 11",
     width: 719,
     height: 1080,
@@ -274,7 +274,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-43e3ec7bfef90494",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.05.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-012.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 12",
     width: 719,
     height: 1080,
@@ -282,7 +282,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-4bdaf87e6f2592de",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.06 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-013.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 13",
     width: 1080,
     height: 912,
@@ -290,7 +290,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-8382624d0902d53a",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.06 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-014.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 14",
     width: 719,
     height: 1080,
@@ -298,7 +298,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-a404d0fc0ea355c4",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.06.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-015.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 15",
     width: 719,
     height: 1080,
@@ -306,7 +306,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-3546d3e3653859b1",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.07 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-016.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 16",
     width: 719,
     height: 1080,
@@ -314,7 +314,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-af3df0d67997fbfc",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.07 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-017.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 17",
     width: 719,
     height: 1080,
@@ -322,7 +322,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-23c6d3f53902dac8",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.07.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-018.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 18",
     width: 719,
     height: 1080,
@@ -330,7 +330,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-30bbf9a45cf08a15",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.08 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-019.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 19",
     width: 1080,
     height: 1065,
@@ -338,7 +338,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-f59febd20e0c927f",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.08 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-020.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 20",
     width: 719,
     height: 1080,
@@ -346,7 +346,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-a417c2f8f71edb4e",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.08.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-021.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 21",
     width: 719,
     height: 1080,
@@ -354,7 +354,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-0c2743c7efdbcf98",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.09 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-022.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 22",
     width: 719,
     height: 1080,
@@ -362,7 +362,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-665b9351435ac90d",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.09.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-023.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 23",
     width: 719,
     height: 1080,
@@ -370,7 +370,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-156c5f7c94be0a5d",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.11.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-024.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 24",
     width: 719,
     height: 1080,
@@ -378,7 +378,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-541e4ec6b72dd711",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.12 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-025.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 25",
     width: 1080,
     height: 848,
@@ -386,7 +386,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-ff4260e2404f926f",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.12 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-026.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 26",
     width: 719,
     height: 1080,
@@ -394,7 +394,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-48c91b8380b5d532",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.12.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-027.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 27",
     width: 719,
     height: 1080,
@@ -402,7 +402,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-85847c5a19277354",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.13 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-028.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 28",
     width: 719,
     height: 1080,
@@ -410,7 +410,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-b24e2ffe259d5f7c",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.13 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-029.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 29",
     width: 719,
     height: 1080,
@@ -418,7 +418,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-c94303a47f448513",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.13.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-030.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 30",
     width: 977,
     height: 1080,
@@ -426,7 +426,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-a96c57f60522cb9a",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.14.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-031.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 31",
     width: 848,
     height: 1080,
@@ -434,7 +434,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-b881300ee70fa1b5",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.15.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-032.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 32",
     width: 719,
     height: 1080,
@@ -442,7 +442,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-5d171023fb3f8ff0",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.16 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-033.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 33",
     width: 719,
     height: 1080,
@@ -450,7 +450,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-9fb806ce380d9457",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.16.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-034.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 34",
     width: 719,
     height: 1080,
@@ -458,7 +458,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-377e7dd7497d5c39",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.17 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-035.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 35",
     width: 719,
     height: 1080,
@@ -466,7 +466,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-be190f990bae3778",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.17 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-036.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 36",
     width: 1080,
     height: 719,
@@ -474,7 +474,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7cf8f8e6c4ac836b",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.17 (3).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-037.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 37",
     width: 719,
     height: 1080,
@@ -482,7 +482,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-813321d83986e9dc",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.17.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-038.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 38",
     width: 719,
     height: 1080,
@@ -490,7 +490,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-8ad9f9ab41d8eb2c",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.18 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-039.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 39",
     width: 719,
     height: 1080,
@@ -498,7 +498,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-66b9bf9d90e782b0",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.18 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-040.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 40",
     width: 719,
     height: 1080,
@@ -506,7 +506,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-5959701974e28168",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.18.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-041.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 41",
     width: 719,
     height: 1080,
@@ -514,7 +514,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-dcd428ec7c8aa375",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.19 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-042.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 42",
     width: 719,
     height: 1080,
@@ -522,7 +522,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-fa3e14bb02defa32",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.19 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-043.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 43",
     width: 719,
     height: 1080,
@@ -530,7 +530,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-e3f2ddd995c1c997",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.19.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-044.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 44",
     width: 719,
     height: 1080,
@@ -538,7 +538,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-1c14791fbeb63e37",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.20 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-045.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 45",
     width: 719,
     height: 1080,
@@ -546,7 +546,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-5e3397f901ae2fda",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.20 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-046.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 46",
     width: 719,
     height: 1080,
@@ -554,7 +554,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-cb3be9ac56b84680",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.20.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-047.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 47",
     width: 836,
     height: 1080,
@@ -562,7 +562,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-d04f7697c445c566",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.21 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-048.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 48",
     width: 719,
     height: 1080,
@@ -570,7 +570,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-0bc2e2502425e9c0",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.21 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-049.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 49",
     width: 719,
     height: 1080,
@@ -578,7 +578,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-924bc584656f0c22",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.21.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-050.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 50",
     width: 1080,
     height: 878,
@@ -586,7 +586,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-ec658508f5b212ad",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.22 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-051.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 51",
     width: 1080,
     height: 977,
@@ -594,7 +594,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-17132bc4038012d1",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.22 (2).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-052.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 52",
     width: 719,
     height: 1080,
@@ -602,7 +602,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-87db5554bfaa68f7",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.22.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-053.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 53",
     width: 1026,
     height: 1080,
@@ -610,7 +610,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-4faa6fcf044aa627",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.23 (1).jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-054.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 54",
     width: 719,
     height: 1080,
@@ -618,23 +618,15 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-195ad7635b0bf681",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.42.23.jpeg",
+    src: "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-055.jpeg",
     alt: "SEAFA contre Lumitel — mars 2026 : photographie 55",
     width: 719,
     height: 1080,
     caption: "SEAFA contre Lumitel — mars 2026",
   },
   {
-    id: "october-5f291a49addab5bc",
-    src: "/media/match contre lumitel en mars 2026/WhatsApp Image 2026-10-02 at 11.47.19.jpeg",
-    alt: "SEAFA contre Lumitel — mars 2026 : photographie 56",
-    width: 474,
-    height: 1080,
-    caption: "SEAFA contre Lumitel — mars 2026",
-  },
-  {
     id: "october-20a452b67ea5fb28",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.45.55 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-001.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 1",
     width: 1600,
     height: 1200,
@@ -642,7 +634,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7269c665c409cb09",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.45.55.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-002.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 2",
     width: 2560,
     height: 1920,
@@ -650,7 +642,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-791cc1d8e7be9e61",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.45.56.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-003.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 3",
     width: 1199,
     height: 1600,
@@ -658,7 +650,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-3c2f8f7770889679",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.45.57 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-004.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 4",
     width: 1200,
     height: 1600,
@@ -666,7 +658,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-6aa2c6ec6a5bb912",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.45.57.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-005.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 5",
     width: 1200,
     height: 1600,
@@ -674,7 +666,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-b9dba40badb0559f",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.45.58.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-006.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 6",
     width: 1600,
     height: 1200,
@@ -682,7 +674,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-34d05b5dd48d2535",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.34.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-007.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 7",
     width: 1600,
     height: 1200,
@@ -690,7 +682,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-303a76571cac901a",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.47 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-008.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 8",
     width: 1600,
     height: 1199,
@@ -698,7 +690,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-c90231bb5872e849",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.47.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-009.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 9",
     width: 1600,
     height: 1199,
@@ -706,7 +698,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-856f2273471b4014",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.48 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-010.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 10",
     width: 1600,
     height: 1200,
@@ -714,7 +706,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-be251b9b994302d0",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.48 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-011.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 11",
     width: 1600,
     height: 1200,
@@ -722,7 +714,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-58ca70ca44a941e0",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.48.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-012.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 12",
     width: 1600,
     height: 1199,
@@ -730,7 +722,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-1c7d7187d753e9ef",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.49 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-013.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 13",
     width: 1600,
     height: 1199,
@@ -738,7 +730,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-175cfddc65651e5f",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.49.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-014.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 14",
     width: 1600,
     height: 1199,
@@ -746,7 +738,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-87b9a4aa4365462b",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.50 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-015.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 15",
     width: 1199,
     height: 1600,
@@ -754,7 +746,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-1f72e625f503519d",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.50 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-016.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 16",
     width: 1199,
     height: 1600,
@@ -762,7 +754,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-fe229a23271f2040",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.50 (3).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-017.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 17",
     width: 1600,
     height: 1199,
@@ -770,7 +762,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-e2b667b828cc0e22",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.50.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-018.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 18",
     width: 1600,
     height: 1199,
@@ -778,7 +770,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-23e5733546b01a1e",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.51 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-019.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 19",
     width: 1600,
     height: 1200,
@@ -786,7 +778,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-436778646d4dedb3",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.51 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-020.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 20",
     width: 1199,
     height: 1600,
@@ -794,7 +786,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-9017450f31e37267",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.51.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-021.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 21",
     width: 1200,
     height: 1600,
@@ -802,7 +794,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-5a0b16abc888fdac",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.52 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-022.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 22",
     width: 1200,
     height: 1600,
@@ -810,7 +802,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-d8b83eaf648eadc2",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.52 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-023.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 23",
     width: 1200,
     height: 1600,
@@ -818,7 +810,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-9e498c7fea5a330a",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.52.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-024.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 24",
     width: 1600,
     height: 1200,
@@ -826,7 +818,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-5d2811f516444529",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.53 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-025.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 25",
     width: 1199,
     height: 1600,
@@ -834,7 +826,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-315f442dd5fed81f",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.53 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-026.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 26",
     width: 1199,
     height: 1600,
@@ -842,7 +834,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-3b87a457c0286620",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.53 (3).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-027.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 27",
     width: 1199,
     height: 1600,
@@ -850,7 +842,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-967b62f0c94b5534",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.53.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-028.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 28",
     width: 1199,
     height: 1600,
@@ -858,7 +850,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-af535d603ee19591",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.54 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-029.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 29",
     width: 1200,
     height: 1600,
@@ -866,7 +858,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-63f3379ccd054c47",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.54.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-030.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 30",
     width: 1600,
     height: 1199,
@@ -874,7 +866,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-fd68b7c18c154fa6",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.19 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-031.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 31",
     width: 960,
     height: 1280,
@@ -882,7 +874,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-4bb36e78ab0f4b72",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.19 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-032.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 32",
     width: 1280,
     height: 960,
@@ -890,7 +882,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-bfcc0ce5416046f8",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.19.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-033.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 33",
     width: 960,
     height: 1280,
@@ -898,7 +890,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7242ad5410b7e086",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.20 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-034.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 34",
     width: 1280,
     height: 960,
@@ -906,7 +898,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-ae8abc68efc8ddc4",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.20 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-035.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 35",
     width: 960,
     height: 1280,
@@ -914,7 +906,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-475cac311613d6c8",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.20 (3).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-036.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 36",
     width: 1280,
     height: 960,
@@ -922,7 +914,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-ac5a8d41839ec66a",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.20.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-037.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 37",
     width: 1280,
     height: 960,
@@ -930,7 +922,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-dff2d03c7974ad33",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.21 (1).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-038.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 38",
     width: 1280,
     height: 960,
@@ -938,7 +930,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-f82ee0280ce00ae8",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.21 (2).jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-039.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 39",
     width: 1280,
     height: 960,
@@ -946,7 +938,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-d74f5543828dc84f",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.21.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-040.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025 : photographie 40",
     width: 1280,
     height: 960,
@@ -954,7 +946,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-alias-507f511b1cf64751",
-    src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.22.jpeg",
+    src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-041.jpeg",
     alt: "Les sages face aux jeunes — décembre 2025",
     width: 1200,
     height: 1600,
@@ -1062,7 +1054,6 @@ export const octoberGroups = {
       "october-87db5554bfaa68f7",
       "october-4faa6fcf044aa627",
       "october-195ad7635b0bf681",
-      "october-5f291a49addab5bc",
     ],
     videos: [],
   },
@@ -1111,43 +1102,43 @@ export const octoberGroups = {
     ],
     videos: [
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.45.54.mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-001.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 1",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.33.mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-002.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 2",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.47.mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-003.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 3",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.49 (1).mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-004.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 4",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.46.49.mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-005.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 5",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.47.22 (1).mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-006.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 6",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.47.22.mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-007.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 7",
       },
       {
-        src: "/media/match de sages contre les jeunes decembre 2025/WhatsApp Video 2026-10-02 at 11.47.23.mp4",
+        src: "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-video-originale-008.mp4",
         title: "Les sages face aux jeunes — décembre 2025 — séquence 8",
       },
     ],
   },
 };
 export const octoberDuplicateSources: Record<string, string> = {
-  "/media/activities/2024/tournament/%5BP%5D%20%F0%9F%94%B4%E2%9A%BD%EF%B8%8F%20Umugwi%20w%26%23039%3Bumupira%20w%26%23039%3Bamaguru...%20-%20Magazine%20Jimbere.jpg":
-    "/media/activities/2024/tournament/490737380_1129641715873155_7862206936168722311_n.jpg",
-  "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.47.22.jpeg":
-    "/media/match de sages contre les jeunes decembre 2025/WhatsApp Image 2026-10-02 at 11.46.52 (2).jpeg",
+  "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-001.jpg":
+    "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-010.jpg",
+  "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-041.jpeg":
+    "/media/activities/2025/match de sages contre les jeunes decembre 2025/2025-sages-jeunes-photo-023.jpeg",
 };

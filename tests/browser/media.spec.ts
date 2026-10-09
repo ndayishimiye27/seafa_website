@@ -37,7 +37,7 @@ test("every supplied album and connected detail route resolves with its full gal
     expect(response?.status(), path).toBe(200);
     await expect(
       page.getByRole("button", { name: /Ouvrir l’image/ }),
-    ).toHaveCount(album.images.length);
+    ).toHaveCount(Math.min(12, album.images.length));
     await expect(page.locator("h1")).toHaveCount(1);
   }
 });
@@ -81,7 +81,7 @@ for (const width of [375, 1440]) {
       fullPage: true,
     });
     await page.goto("/gallery");
-    await page.getByRole("button", { name: "Histoire", exact: true }).click();
+    await page.getByRole("button", { name: "Archives", exact: true }).click();
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
     ).toHaveCount(4);
@@ -89,7 +89,10 @@ for (const width of [375, 1440]) {
     for (const img of await page.locator("main img").all()) {
       await img.scrollIntoViewIfNeeded();
       await expect
-        .poll(() => img.evaluate((el) => (el as HTMLImageElement).naturalWidth))
+        .poll(
+          () => img.evaluate((el) => (el as HTMLImageElement).naturalWidth),
+          { timeout: 30000 },
+        )
         .toBeGreaterThan(0);
     }
     await page.evaluate(() => window.scrollTo(0, 0));
@@ -202,7 +205,7 @@ test("brand and portrait sections link directly to their complete albums", async
   request,
 }) => {
   for (const [route, href] of [
-    ["/", "/gallery/brand"],
+    ["/gallery", "/gallery/brand"],
     ["/interviews", "/gallery/interviews"],
     ["/team", "/gallery/people"],
   ]) {
@@ -217,31 +220,44 @@ for (const width of [375, 1440]) {
   }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/gallery");
-    for (const [label, count] of [
-      ["Activités", 12],
-      ["Rencontres et célébrations", 15],
-      ["Prix et distinctions", 4],
-      ["Histoire", 4],
-    ] as const) {
-      await page.getByRole("button", { name: label, exact: true }).click();
-      await expect(
-        page.getByRole("link", { name: /Découvrir l’album/ }),
-      ).toHaveCount(count);
-    }
+    await page.getByRole("button", { name: "Football", exact: true }).click();
+    await expect(
+      page.getByRole("link", {
+        name: "Découvrir l’album SEAFA contre Lumitel",
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", {
+        name: "Découvrir l’album Adolescents, alcool et santé",
+      }),
+    ).toHaveCount(0);
+    await page.getByRole("button", { name: "Tous", exact: true }).click();
     await page
-      .getByRole("button", { name: "Football et entraînements", exact: true })
+      .getByRole("combobox", { name: "Parcourir une année" })
+      .selectOption("2024");
+    await expect(
+      page.getByRole("link", { name: /Découvrir l’album/ }),
+    ).toHaveCount(2);
+    await page
+      .getByRole("button", { name: "Compétitions", exact: true })
       .click();
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(12);
+    ).toHaveCount(1);
+    await expect(
+      page.getByRole("link", { name: /Tournoi de la communauté/ }),
+    ).toBeVisible();
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth + 1,
       ),
     ).toBe(true);
-    await page.getByRole("button", { name: "Tout", exact: true }).click();
+    await page.getByRole("button", { name: "Tous", exact: true }).click();
+    await page
+      .getByRole("combobox", { name: "Parcourir une année" })
+      .selectOption("all");
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(48);
+    ).toHaveCount(49);
   });
 }

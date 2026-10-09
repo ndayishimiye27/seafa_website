@@ -40,8 +40,7 @@ export default function PrivacyPage() {
           <p>
             Les candidatures et propositions de match préparent un message dans
             votre navigateur, sans l’enregistrer sur le serveur du site. Vous
-            choisissez WhatsApp (+257 79 690 359) ou l’e-mail
-            (jambojeanjimmy52@gmail.com). À l’ouverture, le brouillon est
+            choisissez WhatsApp ou l’e-mail. À l’ouverture, le brouillon est
             transmis à l’application choisie selon ses propres règles de
             confidentialité. Vous devez encore appuyer sur Envoyer. Le site ne
             confirme ni l’envoi ni la réception. Les réponses ne sont placées ni
@@ -125,9 +124,8 @@ export default function PrivacyPage() {
           <h3>Nous faire part d’une demande</h3>
           <p>
             Pour consulter, corriger ou demander la suppression des informations
-            que vous avez confiées, adressez-vous à SEAFA. Les coordonnées de
-            réception sont jambojeanjimmy52@gmail.com et le numéro WhatsApp +257
-            79 690 359.
+            que vous avez confiées, adressez-vous à SEAFA. Utilisez la page de
+            contact pour transmettre votre demande.
           </p>
           <TextLink href="/contact">Consulter la page contact</TextLink>
           <h3>Évolution de cette page</h3>
@@ -140,5 +138,3 @@ export default function PrivacyPage() {
     </main>
   );
 }
-
-export const dynamic = "force-dynamic";

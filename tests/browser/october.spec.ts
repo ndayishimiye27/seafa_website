@@ -2,12 +2,14 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { octoberMedia } from "../../src/data/october-media";
 
-test("supplied filenames with hash characters load through image optimization", async ({
+test("renamed archive photographs load through image optimization", async ({
   request,
 }) => {
-  for (const media of octoberMedia.filter((media) =>
-    media.src.includes("%23"),
-  )) {
+  const selected = octoberMedia
+    .filter((media) => media.src.includes("2024-tournoi-saint-esprit"))
+    .slice(0, 6);
+  expect(selected.length).toBe(6);
+  for (const media of selected) {
     const query = new URLSearchParams({ url: media.src, w: "640", q: "75" });
     const response = await request.get(`/_next/image?${query}`);
     expect(response.status(), media.src).toBe(200);
@@ -120,18 +122,19 @@ for (const width of [375, 390, 430, 768, 1024, 1280, 1440]) {
       await selector
         .getByRole("button", { name: new RegExp(`^${code} —`) })
         .click();
-      await expect(selector.locator(`input[value="${code}"]`)).toBeChecked();
+      await expect(
+        selector.getByRole("button", { name: new RegExp(`^${code} —`) }),
+      ).toHaveAttribute("aria-pressed", "true");
     }
-    await expect(selector.locator("input:checked")).toHaveCount(5);
-    await expect(selector.locator('input[value="RW"]')).toBeDisabled();
+    await expect(selector.locator(".position-chip")).toHaveCount(5);
     await expect(
       selector.getByRole("button", { name: /^RW —/ }),
     ).toBeDisabled();
-    await selector.locator('input[value="CB"]').uncheck();
+    await selector.getByRole("button", { name: /^Retirer CB/ }).click();
     await expect(
       selector.getByRole("button", { name: /^CB —/ }),
     ).toHaveAttribute("aria-pressed", "false");
-    await selector.locator('input[value="RW"]').check();
+    await selector.getByRole("button", { name: /^RW —/ }).click();
     await expect(
       selector.getByRole("button", { name: /^RW —/ }),
     ).toHaveAttribute("aria-pressed", "true");

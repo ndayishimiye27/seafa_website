@@ -2,7 +2,7 @@ import type { MediaAsset } from "@/types/content";
 export const addedMedia: MediaAsset[] = [
   {
     id: "photo-7a91d4b80dc76510",
-    src: "/media/anniversaire 2016/111.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-001.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 1",
     width: 1280,
     height: 853,
@@ -10,7 +10,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-77ca82cd78d1b6b4",
-    src: "/media/anniversaire 2016/WhatsApp Image 2026-09-18 at 19.18.21.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-009.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 2",
     width: 1080,
     height: 720,
@@ -18,7 +18,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-8e8545daa1f8e58f",
-    src: "/media/anniversaire 2016/WhatsApp Image 2026-09-18 at 19.18.22.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-010.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 3",
     width: 1080,
     height: 720,
@@ -26,7 +26,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-757994b1c6a44d8b",
-    src: "/media/anniversaire 2016/WhatsApp Image 2026-09-18 at 19.22.52.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-011.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 4",
     width: 1080,
     height: 720,
@@ -34,7 +34,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-52381f4c8b46683a",
-    src: "/media/anniversaire 2016/WhatsApp Image 2026-09-18 at 19.27.59.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-012.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 5",
     width: 1024,
     height: 683,
@@ -42,7 +42,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f5bb0d6bdb7e4232",
-    src: "/media/anniversaire 2016/WhatsApp Image 2026-09-18 at 19.28.00.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-013.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 6",
     width: 1000,
     height: 750,
@@ -50,7 +50,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-883a83065df46aa9",
-    src: "/media/anniversaire 2016/adfad.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-003.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 7",
     width: 1080,
     height: 720,
@@ -58,7 +58,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-6c284d1a1dbee738",
-    src: "/media/anniversaire 2016/dsdf.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-004.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 8",
     width: 1024,
     height: 683,
@@ -66,7 +66,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1711214c262c7132",
-    src: "/media/anniversaire 2016/sdds.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-005.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 9",
     width: 1080,
     height: 720,
@@ -74,7 +74,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-03285a7eceda2bd5",
-    src: "/media/anniversaire 2016/sdfsd.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-006.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 10",
     width: 2048,
     height: 1365,
@@ -82,7 +82,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-81a9488f2666049c",
-    src: "/media/anniversaire 2016/sdfsfsd.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 11",
     width: 1080,
     height: 720,
@@ -90,7 +90,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-fd785df54e1a9505",
-    src: "/media/anniversaire 2016/sfsfsf.jpeg",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 12",
     width: 1080,
     height: 720,
@@ -178,7 +178,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-750e64c245450f66",
-    src: "/media/kuramukanya chez les badogomba/0eb87994-0fba-4868-a8a4-4e01498535ee.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-001.jpg",
     alt: "Visite chez les Badogomba : photographie 1",
     width: 1032,
     height: 774,
@@ -186,7 +186,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-8f2ccb3857674f83",
-    src: "/media/kuramukanya chez les badogomba/162755e0-77b8-4b9d-a760-b90b3f6cf59b.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-002.jpg",
     alt: "Visite chez les Badogomba : photographie 2",
     width: 1032,
     height: 774,
@@ -194,7 +194,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-8b25235b844f02ac",
-    src: "/media/kuramukanya chez les badogomba/17fb5bd2-15a7-4d27-80e4-0a7bd332d6c7.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-003.jpg",
     alt: "Visite chez les Badogomba : photographie 3",
     width: 1032,
     height: 774,
@@ -202,7 +202,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-72ba89754f4fb174",
-    src: "/media/kuramukanya chez les badogomba/263584dd-3ebe-4582-8dc3-2bdc451dfe5c.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-004.jpg",
     alt: "Visite chez les Badogomba : photographie 4",
     width: 774,
     height: 1032,
@@ -210,7 +210,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f4ac1e5aa54121a3",
-    src: "/media/kuramukanya chez les badogomba/288cd435-9e8f-4368-8382-e220f1cd7412.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-005.jpg",
     alt: "Visite chez les Badogomba : photographie 5",
     width: 1032,
     height: 774,
@@ -218,7 +218,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1b0b73259af07fa5",
-    src: "/media/kuramukanya chez les badogomba/2aff7317-972c-440c-a3a1-b1badd0fd957.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-006.jpg",
     alt: "Visite chez les Badogomba : photographie 6",
     width: 774,
     height: 1032,
@@ -226,7 +226,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a98082b10340c203",
-    src: "/media/kuramukanya chez les badogomba/2bec3d13-3563-4f9a-ba04-c34615f97aa5.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-007.jpg",
     alt: "Visite chez les Badogomba : photographie 7",
     width: 1032,
     height: 774,
@@ -234,7 +234,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f24461e0775d428f",
-    src: "/media/kuramukanya chez les badogomba/308622a2-18bd-465c-9902-8b8aa748e138.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-008.jpg",
     alt: "Visite chez les Badogomba : photographie 8",
     width: 774,
     height: 1032,
@@ -242,7 +242,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f7aedc057c9a5895",
-    src: "/media/kuramukanya chez les badogomba/3142d987-1706-46ac-b4b8-f11bd945d8f4.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-009.jpg",
     alt: "Visite chez les Badogomba : photographie 9",
     width: 1032,
     height: 774,
@@ -250,7 +250,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-32062c553ce4d43c",
-    src: "/media/kuramukanya chez les badogomba/31b9a731-2e5b-4f31-b2db-2ac0a983575d.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-010.jpg",
     alt: "Visite chez les Badogomba : photographie 10",
     width: 1032,
     height: 774,
@@ -258,7 +258,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-c06761a688498627",
-    src: "/media/kuramukanya chez les badogomba/32c943ad-2f8d-4b80-a5d7-2ecd3f0a6220.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-011.jpg",
     alt: "Visite chez les Badogomba : photographie 11",
     width: 1032,
     height: 774,
@@ -266,7 +266,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-e753eb0bd017d56a",
-    src: "/media/kuramukanya chez les badogomba/357211f8-9d59-4b17-8f32-03cb50a363cd.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-012.jpg",
     alt: "Visite chez les Badogomba : photographie 12",
     width: 1032,
     height: 774,
@@ -274,7 +274,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-84c00708b3a84183",
-    src: "/media/kuramukanya chez les badogomba/358114d3-d023-463c-893d-fe66b923b131.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-013.jpg",
     alt: "Visite chez les Badogomba : photographie 13",
     width: 1032,
     height: 774,
@@ -282,7 +282,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f28cd275734af0ef",
-    src: "/media/kuramukanya chez les badogomba/382889ce-9a7d-4c82-95a1-4a4968f22e6c.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-014.jpg",
     alt: "Visite chez les Badogomba : photographie 14",
     width: 1032,
     height: 774,
@@ -290,7 +290,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-9e6d11b9e3aa4cc7",
-    src: "/media/kuramukanya chez les badogomba/3b0c4a65-62f9-4106-8b09-d98d5a1fa923.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-015.jpg",
     alt: "Visite chez les Badogomba : photographie 15",
     width: 1032,
     height: 774,
@@ -298,7 +298,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-15ee59e41ec84d32",
-    src: "/media/kuramukanya chez les badogomba/3fd3c63e-48ab-4779-851a-00c7266b4484.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-016.jpg",
     alt: "Visite chez les Badogomba : photographie 16",
     width: 1032,
     height: 774,
@@ -306,7 +306,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-61c71ba56a196282",
-    src: "/media/kuramukanya chez les badogomba/4707962e-b0bd-45d6-a4b5-67e34bfb71c7.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-017.jpg",
     alt: "Visite chez les Badogomba : photographie 17",
     width: 1032,
     height: 774,
@@ -314,7 +314,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f8e1b0482577316b",
-    src: "/media/kuramukanya chez les badogomba/47c054a6-ed44-4dcc-9ec3-9a1f2268ef55.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-018.jpg",
     alt: "Visite chez les Badogomba : photographie 18",
     width: 774,
     height: 1032,
@@ -322,7 +322,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-d7d066698667a42e",
-    src: "/media/kuramukanya chez les badogomba/4c2b25ae-6743-41f5-a1f2-2268f779e40d.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-019.jpg",
     alt: "Visite chez les Badogomba : photographie 19",
     width: 1032,
     height: 774,
@@ -330,7 +330,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-d5fa0ba55f19b30e",
-    src: "/media/kuramukanya chez les badogomba/4ca06e55-dcd1-443c-b094-824420887af6.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-020.jpg",
     alt: "Visite chez les Badogomba : photographie 20",
     width: 774,
     height: 1032,
@@ -338,7 +338,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a14ae7c502d84369",
-    src: "/media/kuramukanya chez les badogomba/511c917d-5d4c-43f1-a954-23db339e816c.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-021.jpg",
     alt: "Visite chez les Badogomba : photographie 21",
     width: 1032,
     height: 774,
@@ -346,7 +346,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-35f25a88fb3f9a7f",
-    src: "/media/kuramukanya chez les badogomba/668e3fa3-752b-4a5f-bfed-9de3861cc15d.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-022.jpg",
     alt: "Visite chez les Badogomba : photographie 22",
     width: 1032,
     height: 774,
@@ -354,7 +354,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-3b1bb4d91d3094cb",
-    src: "/media/kuramukanya chez les badogomba/6c58da5b-6c45-48d3-8ef8-b381de9b5cab.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-023.jpg",
     alt: "Visite chez les Badogomba : photographie 23",
     width: 1032,
     height: 774,
@@ -362,7 +362,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-98395e4c20f92a34",
-    src: "/media/kuramukanya chez les badogomba/6dff4690-6a0d-4fd6-9d58-756efd8b249d.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-024.jpg",
     alt: "Visite chez les Badogomba : photographie 24",
     width: 1032,
     height: 774,
@@ -370,7 +370,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-0bb52f7428a5343a",
-    src: "/media/kuramukanya chez les badogomba/6f0727ae-dfbf-4d84-b8b5-d58967539246.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-025.jpg",
     alt: "Visite chez les Badogomba : photographie 25",
     width: 1032,
     height: 774,
@@ -378,7 +378,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-07103c37c0dcc27f",
-    src: "/media/kuramukanya chez les badogomba/6f2ad2a3-336c-4645-b8c2-a15d33dc4e6b.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-026.jpg",
     alt: "Visite chez les Badogomba : photographie 26",
     width: 1032,
     height: 774,
@@ -386,7 +386,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-229ed9cf03ef0f1a",
-    src: "/media/kuramukanya chez les badogomba/7026eded-9fed-4adf-afbc-d5fa49bf65e8.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-027.jpg",
     alt: "Visite chez les Badogomba : photographie 27",
     width: 774,
     height: 1032,
@@ -394,7 +394,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-57bb182f042c9e50",
-    src: "/media/kuramukanya chez les badogomba/7e13d7ed-6617-4914-bace-ba91aa87fa5b.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-028.jpg",
     alt: "Visite chez les Badogomba : photographie 28",
     width: 1032,
     height: 774,
@@ -402,7 +402,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-064a02128ca70ab5",
-    src: "/media/kuramukanya chez les badogomba/7eafa667-9e2e-458c-8a0b-d5d069321de1.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-029.jpg",
     alt: "Visite chez les Badogomba : photographie 29",
     width: 774,
     height: 1032,
@@ -410,7 +410,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-9311a5861a2e737b",
-    src: "/media/kuramukanya chez les badogomba/9015e9bd-d774-47a3-9f77-1e164403cec8.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-030.jpg",
     alt: "Visite chez les Badogomba : photographie 30",
     width: 1032,
     height: 774,
@@ -418,7 +418,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a2a95700cd49da98",
-    src: "/media/kuramukanya chez les badogomba/922f9ed7-e09c-40d2-bd3f-c1de6c7a8b10.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-031.jpg",
     alt: "Visite chez les Badogomba : photographie 31",
     width: 1032,
     height: 774,
@@ -426,7 +426,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-6ad5d370a61b4220",
-    src: "/media/kuramukanya chez les badogomba/99425009-5f24-4ae4-a8ba-2f107f949a75.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-032.jpg",
     alt: "Visite chez les Badogomba : photographie 32",
     width: 1032,
     height: 774,
@@ -434,7 +434,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-b2e8bf2b5fe7f086",
-    src: "/media/kuramukanya chez les badogomba/99de074f-43d7-4cf2-b97b-8fded38b00c7.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-033.jpg",
     alt: "Visite chez les Badogomba : photographie 33",
     width: 1032,
     height: 774,
@@ -442,7 +442,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-81f40d6f644988e7",
-    src: "/media/kuramukanya chez les badogomba/9b3800f4-48a6-4a7d-b7d8-266591c1e790.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-034.jpg",
     alt: "Visite chez les Badogomba : photographie 34",
     width: 774,
     height: 1032,
@@ -450,7 +450,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-aaa4563f7cd4b348",
-    src: "/media/kuramukanya chez les badogomba/9bef0caa-321e-4454-80b1-e72eaa94b7f5.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-035.jpg",
     alt: "Visite chez les Badogomba : photographie 35",
     width: 1032,
     height: 774,
@@ -458,7 +458,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-b2ce9c1eb4ebae69",
-    src: "/media/kuramukanya chez les badogomba/a192e86e-f78c-4cf4-a500-4fe2e5e462d5.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-036.jpg",
     alt: "Visite chez les Badogomba : photographie 36",
     width: 1032,
     height: 774,
@@ -466,7 +466,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-9392cb29d58a6538",
-    src: "/media/kuramukanya chez les badogomba/ad833d09-fef7-4a4d-a911-0794a6e06b67.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-037.jpg",
     alt: "Visite chez les Badogomba : photographie 37",
     width: 1032,
     height: 774,
@@ -474,7 +474,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-e5eacd0747c053c7",
-    src: "/media/kuramukanya chez les badogomba/b08f2bad-cea4-4d20-a060-43bc5da4c6d0.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-038.jpg",
     alt: "Visite chez les Badogomba : photographie 38",
     width: 774,
     height: 1032,
@@ -482,7 +482,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-bdf9ba88654a266d",
-    src: "/media/kuramukanya chez les badogomba/b0aa223c-405e-4c5a-b644-a071a4c9384b.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-039.jpg",
     alt: "Visite chez les Badogomba : photographie 39",
     width: 774,
     height: 1032,
@@ -490,7 +490,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-049634b3525db342",
-    src: "/media/kuramukanya chez les badogomba/b258be01-8826-428e-b11b-10ba4a1fe580.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-040.jpg",
     alt: "Visite chez les Badogomba : photographie 40",
     width: 1032,
     height: 774,
@@ -498,7 +498,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-6c45436fac43c2ef",
-    src: "/media/kuramukanya chez les badogomba/b36a92a7-8aee-4199-927e-6fc234c594ee.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-041.jpg",
     alt: "Visite chez les Badogomba : photographie 41",
     width: 1032,
     height: 774,
@@ -506,7 +506,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1ec4761607b3d356",
-    src: "/media/kuramukanya chez les badogomba/b49f8e4f-2ef5-4c99-8014-b563c2ccbc21.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-042.jpg",
     alt: "Visite chez les Badogomba : photographie 42",
     width: 1032,
     height: 774,
@@ -514,7 +514,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-6e7fef30b09fbd28",
-    src: "/media/kuramukanya chez les badogomba/bb62034d-bace-43f7-bc9b-f6c4aad1a79f.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-043.jpg",
     alt: "Visite chez les Badogomba : photographie 43",
     width: 1032,
     height: 774,
@@ -522,7 +522,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-b4d5d4f968af1c24",
-    src: "/media/kuramukanya chez les badogomba/c2746ded-b821-448d-a3ec-4f570634fb68.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-044.jpg",
     alt: "Visite chez les Badogomba : photographie 44",
     width: 774,
     height: 1032,
@@ -530,7 +530,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-aa3d563fcdd849a4",
-    src: "/media/kuramukanya chez les badogomba/c342f7cd-d229-4c92-9d58-f440e67d1952.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-045.jpg",
     alt: "Visite chez les Badogomba : photographie 45",
     width: 1032,
     height: 774,
@@ -538,7 +538,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-338f9d67ffa4a2a4",
-    src: "/media/kuramukanya chez les badogomba/c5ee94c2-8fc9-4981-a964-24dad04b2827.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-046.jpg",
     alt: "Visite chez les Badogomba : photographie 46",
     width: 1032,
     height: 774,
@@ -546,7 +546,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-2930a92098efb208",
-    src: "/media/kuramukanya chez les badogomba/c982bf39-cd63-40ec-9a79-69201354f380.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-047.jpg",
     alt: "Visite chez les Badogomba : photographie 47",
     width: 1032,
     height: 774,
@@ -554,7 +554,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-7785d4fad4c4b200",
-    src: "/media/kuramukanya chez les badogomba/ceb2ed1f-c8a0-49d1-8ed9-90d6010c4a73.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-048.jpg",
     alt: "Visite chez les Badogomba : photographie 48",
     width: 774,
     height: 1032,
@@ -562,7 +562,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-4d6de56d8a016416",
-    src: "/media/kuramukanya chez les badogomba/d1587bb6-7f51-4ea6-b793-15608912a5f2.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-049.jpg",
     alt: "Visite chez les Badogomba : photographie 49",
     width: 774,
     height: 1032,
@@ -570,7 +570,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-b7dab1f6bc472c67",
-    src: "/media/kuramukanya chez les badogomba/d16955d5-f6cf-4a28-99e4-2cfe1d343441.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-050.jpg",
     alt: "Visite chez les Badogomba : photographie 50",
     width: 1032,
     height: 774,
@@ -578,7 +578,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-8ac1e71b10295ec6",
-    src: "/media/kuramukanya chez les badogomba/d21a921e-54df-49b7-922b-34bd7af33aa8.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-051.jpg",
     alt: "Visite chez les Badogomba : photographie 51",
     width: 774,
     height: 1032,
@@ -586,7 +586,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-3f14c098e9deb8e8",
-    src: "/media/kuramukanya chez les badogomba/d3f0d593-4d96-4669-8f6b-c32781ba87d4.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-052.jpg",
     alt: "Visite chez les Badogomba : photographie 52",
     width: 1032,
     height: 774,
@@ -594,7 +594,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-6c4ad44d88dfd56c",
-    src: "/media/kuramukanya chez les badogomba/d5af2d69-ab1e-43cd-aab6-e1b6504a2963.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-053.jpg",
     alt: "Visite chez les Badogomba : photographie 53",
     width: 1080,
     height: 810,
@@ -602,7 +602,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-49bf58e66dfec9e4",
-    src: "/media/kuramukanya chez les badogomba/d7994a02-c9f6-41b2-8f39-349cc6acd47e.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-054.jpg",
     alt: "Visite chez les Badogomba : photographie 54",
     width: 1032,
     height: 774,
@@ -610,7 +610,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-d1be95a5cb092136",
-    src: "/media/kuramukanya chez les badogomba/dbdc4596-4e94-4d2c-a7b2-96654d64603e.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-055.jpg",
     alt: "Visite chez les Badogomba : photographie 55",
     width: 774,
     height: 1032,
@@ -618,7 +618,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-5a1f44fb9edc3e15",
-    src: "/media/kuramukanya chez les badogomba/dcbcb1d6-66fb-43cd-957d-561c94851348.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-056.jpg",
     alt: "Visite chez les Badogomba : photographie 56",
     width: 1032,
     height: 774,
@@ -626,7 +626,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-7fd2aae31983dbd9",
-    src: "/media/kuramukanya chez les badogomba/e7c78cee-3768-4cec-b30e-57e9e2045bb7.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-057.jpg",
     alt: "Visite chez les Badogomba : photographie 57",
     width: 774,
     height: 1032,
@@ -634,7 +634,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-021fd1d0ef612d4f",
-    src: "/media/kuramukanya chez les badogomba/e9e086b2-f862-4ee2-b927-5fd461cc41a5.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-058.jpg",
     alt: "Visite chez les Badogomba : photographie 58",
     width: 774,
     height: 1032,
@@ -642,7 +642,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-0ad39ccaaea34143",
-    src: "/media/kuramukanya chez les badogomba/eb008b6a-4599-40c3-a03d-93c54031fd56.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-059.jpg",
     alt: "Visite chez les Badogomba : photographie 59",
     width: 1032,
     height: 774,
@@ -650,7 +650,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-3b12b46d05e6d741",
-    src: "/media/kuramukanya chez les badogomba/f2d0b834-989b-43dd-a467-956fbc02b9ee.jpg",
+    src: "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-060.jpg",
     alt: "Visite chez les Badogomba : photographie 60",
     width: 774,
     height: 1032,
@@ -658,15 +658,15 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-759dab90cdb1097b",
-    src: "/media/match 2015/4509f792-7456-47bc-8c62-f8817d0d37d5.jpg",
-    alt: "Match — 2015 : photographie 1",
+    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-002.jpg",
+    alt: "Anniversaire SEAFA — 2016 : photographie d’archive",
     width: 720,
     height: 1080,
-    caption: "Match — 2015",
+    caption: "Anniversaire SEAFA — 2016",
   },
   {
     id: "photo-523cd585576b1b3d",
-    src: "/media/match contre songa/042b9a54-4499-4b24-8b31-b73a80ecc340.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-001.jpg",
     alt: "Match contre Songa : photographie 1",
     width: 1080,
     height: 720,
@@ -674,7 +674,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-b1e756e7bae285d1",
-    src: "/media/match contre songa/0b2f524a-d907-4a35-8884-792e43441812.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-002.jpg",
     alt: "Match contre Songa : photographie 2",
     width: 1080,
     height: 648,
@@ -682,7 +682,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a40b8ed37d2064e1",
-    src: "/media/match contre songa/119c90f6-ff3b-400c-9434-4251aef86ef8.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-003.jpg",
     alt: "Match contre Songa : photographie 3",
     width: 1080,
     height: 720,
@@ -690,7 +690,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-5d341c70c1932a8e",
-    src: "/media/match contre songa/1a05ccef-8d03-49d1-993e-03551b9ea7f5.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-004.jpg",
     alt: "Match contre Songa : photographie 4",
     width: 1080,
     height: 648,
@@ -698,7 +698,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-7af0995a7648cdf6",
-    src: "/media/match contre songa/213eeb84-d557-436e-83a6-f78a078dbfae.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-005.jpg",
     alt: "Match contre Songa : photographie 5",
     width: 1080,
     height: 720,
@@ -706,7 +706,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-ccb6b950d4f525d9",
-    src: "/media/match contre songa/217c56f2-d2ab-4a4a-b3a2-2a59a4b03649.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-006.jpg",
     alt: "Match contre Songa : photographie 6",
     width: 1080,
     height: 648,
@@ -714,7 +714,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-9f969c4bb1f69594",
-    src: "/media/match contre songa/297d327f-b674-4552-8449-0184888680d7.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-007.jpg",
     alt: "Match contre Songa : photographie 7",
     width: 1080,
     height: 720,
@@ -722,7 +722,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-8d28768aee881adf",
-    src: "/media/match contre songa/3c139cd7-e63a-4266-ba50-38395d742e13.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-008.jpg",
     alt: "Match contre Songa : photographie 8",
     width: 1080,
     height: 720,
@@ -730,7 +730,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f1bf371a1f66ea21",
-    src: "/media/match contre songa/3ebf9223-efdd-4086-b1d1-58ba6d766a7d.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-009.jpg",
     alt: "Match contre Songa : photographie 9",
     width: 1080,
     height: 720,
@@ -738,7 +738,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1d596df204abac17",
-    src: "/media/match contre songa/45b7e1ef-2484-4220-acef-289bc6d3177e.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-010.jpg",
     alt: "Match contre Songa : photographie 10",
     width: 1080,
     height: 810,
@@ -746,7 +746,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-92ada16df8f542f5",
-    src: "/media/match contre songa/4686efa0-1fbc-463c-9917-fa148dd618d1.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-011.jpg",
     alt: "Match contre Songa : photographie 11",
     width: 1080,
     height: 648,
@@ -754,7 +754,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-e126950f5aea246b",
-    src: "/media/match contre songa/5c5661c5-02b5-4965-a614-d96fe9a3a0db.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-012.jpg",
     alt: "Match contre Songa : photographie 12",
     width: 1080,
     height: 720,
@@ -762,7 +762,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1961c120e002a164",
-    src: "/media/match contre songa/672c4e4c-5733-4225-8292-e8597c58f83c.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-013.jpg",
     alt: "Match contre Songa : photographie 13",
     width: 1080,
     height: 720,
@@ -770,7 +770,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a361f60937ec2362",
-    src: "/media/match contre songa/6d9d317f-bb1c-4745-ab10-ada425fc1316.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-014.jpg",
     alt: "Match contre Songa : photographie 14",
     width: 1080,
     height: 720,
@@ -778,7 +778,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a44eeb260456e353",
-    src: "/media/match contre songa/6da278e7-3bd3-4a08-934b-0ec5e37b2ae3.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-015.jpg",
     alt: "Match contre Songa : photographie 15",
     width: 1080,
     height: 720,
@@ -786,7 +786,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-b863310b1e80dcae",
-    src: "/media/match contre songa/70e81a12-5373-4158-afa8-9b4565bebf72.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-016.jpg",
     alt: "Match contre Songa : photographie 16",
     width: 1080,
     height: 720,
@@ -794,7 +794,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-99a5d69fc3fbef2a",
-    src: "/media/match contre songa/76b4101a-ff25-4889-b3ee-5fd2cd50bf77.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-017.jpg",
     alt: "Match contre Songa : photographie 17",
     width: 1080,
     height: 720,
@@ -802,7 +802,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-eeb2a71583e26ac8",
-    src: "/media/match contre songa/7bd72fe6-29fe-43d7-b4e7-0e4ea06c9d16.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-018.jpg",
     alt: "Match contre Songa : photographie 18",
     width: 1080,
     height: 648,
@@ -810,7 +810,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-83d03fa77919d7bf",
-    src: "/media/match contre songa/7c18f5a9-c230-480c-8a0d-10e7e361b9a5.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-019.jpg",
     alt: "Match contre Songa : photographie 19",
     width: 1080,
     height: 720,
@@ -818,7 +818,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-740dd954a1fb92a4",
-    src: "/media/match contre songa/7dee92ac-bc00-4143-b7e9-28708a5a439a.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-020.jpg",
     alt: "Match contre Songa : photographie 20",
     width: 1080,
     height: 648,
@@ -826,7 +826,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-c0a31b44b671c7d8",
-    src: "/media/match contre songa/852396a7-e637-437e-a8a9-cd51a4516ae9.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-021.jpg",
     alt: "Match contre Songa : photographie 21",
     width: 1080,
     height: 810,
@@ -834,7 +834,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-89edab238951d4e3",
-    src: "/media/match contre songa/918fc5a4-654c-4467-b497-ea1aba3ebf91.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-022.jpg",
     alt: "Match contre Songa : photographie 22",
     width: 720,
     height: 1080,
@@ -842,7 +842,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-396ae15c1aa30c25",
-    src: "/media/match contre songa/a0178fbc-901d-4730-ad2d-6a14d6447da0.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-023.jpg",
     alt: "Match contre Songa : photographie 23",
     width: 1080,
     height: 720,
@@ -850,7 +850,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-e2ca065d4bcccb8c",
-    src: "/media/match contre songa/a127de6b-a5dd-4f0e-91b7-38f7f9da6563.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-024.jpg",
     alt: "Match contre Songa : photographie 24",
     width: 1080,
     height: 720,
@@ -858,7 +858,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-d3435c90b7ad7809",
-    src: "/media/match contre songa/a73abd63-6ee3-46fd-97ba-d0f410a8a1dc.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-025.jpg",
     alt: "Match contre Songa : photographie 25",
     width: 1080,
     height: 720,
@@ -866,7 +866,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-a9e14774244d2d67",
-    src: "/media/match contre songa/ab001a93-38ce-4659-8893-3aaaacb4082f.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-026.jpg",
     alt: "Match contre Songa : photographie 26",
     width: 1080,
     height: 720,
@@ -874,7 +874,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-019c8e235b77280b",
-    src: "/media/match contre songa/abb1a0dc-4af0-4991-a2d5-9991ec28de03.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-027.jpg",
     alt: "Match contre Songa : photographie 27",
     width: 1080,
     height: 648,
@@ -882,7 +882,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1c92e36fd7cc7031",
-    src: "/media/match contre songa/adfaddf.jpeg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-028.jpeg",
     alt: "Match contre Songa : photographie 28",
     width: 1080,
     height: 720,
@@ -890,7 +890,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-4623bdf8ae576f7a",
-    src: "/media/match contre songa/afcb0f28-3ae2-4de3-b44a-87b70ddeffd0.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-029.jpg",
     alt: "Match contre Songa : photographie 29",
     width: 1080,
     height: 648,
@@ -898,7 +898,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-149720d815c2ecf4",
-    src: "/media/match contre songa/b30f52b5-050b-4974-9fb3-6158f78f57ea.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-030.jpg",
     alt: "Match contre Songa : photographie 30",
     width: 648,
     height: 1080,
@@ -906,7 +906,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-83b17b27a28f639b",
-    src: "/media/match contre songa/baa0869f-dc45-4452-9c3d-c0bb71641e2a.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-031.jpg",
     alt: "Match contre Songa : photographie 31",
     width: 1080,
     height: 720,
@@ -914,7 +914,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-4c266e499edada58",
-    src: "/media/match contre songa/c4435634-c350-4eb9-9033-651742becd84.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-032.jpg",
     alt: "Match contre Songa : photographie 32",
     width: 648,
     height: 1080,
@@ -922,7 +922,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-0cd12f314d420dca",
-    src: "/media/match contre songa/c5570909-df50-4d18-b462-d1a4d668ce38.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-033.jpg",
     alt: "Match contre Songa : photographie 33",
     width: 1080,
     height: 648,
@@ -930,7 +930,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-ee51a29114252d56",
-    src: "/media/match contre songa/c868e7df-de67-40c6-94f0-fdd7d6fa90c4.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-034.jpg",
     alt: "Match contre Songa : photographie 34",
     width: 1080,
     height: 720,
@@ -938,7 +938,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-9baf93af5a64f2c9",
-    src: "/media/match contre songa/d0e63276-5646-4136-8fdf-0ac20b3a2473.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-035.jpg",
     alt: "Match contre Songa : photographie 35",
     width: 648,
     height: 1080,
@@ -946,7 +946,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-ac5d9846a160165d",
-    src: "/media/match contre songa/d3992620-1951-4ca2-be91-9e18bcf8001e.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-036.jpg",
     alt: "Match contre Songa : photographie 36",
     width: 648,
     height: 1080,
@@ -954,7 +954,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-fe2a4455319ed6bc",
-    src: "/media/match contre songa/e427d3e3-4bcf-47a1-8a91-0d4a92b9ec3c.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-037.jpg",
     alt: "Match contre Songa : photographie 37",
     width: 720,
     height: 1080,
@@ -962,7 +962,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-0d3ab4158a18806a",
-    src: "/media/match contre songa/f4fbb1ce-b956-47b2-b104-9004f1a60a52.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-038.jpg",
     alt: "Match contre Songa : photographie 38",
     width: 1080,
     height: 720,
@@ -970,7 +970,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f14a0fa69a5a81fc",
-    src: "/media/match contre songa/f8204292-0d2a-4eba-be11-3a224044ef2c.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-039.jpg",
     alt: "Match contre Songa : photographie 39",
     width: 1080,
     height: 720,
@@ -978,7 +978,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-10a779579baa306b",
-    src: "/media/match contre songa/ff875cb6-548c-4f58-8515-eca51da38094.jpg",
+    src: "/media/activities/2018/match contre songa/2018-match-songa-photo-040.jpg",
     alt: "Match contre Songa : photographie 40",
     width: 1080,
     height: 720,

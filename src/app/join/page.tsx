@@ -136,4 +136,3 @@ export default function JoinPage() {
     </main>
   );
 }
-export const dynamic = "force-dynamic";

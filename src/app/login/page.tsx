@@ -2,7 +2,6 @@ import { PageIntro, Section, TextLink } from "@/components/ui/editorial";
 import { pageMetadata } from "@/lib/metadata";
 import { memberLoginUrl } from "@/lib/member-login";
 import { redirect } from "next/navigation";
-export const dynamic = "force-dynamic";
 
 export const metadata = pageMetadata(
   "Espace membre",

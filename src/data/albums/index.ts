@@ -3,6 +3,9 @@ import { octoberAlbums, tournamentDescription } from "@/data/october-content";
 import { octoberGroups } from "@/data/october-media";
 import type { Album } from "@/types/content";
 import { mediaAssets } from "@/data/media";
+import { reorganizedAlbums } from "@/data/media-reorganization";
+import selectedCovers from "@/data/featured-album-covers.json";
+import selectedPhotos from "@/data/featured-album-photos.json";
 import {
   albumAdditions,
   additionalAlbumPhotos,
@@ -1900,27 +1903,11 @@ const suppliedAlbums: Album[] = [
     title: "Les visages de SEAFA",
     type: "general",
     categoryLabel: "SEAFA",
-    coverMediaId: "media-people-coach-biggie",
+    coverMediaId: "presidency-photo-1",
     images: [
-      {
-        mediaId: "media-people-coach-biggie",
-        order: 1,
-      },
-      {
-        mediaId: "media-people-jules",
-        order: 2,
-      },
-      {
-        mediaId: "media-people-placide",
-        order: 3,
-      },
       {
         mediaId: "media-people-president-tony-2024",
         order: 4,
-      },
-      {
-        mediaId: "media-people-romeo",
-        order: 5,
       },
     ],
     summary: "Retrouvez les photographies de cet album : Les visages de SEAFA.",
@@ -1937,7 +1924,15 @@ export const albums: Album[] = [
   ...octoberAlbums,
   ...suppliedAlbums,
   ...albumAdditions,
+  ...reorganizedAlbums,
 ].map((album) => {
+  if (album.id === "visite-badogomba")
+    album = {
+      ...album,
+      eventDate: { value: "2020", precision: "year" },
+      summary:
+        "Une rencontre de fraternité chez les Badogomba, documentée par les archives classées en 2020.",
+    };
   if (album.id === "activities-2024-tournament") {
     album = {
       ...album,
@@ -1968,14 +1963,38 @@ export const albums: Album[] = [
     const source = mediaById.get(image.mediaId)?.src;
     if (!source || excludedPhotoSources[source] || seen.has(source))
       return false;
+    if (
+      album.id === "activities-2019-tournament" &&
+      source.startsWith("/media/activities/2018/match contre songa/")
+    )
+      return false;
+    if (album.id === "anniversaire-2026" && source.startsWith("/media/awards/"))
+      return false;
     seen.add(source);
     return true;
+  });
+  const selection =
+    selectedPhotos[album.id as keyof typeof selectedPhotos] ?? [];
+  const preferred =
+    selectedCovers[album.id as keyof typeof selectedCovers] ??
+    album.coverMediaId;
+  const rank = [preferred, ...selection];
+  images.sort((a, b) => {
+    const aRank = rank.indexOf(a.mediaId),
+      bRank = rank.indexOf(b.mediaId);
+    return (aRank < 0 ? Infinity : aRank) - (bRank < 0 ? Infinity : bRank);
   });
   return {
     ...album,
     images: images.map((image, index) => ({ ...image, order: index + 1 })),
-    coverMediaId: images.some((image) => image.mediaId === album.coverMediaId)
-      ? album.coverMediaId
+    coverMediaId: images.some(
+      (image) =>
+        image.mediaId ===
+        (selectedCovers[album.id as keyof typeof selectedCovers] ??
+          album.coverMediaId),
+    )
+      ? (selectedCovers[album.id as keyof typeof selectedCovers] ??
+        album.coverMediaId)
       : images[0]?.mediaId,
   };
 });

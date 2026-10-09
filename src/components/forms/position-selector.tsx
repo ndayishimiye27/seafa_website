@@ -1,7 +1,9 @@
-﻿"use client";
-import { useState } from "react";
+"use client";
+import { useSyncExternalStore } from "react";
 import { positions } from "@/content/positions";
-
+const subscribe = () => () => {};
+const clientReady = () => true;
+const serverReady = () => false;
 export function PositionSelector({
   value,
   onChange,
@@ -11,8 +13,8 @@ export function PositionSelector({
   onChange: (value: string[]) => void;
   error?: string;
 }) {
-  const [list, setList] = useState(false);
   const full = value.length >= 5;
+  const ready = useSyncExternalStore(subscribe, clientReady, serverReady);
   function toggle(code: string) {
     if (value.includes(code)) onChange(value.filter((p) => p !== code));
     else if (!full) onChange([...value, code]);
@@ -26,31 +28,14 @@ export function PositionSelector({
     >
       <legend>Postes de jeu *</legend>
       <p id="positions-help">
-        Sélectionnez jusqu’à 5 postes. Choisissez au moins un poste. Décochez un
-        poste pour le remplacer.
+        Choisissez de 1 à 5 postes sur le terrain. Utilisez Tab pour parcourir
+        les postes, puis Entrée ou Espace pour sélectionner.
       </p>
-      <p id="positions-count" aria-live="polite">
-        {value.length} / 5 {value.length === 1 ? "sélectionné" : "sélectionnés"}
-        {value.length ? ` : ${value.join(", ")}` : ""}.
-        {full
-          ? " Vous avez déjà choisi 5 postes. Décochez-en un avant d’en ajouter un autre."
-          : ""}
-      </p>
-      <button
-        type="button"
-        className="position-view"
-        aria-expanded={!list}
-        aria-controls="positions-pitch"
-        onClick={() => setList(!list)}
-      >
-        {list ? "Afficher le terrain" : "Afficher la liste"}
-      </button>
       <div
-        id="positions-pitch"
-        hidden={list}
         className="position-pitch"
         role="group"
         aria-label="Choisir les postes sur le terrain"
+        aria-busy={!ready}
       >
         <div className="pitch-halfway" aria-hidden="true" />
         <div className="pitch-box top" aria-hidden="true" />
@@ -62,7 +47,7 @@ export function PositionSelector({
             title={`${code} — ${label}`}
             aria-label={`${code} — ${label}, sur le terrain`}
             aria-pressed={value.includes(code)}
-            disabled={full && !value.includes(code)}
+            disabled={!ready || (full && !value.includes(code))}
             onClick={() => toggle(code)}
             className={`position-choice ${value.includes(code) ? "selected" : ""}`}
             style={{ gridRow: row + 1, gridColumn: col }}
@@ -72,30 +57,36 @@ export function PositionSelector({
           </button>
         ))}
       </div>
-      <p className="position-list-heading">
-        Tous les postes — choisissez sur le terrain ou dans la liste
+      <p
+        id="positions-count"
+        className="selected-position-title"
+        aria-live="polite"
+      >
+        Postes sélectionnés ({value.length}/5)
       </p>
-      <div className="position-accessible-list">
-        {positions.map(([code, label]) => (
-          <label
+      <div
+        className="selected-position-chips"
+        role="group"
+        aria-label="Postes sélectionnés"
+      >
+        {value.map((code) => (
+          <button
             key={code}
-            className={`position-list-choice ${value.includes(code) ? "selected" : ""}`}
+            type="button"
+            className="position-chip"
+            aria-label={`Retirer ${code} — ${positions.find((p) => p[0] === code)?.[1]}`}
+            onClick={() => toggle(code)}
           >
-            <input
-              type="checkbox"
-              name="positions"
-              value={code}
-              checked={value.includes(code)}
-              disabled={full && !value.includes(code)}
-              aria-invalid={Boolean(error)}
-              onChange={() => toggle(code)}
-            />
-            <span>
-              <strong>{code}</strong> — <span>{label}</span>
-            </span>
-          </label>
+            {code} <span aria-hidden="true">×</span>
+          </button>
         ))}
       </div>
+      {full && (
+        <p className="position-limit" role="status">
+          Vous avez déjà choisi 5 postes. Retirez-en un avant d’en ajouter un
+          autre.
+        </p>
+      )}
       <p id="positions-error" className="field-error">
         {error}
       </p>

@@ -13,7 +13,10 @@ test("membership required labels follow category and homepage photos do not repe
   await expect(page.locator('[name="country"]')).not.toHaveAttribute(
     "required",
   );
-  await expect(page.locator('[name="positions"]')).toHaveCount(21);
+  await expect(
+    page.locator("#join-positions .position-pitch button"),
+  ).toHaveCount(21);
+  await expect(page.locator("#join-positions input")).toHaveCount(0);
   await page.goto("/");
   const sources = await page
     .locator("main img")
@@ -33,23 +36,17 @@ for (const width of [375, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/gallery");
     await page
-      .getByRole("combobox", { name: "Année", exact: true })
+      .getByRole("combobox", { name: "Parcourir une année", exact: true })
       .selectOption("2016");
-    const links = await page
-      .locator('main a[href^="/gallery/"]')
-      .evaluateAll((nodes) => nodes.map((n) => n.getAttribute("href")));
-    await page.getByRole("button", { name: "Événements", exact: true }).click();
-    expect(
-      await page
-        .locator('main a[href^="/gallery/"]')
-        .evaluateAll((nodes) => nodes.map((n) => n.getAttribute("href"))),
-    ).toEqual(links);
+    await expect(
+      page.getByRole("link", { name: /Anniversaire SEAFA — 2016/ }),
+    ).toBeVisible();
     await page
-      .getByRole("combobox", { name: "Année", exact: true })
+      .getByRole("combobox", { name: "Parcourir une année", exact: true })
       .selectOption("unknown");
     await expect(
       page.getByRole("link", {
-        name: "Découvrir l’album Visite chez les Badogomba",
+        name: "Découvrir l’album Archives photographiques",
       }),
     ).toBeVisible();
     if (width < 1280) await page.getByRole("button", { name: "Menu" }).click();
