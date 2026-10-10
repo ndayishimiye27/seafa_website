@@ -52,7 +52,7 @@ for (const width of [375, 1440]) {
     if (width < 1280) await page.getByRole("button", { name: "Menu" }).click();
     await page
       .getByRole("navigation")
-      .getByRole("link", { name: "Se connecter" })
+      .getByRole("link", { name: "Espace membre" })
       .click();
     await expect(page).toHaveURL(/\/login$/);
     await expect(

@@ -1,12 +1,12 @@
 import Image from "next/image";
+import { Presidency } from "@/components/home/presidency";
 import { archivedPeople, type PortraitArchive } from "@/data/people";
-import { MediaSlot, Section, TextLink } from "@/components/ui/editorial";
+import { MediaSlot, TextLink } from "@/components/ui/editorial";
 import { pageMetadata } from "@/lib/metadata";
 
 import { BrandedMediaPlaceholder } from "@/components/albums/branded-media-placeholder";
 import { SquadGrid } from "@/components/team/squad-grid";
 import {
-  formerPresidents,
   honoraryMembers,
   leadership,
   players,
@@ -137,9 +137,9 @@ export default function TeamPage() {
           </h1>
 
           <p className="mt-7 max-w-3xl text-lg leading-8 text-white/72">
-            Découvrez les visages de SEAFA et les portraits de nos archives. Les
-            fonctions historiques sont présentées dans leur contexte ;
-            l’effectif et la direction actuels restent à confirmer.
+            Découvrez la présidence et l’organisation de SEAFA. Les fonctions
+            historiques sont présentées dans leur contexte ; l’effectif et la
+            direction actuels restent à confirmer.
           </p>
         </div>
       </section>
@@ -210,14 +210,6 @@ export default function TeamPage() {
               <ArchivedPortraits section="leadership" />
             </>
           )}
-          {leadership.length > 0 && (
-            <div className="mt-10">
-              <h3 className="mb-4 text-xl font-bold text-[#071d3b]">
-                Portraits de nos anciennes présidences
-              </h3>
-              <ArchivedPortraits section="leadership" />
-            </div>
-          )}
         </div>
       </section>
 
@@ -284,32 +276,8 @@ export default function TeamPage() {
             </p>
           </div>
 
-          {formerPresidents.length > 0 || honoraryMembers.length > 0 ? (
+          {honoraryMembers.length > 0 ? (
             <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {formerPresidents.map((member) => (
-                <article
-                  key={member.id}
-                  className="rounded-2xl border border-white/10 bg-white/5 p-6"
-                >
-                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#d0ad59]">
-                    Ancien président
-                  </p>
-
-                  <h3 className="mt-3 text-xl font-bold">{member.fullName}</h3>
-
-                  {member.biography ? (
-                    <p className="mt-3 leading-7 text-white/65">
-                      {member.biography}
-                    </p>
-                  ) : null}
-                  {member.id === "president-arnaud" && (
-                    <p className="mt-3 text-sm text-white/75">
-                      Premier président — portrait d’archive
-                    </p>
-                  )}
-                </article>
-              ))}
-
               {honoraryMembers.map((member) => (
                 <article
                   key={member.id}
@@ -331,7 +299,6 @@ export default function TeamPage() {
             </div>
           ) : (
             <div className="mt-12">
-              <ArchivedPortraits section="heritage" />
               <div className="navy mt-10 max-w-xl">
                 <MediaSlot
                   mediaId="media-history-founders"
@@ -345,35 +312,12 @@ export default function TeamPage() {
           )}
         </div>
       </section>
-      <Section
-        id="portraits-archives"
-        eyebrow="Notre mémoire humaine"
-        title="Les visages de nos archives."
-      >
-        <p>
-          Portraits issus de la médiathèque SEAFA. Ils ne constituent pas la
-          liste de l’effectif ou de la direction actuels.
-        </p>
-        <div className="cards-three">
-          {archivedPeople
-            .filter((person) => person.section === "general")
-            .map((person) => (
-              <article className="interview-card" key={person.mediaId}>
-                <MediaSlot
-                  mediaId={person.mediaId}
-                  label={person.name}
-                  portrait
-                />
-                <div className="card-body">
-                  <h3>{person.name}</h3>
-                </div>
-              </article>
-            ))}
-        </div>
-        <TextLink href="/gallery/people">
-          Ouvrir l’album des visages de SEAFA
+      <Presidency history />
+      <div className="wrap">
+        <TextLink href="/history#presidents">
+          La succession et ses sources historiques
         </TextLink>
-      </Section>
+      </div>
     </main>
   );
 }

@@ -34,7 +34,7 @@ test("content references and publication boundaries", () => {
     getPublishedAwards().some((p) => p.year === 2017),
     false,
   );
-  assert.equal(getPublishedAlbums().length, 49);
+  assert.equal(getPublishedAlbums().length, 47);
   for (const media of getAllMediaAssets()) {
     assert.ok(media.alt.trim());
     assert.ok(

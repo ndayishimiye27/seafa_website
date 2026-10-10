@@ -15,7 +15,7 @@ for (const width of [375, 1440]) {
     await expect(
       page
         .locator("header")
-        .getByRole("link", { name: "Se connecter", exact: true }),
+        .getByRole("link", { name: "Espace membre", exact: true }),
     ).toBeVisible();
     const credit = page
       .locator("footer")

@@ -69,7 +69,7 @@ for (const width of [375, 1440]) {
           .analyze()
       ).violations,
     ).toEqual([]);
-    for (const path of ["/about", "/history"]) {
+    for (const path of ["/history"]) {
       await page.goto(path);
       const stacked = page.locator(
         'main img[alt="SEAFA — Saint Esprit Alumni Football Academy"]',

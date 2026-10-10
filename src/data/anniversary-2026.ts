@@ -1471,7 +1471,7 @@ export const anniversaryAlbum: Album = {
     value: "2026-09-26",
     precision: "day",
   },
-  coverMediaId: "media-anniversaire-2026-022",
+  coverMediaId: "media-anniversaire-2026-002",
   images: [
     {
       mediaId: "media-anniversaire-2026-022",

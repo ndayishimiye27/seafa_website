@@ -3,6 +3,24 @@ import { octoberDuplicateSources } from "@/data/october-media";
 // Exact matches and visually repeated compositions reviewed; all originals retained.
 export const excludedPhotoSources: Record<string, string> = {
   ...octoberDuplicateSources,
+  "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-040.jpeg":
+    "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-001.jpeg",
+  "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-027.jpeg":
+    "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-023.jpeg",
+  "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-032.jpeg":
+    "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-022.jpeg",
+  "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-018.jpg":
+    "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-003.jpg",
+  "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-020.jpg":
+    "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-011.jpg",
+  "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-017.jpg":
+    "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-009.jpg",
+  "/media/events/2021/anniversary/anniversary-01.jpg":
+    "/media/events/2018/karera-falls/karera-falls-group-02.jpg",
+  "/media/events/2018/medical-consultation/medical-consultation-01.png":
+    "/media/events/medical-session.png",
+  "/media/community/2019/saint-esprit-youth-mentoring.png":
+    "/media/community/2021/placide-conference-saint-esprit/placide-conference-saint-esprit-01.png",
   // Anniversary 2026: visually reviewed near-duplicates; keep one composition.
   "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-095.jpeg":
     "/media/activities/2026/anniversaire 2026 au 26 octobre/2026-anniversaire-seafa-photo-094.jpeg",
@@ -151,7 +169,6 @@ export const albumAdditions: Album[] = [
   },
 ];
 export const additionalAlbumPhotos: Record<string, string[]> = {
-  people: ["presidency-photo-0", "presidency-photo-1", "presidency-photo-2"],
   "events-2016-anniversary": [
     "photo-759dab90cdb1097b",
     "photo-7a91d4b80dc76510",

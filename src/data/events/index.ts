@@ -190,16 +190,13 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-2021-anniversary",
     slug: "events-2021-anniversary",
-    title: "Anniversaire SEAFA — 2021",
-    category: "anniversary",
+    title: "Souvenirs de rencontres",
+    category: "other",
     albumId: "events-2021-anniversary",
-    startDate: {
-      value: "2021",
-      precision: "year",
-    },
+
     status: "completed",
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2021.",
+      "Des rencontres conservées dans les archives de SEAFA. La date et l’événement précis restent à confirmer.",
     featured: false,
     publicationStatus: "published",
   },
@@ -237,12 +234,12 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-medical-session",
     slug: "events-medical-session",
-    title: "Archive d’une séance médicale",
+    title: "Séance de physiothérapie",
     category: "other",
     albumId: "events-medical-session",
     status: "completed",
     summary:
-      "Photographie d’archive d’une séance médicale ; date et contexte à confirmer.",
+      "Un moment de physiothérapie conservé dans les archives SEAFA. La date et le contexte précis restent à confirmer.",
     featured: false,
     publicationStatus: "published",
   },

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { HeroBackground } from "@/components/home/hero-background";
 import Link from "next/link";
 import { Presidency } from "@/components/home/presidency";
 import { Section, TextLink, MediaSlot } from "@/components/ui/editorial";
@@ -40,28 +40,37 @@ const pillars = [
   ],
 ];
 export default function HomePage() {
-  const hero = resolveMedia("media-anniversaire-2026-001");
+  const slides = [
+    ["media-anniversaire-2026-001", "Le 13e anniversaire · septembre 2026"],
+    ["october-7193fe2e8c92c8c3", "Football · tournoi de la communauté 2024"],
+    [
+      "media-community-2019-gitega-trip-gitega-trip-01",
+      "Fraternité · voyage à Gitega 2019",
+    ],
+    [
+      "media-events-2017-bubanza-orphanage-visit-bubanza-orphanage-visit-01",
+      "Communauté · visite à Bubanza 2017",
+    ],
+    [
+      "media-activities-2018-december-friendly-match-december-friendly-match-10",
+      "Sur le terrain · décembre 2018",
+    ],
+  ].flatMap(([id, alt]) => {
+    const media = resolveMedia(id);
+    return media ? [{ src: media.src, alt }] : [];
+  });
   const stories = [
-    "anniversaire-2026",
     "seafa-lumitel",
-    "sages-jeunes-2025",
-    "activities-2024-tournament",
+    "anniversaire-2026",
+    "events-2018-karera-falls",
+    "conference-sante-2022",
   ]
-    .map((id) => getPublishedAlbums().find((a) => a.id === id))
-    .filter((a) => a !== undefined);
+    .map((id) => getPublishedAlbums().find((album) => album.id === id))
+    .filter((album) => album !== undefined);
   return (
     <main>
       <section className="home-hero">
-        {hero && (
-          <Image
-            src={hero.src}
-            alt={hero.alt}
-            fill
-            preload
-            sizes="100vw"
-            className="object-cover"
-          />
-        )}
+        <HeroBackground slides={slides} />
         <div className="hero-overlay" aria-hidden="true" />
         <div className="wrap hero-content">
           <p className="eyebrow">Saint Esprit Alumni Football Academy</p>
@@ -94,7 +103,7 @@ export default function HomePage() {
         eyebrow="L’esprit SEAFA"
         title="Une équipe. Des générations. Une famille."
       >
-        <div className="split">
+        <div className="split purpose-composition">
           <div>
             <p className="lead-copy">{introduction}</p>
             <TextLink href="/about">
@@ -102,7 +111,7 @@ export default function HomePage() {
             </TextLink>
           </div>
           <MediaSlot
-            mediaId="media-community-jenda-group-photo"
+            mediaId="media-community-2019-teza-trip-teza-trip-05"
             label="Des générations réunies"
           />
         </div>
@@ -140,7 +149,7 @@ export default function HomePage() {
       <Section
         id="galerie"
         eyebrow="Notre mémoire en images"
-        title="Quatre moments, un même esprit."
+        title="Nos meilleurs moments"
       >
         <div className="home-stories">
           {stories.map((album) => (

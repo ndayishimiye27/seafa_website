@@ -51,6 +51,34 @@ function HeaderNavigation({
     setOpenGroup(null);
   };
   useEffect(() => {
+    if (!mobile) return;
+    const overflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    header.current
+      ?.querySelector<HTMLAnchorElement>(".header-actions a")
+      ?.focus();
+    function trap(event: KeyboardEvent) {
+      if (event.key !== "Tab") return;
+      const elements = Array.from(
+        header.current?.querySelectorAll<HTMLElement>("a[href], button") ?? [],
+      ).filter((element) => element.getClientRects().length > 0);
+      const first = elements[0],
+        last = elements[elements.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first?.focus();
+      }
+    }
+    document.addEventListener("keydown", trap);
+    return () => {
+      document.body.style.overflow = overflow;
+      document.removeEventListener("keydown", trap);
+    };
+  }, [mobile]);
+  useEffect(() => {
     function key(e: KeyboardEvent) {
       if (e.key !== "Escape") return;
       if (openGroup) {
@@ -105,7 +133,7 @@ function HeaderNavigation({
           <BrandLogo
             variant="main"
             sizes="56px"
-            className="h-16 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
           <span>
             <span className="block text-xl font-black tracking-[0.12em]">
@@ -225,7 +253,7 @@ function HeaderNavigation({
               aria-current={active("/login") ? "page" : undefined}
             >
               <SignInIcon />
-              Se connecter
+              Espace membre
             </Link>
             <Link
               href={headerAction.href}

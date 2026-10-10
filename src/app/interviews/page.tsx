@@ -18,10 +18,8 @@ export default function InterviewsPage() {
           appartiennent à l’époque des entretiens.
         </p>
         <InterviewGrid />
-      </Section>
-      <Section id="portraits" title="Les portraits de nos archives.">
         <TextLink href="/gallery/interviews">
-          Ouvrir l’album des portraits
+          Voir les portraits des témoins
         </TextLink>
       </Section>
     </main>

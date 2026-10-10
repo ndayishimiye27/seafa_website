@@ -151,7 +151,8 @@ const suppliedAlbums: Album[] = [
       value: "2016",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Match — 2016.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -191,7 +192,8 @@ const suppliedAlbums: Album[] = [
       value: "2017",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Match amical — 2017.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -267,7 +269,7 @@ const suppliedAlbums: Album[] = [
       precision: "month",
     },
     summary:
-      "Retrouvez les photographies de cet album : Match amical de décembre — 2018.",
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -316,7 +318,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Matches amicaux — 2019.",
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -372,7 +374,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Match au stade avec une équipe congolaise — 2019.",
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -468,7 +470,8 @@ const suppliedAlbums: Album[] = [
       value: "2019",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Tournoi — 2019.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -520,7 +523,8 @@ const suppliedAlbums: Album[] = [
       value: "2020",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Match amical — 2020.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -588,7 +592,8 @@ const suppliedAlbums: Album[] = [
       value: "2024",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Tournoi — 2024.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "activity",
@@ -617,7 +622,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Photographies de distinctions — 2014.",
+      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -641,7 +646,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Photographies de distinctions — 2015.",
+      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -665,7 +670,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Photographies de distinctions — 2016.",
+      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -697,7 +702,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Photographies de distinctions — 2018.",
+      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -723,7 +728,8 @@ const suppliedAlbums: Album[] = [
         order: 3,
       },
     ],
-    summary: "Retrouvez les photographies de cet album : SEAFA en images.",
+    summary:
+      "SEAFA en images. Un souvenir conservé dans la mémoire photographique de SEAFA.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -755,7 +761,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Visite chez Arcade — 2017.",
+      "Visite chez Arcade — 2017. Une rencontre qui témoigne des liens de notre communauté.",
     relatedContent: [
       {
         type: "activity",
@@ -816,7 +822,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Voyage à Gitega — 2019.",
+      "Voyage à Gitega — 2019. Des moments de rencontre et de découverte au-delà du terrain.",
     relatedContent: [
       {
         type: "activity",
@@ -845,7 +851,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Excursion à Jenda — 2019.",
+      "Excursion à Jenda — 2019. Des moments de rencontre et de découverte au-delà du terrain.",
     relatedContent: [
       {
         type: "activity",
@@ -874,7 +880,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Accompagnement des jeunes du Saint Esprit — 2019.",
+      "Accompagnement des jeunes du Saint Esprit — 2019. Le partage des connaissances et le dialogue entre générations en images.",
     relatedContent: [
       {
         type: "activity",
@@ -950,7 +956,8 @@ const suppliedAlbums: Album[] = [
       value: "2019",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Voyage à Teza — 2019.",
+    summary:
+      "Voyage à Teza — 2019. Des moments de rencontre et de découverte au-delà du terrain.",
     relatedContent: [
       {
         type: "activity",
@@ -1031,7 +1038,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Marche communautaire — 2019.",
+      "Marche communautaire — 2019. Des moments de rencontre et de découverte au-delà du terrain.",
     relatedContent: [
       {
         type: "activity",
@@ -1062,7 +1069,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Conférence de Placide au Saint Esprit — 2021.",
+      "Conférence de Placide au Saint Esprit — 2021. Le partage des connaissances et le dialogue entre générations en images.",
     relatedContent: [
       {
         type: "activity",
@@ -1087,7 +1094,7 @@ const suppliedAlbums: Album[] = [
       },
     ],
     summary:
-      "Retrouvez les photographies de cet album : Photo de groupe à Jenda.",
+      "Photo de groupe à Jenda. Un souvenir conservé dans la mémoire photographique de SEAFA.",
     relatedContent: [
       {
         type: "activity",
@@ -1112,7 +1119,7 @@ const suppliedAlbums: Album[] = [
       },
     ],
     summary:
-      "Retrouvez les photographies de cet album : Photo de groupe à Kibimba.",
+      "Photo de groupe à Kibimba. Un souvenir conservé dans la mémoire photographique de SEAFA.",
     relatedContent: [
       {
         type: "activity",
@@ -1145,7 +1152,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2014.",
+      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1178,7 +1185,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2015.",
+      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1207,7 +1214,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2016.",
+      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1288,7 +1295,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Visite à l’orphelinat de Bubanza — 2017.",
+      "Visite à l’orphelinat de Bubanza — 2017. Une rencontre qui témoigne des liens de notre communauté.",
     relatedContent: [
       {
         type: "event",
@@ -1319,7 +1326,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Célébration du Nouvel An — 2017.",
+      "Célébration du Nouvel An — 2017. Un souvenir conservé dans la mémoire photographique de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1355,7 +1362,8 @@ const suppliedAlbums: Album[] = [
       value: "2018",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Match de gala — 2018.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "event",
@@ -1388,7 +1396,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Sortie aux chutes de Karera — 2018.",
+      "Sortie aux chutes de Karera — 2018. Des moments de rencontre et de découverte au-delà du terrain.",
     relatedContent: [
       {
         type: "activity",
@@ -1488,7 +1496,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Consultations médicales — 2018.",
+      "Des moments d’échange et de consultation autour de la santé, conservés dans les archives de 2018.",
     relatedContent: [
       {
         type: "event",
@@ -1544,7 +1552,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Présentation de physiothérapie — 2018.",
+      "La physiothérapie dans les activités de SEAFA : une présentation conservée dans les archives de 2018.",
     relatedContent: [
       {
         type: "activity",
@@ -1621,7 +1629,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2019.",
+      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1646,6 +1654,8 @@ const suppliedAlbums: Album[] = [
       },
       {
         mediaId: "media-events-2021-anniversary-anniversary-02",
+        caption:
+          "Aux chutes de Karera. La date de cette photographie reste à confirmer.",
         order: 2,
       },
       {
@@ -1678,7 +1688,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2021.",
+      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1711,7 +1721,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2022.",
+      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1751,7 +1761,8 @@ const suppliedAlbums: Album[] = [
       value: "2024",
       precision: "year",
     },
-    summary: "Retrouvez les photographies de cet album : Match de gala — 2024.",
+    summary:
+      "Sur le terrain avec SEAFA. Ces photographies conservent les rencontres de football de nos archives.",
     relatedContent: [
       {
         type: "event",
@@ -1764,7 +1775,7 @@ const suppliedAlbums: Album[] = [
   {
     id: "events-medical-session",
     slug: "events-medical-session",
-    title: "Archive d’une séance médicale",
+    title: "Séance de physiothérapie",
     type: "event",
     category: "social",
     categoryLabel: "Rencontres et événements",
@@ -1776,7 +1787,7 @@ const suppliedAlbums: Album[] = [
       },
     ],
     summary:
-      "Photographie d’archive d’une séance médicale ; date et contexte à confirmer.",
+      "Un moment de physiothérapie conservé dans les archives SEAFA. La date et le contexte précis restent à confirmer.",
     relatedContent: [
       {
         type: "event",
@@ -1805,7 +1816,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Les membres fondateurs — 2013.",
+      "Les portraits des membres fondateurs conservés dans les archives de 2013.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -1833,7 +1844,7 @@ const suppliedAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Les premières équipes — 2014.",
+      "Les premières équipes, dans les archives photographiques de 2014.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -1892,25 +1903,7 @@ const suppliedAlbums: Album[] = [
       },
     ],
     summary:
-      "Retrouvez les photographies de cet album : Portraits des témoins.",
-    relatedContent: [],
-    featured: false,
-    publicationStatus: "published",
-  },
-  {
-    id: "people",
-    slug: "people",
-    title: "Les visages de SEAFA",
-    type: "general",
-    categoryLabel: "SEAFA",
-    coverMediaId: "presidency-photo-1",
-    images: [
-      {
-        mediaId: "media-people-president-tony-2024",
-        order: 4,
-      },
-    ],
-    summary: "Retrouvez les photographies de cet album : Les visages de SEAFA.",
+      "Les portraits associés aux témoignages du livret historique de SEAFA.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -1922,10 +1915,33 @@ export const albums: Album[] = [
   anniversaryAlbum,
   ...pendingAlbums.filter((album) => album.id !== "seafa-lumitel"),
   ...octoberAlbums,
-  ...suppliedAlbums,
+  ...suppliedAlbums.filter((album) => album.id !== "community-2019-mentoring"),
   ...albumAdditions,
   ...reorganizedAlbums,
 ].map((album) => {
+  if (album.id === "events-2021-anniversary")
+    album = {
+      ...album,
+      title: "Souvenirs de rencontres",
+      eventDate: undefined,
+      categoryLabel: "Archives · date à confirmer",
+      summary:
+        "Des retrouvailles et des remises de distinctions. L’année et l’événement précis restent à confirmer ; les photographies des chutes de Karera sont réunies dans leur propre album.",
+    };
+  if (album.id === "events-2018-karera-falls")
+    album = {
+      ...album,
+      images: [
+        ...album.images,
+        {
+          mediaId: "media-events-2021-anniversary-anniversary-02",
+          order: 3,
+          caption:
+            "Aux chutes de Karera. La date de cette photographie reste à confirmer.",
+        },
+      ],
+    };
+
   if (album.id === "visite-badogomba")
     album = {
       ...album,
@@ -1961,6 +1977,17 @@ export const albums: Album[] = [
     })),
   ].filter((image) => {
     const source = mediaById.get(image.mediaId)?.src;
+    if (
+      album.id === "events-2018-medical-consultation" &&
+      image.mediaId ===
+        "media-events-2018-medical-consultation-medical-consultation-01"
+    )
+      return false;
+    if (
+      album.id === "events-2021-anniversary" &&
+      image.mediaId === "media-events-2021-anniversary-anniversary-02"
+    )
+      return false;
     if (!source || excludedPhotoSources[source] || seen.has(source))
       return false;
     if (

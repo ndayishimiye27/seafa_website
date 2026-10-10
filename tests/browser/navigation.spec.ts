@@ -12,7 +12,7 @@ for (const width of [320, 375, 768, 1024, 1280, 1440]) {
     if (mobile)
       await header.getByRole("button", { name: "Menu", exact: true }).click();
     await expect(
-      nav.getByRole("link", { name: "Se connecter", exact: true }),
+      nav.getByRole("link", { name: "Espace membre", exact: true }),
     ).toHaveAttribute("href", "/login");
     await expect(
       nav.getByRole("link", { name: "Devenir membre" }),

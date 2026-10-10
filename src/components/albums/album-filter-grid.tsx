@@ -37,9 +37,8 @@ const filters = [
   },
   {
     id: "institution",
-    label: "Présidence & identité",
-    matches: (album: Album) =>
-      ["people", "brand", "interviews"].includes(album.id),
+    label: "Identité & témoignages",
+    matches: (album: Album) => ["brand", "interviews"].includes(album.id),
   },
   {
     id: "archives",

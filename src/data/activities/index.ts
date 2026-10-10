@@ -236,7 +236,7 @@ const suppliedActivities: Activity[] = [
     slug: "community-2019-mentoring",
     title: "Accompagnement des jeunes du Saint Esprit — 2019",
     category: "community-project",
-    albumId: "community-2019-mentoring",
+    albumId: "community-2021-placide-conference-saint-esprit",
     date: {
       value: "2019",
       precision: "year",
@@ -245,7 +245,7 @@ const suppliedActivities: Activity[] = [
       "Retrouvez les photographies de cet album : Accompagnement des jeunes du Saint Esprit — 2019.",
     participants: [],
     featured: false,
-    publicationStatus: "published",
+    publicationStatus: "draft",
   },
   {
     id: "activity-community-2019-teza-trip",

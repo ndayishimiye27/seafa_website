@@ -42,7 +42,7 @@ test("catalogue covers every supplied image exactly once, with exact spelling an
 });
 test("albums are complete, chronological and connected to real detail records", () => {
   const albums = getPublishedAlbums();
-  assert.equal(albums.length, 49);
+  assert.equal(albums.length, 47);
   const covered = new Set(
     albums.flatMap((a) => [
       ...a.images.map((i) => i.mediaId),
@@ -57,6 +57,7 @@ test("albums are complete, chronological and connected to real detail records", 
       .filter(
         (m) =>
           !m.src.startsWith("/media/brand/logos/") &&
+          !m.src.startsWith("/media/president hierachy/") &&
           !excludedPhotoSources[m.src],
       )
       .map((m) => m.id)
@@ -111,12 +112,12 @@ test("albums are complete, chronological and connected to real detail records", 
           ],
       )
       .sort();
-    const album = albums.find((a) =>
-      resolveAlbumImages(a).some((i) => i.media.src.startsWith(folder + "/")),
-    );
-    assert.ok(album, folder);
+    const folderImages = albums
+      .flatMap(resolveAlbumImages)
+      .filter((image) => image.media.src.startsWith(folder + "/"));
+    assert.ok(folderImages.length, folder);
     assert.deepEqual(
-      resolveAlbumImages(album)
+      folderImages
         .map((i) => decodeURIComponent(i.media.src))
         .filter((src) => src.startsWith(folder + "/"))
         .sort(),

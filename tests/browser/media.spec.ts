@@ -157,16 +157,18 @@ for (const width of [375, 1440]) {
   }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/team");
-    for (const person of archivedPeople)
+    for (const person of archivedPeople.filter(
+      (person) => person.section !== "leadership",
+    ))
       await expect(
         page.getByRole("heading", { name: person.name, exact: true }).first(),
       ).toBeVisible();
     await expect(
-      page.getByText("Président — archive de 2024", { exact: true }),
+      page
+        .locator(".presidency-timeline")
+        .getByRole("heading", { name: "Tony Ezako", exact: true }),
     ).toBeVisible();
-    await expect(
-      page.getByText("Premier président — portrait d’archive", { exact: true }),
-    ).toBeVisible();
+    await expect(page.locator(".presidency-timeline li").first()).toBeVisible();
     await expect(
       page.getByText("Le leadership sera bientôt présenté", { exact: true }),
     ).toHaveCount(0);
@@ -207,7 +209,7 @@ test("brand and portrait sections link directly to their complete albums", async
   for (const [route, href] of [
     ["/gallery", "/gallery/brand"],
     ["/interviews", "/gallery/interviews"],
-    ["/team", "/gallery/people"],
+    ["/team", "/history#presidents"],
   ]) {
     await page.goto(route);
     await expect(page.locator(`main a[href="${href}"]`)).toHaveCount(1);
@@ -258,6 +260,6 @@ for (const width of [375, 1440]) {
       .selectOption("all");
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(49);
+    ).toHaveCount(47);
   });
 }

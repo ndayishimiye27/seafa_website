@@ -37,7 +37,7 @@ export const navigation = [
   { href: "/", label: "Accueil" },
   ...navigationGroups.flatMap((group) => group.links),
   ...primaryLinks,
-  { href: "/login", label: "Se connecter" },
+  { href: "/login", label: "Espace membre" },
   headerAction,
 ];
 export const footerNavigation = [

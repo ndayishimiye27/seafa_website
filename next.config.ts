@@ -12,6 +12,27 @@ const config: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/media/president%20hierachy/president-romeo.jpeg",
+        destination:
+          "/media/president%20hierachy/president-romeo-badogomba.jpeg",
+        permanent: true,
+      },
+      {
+        source: "/gallery/community-2019-mentoring",
+        destination: "/gallery/community-2021-placide-conference-saint-esprit",
+        permanent: true,
+      },
+      {
+        source: "/activities/community-2019-mentoring",
+        destination: "/gallery/community-2021-placide-conference-saint-esprit",
+        permanent: true,
+      },
+      {
+        source: "/gallery/people",
+        destination: "/history#presidents",
+        permanent: true,
+      },
+      {
         source: "/gallery/match-2015",
         destination: "/gallery/events-2016-anniversary",
         permanent: true,

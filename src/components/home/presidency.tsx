@@ -3,61 +3,72 @@ import { Section, TextLink } from "@/components/ui/editorial";
 import { currentPresident, presidentialSuccession } from "@/data/presidency";
 
 export function Presidency({ history = false }: { history?: boolean }) {
-  const president = currentPresident;
+  const members = [...presidentialSuccession, currentPresident];
   return (
     <Section
       id={history ? "presidents" : "presidence"}
       eyebrow="Responsabilité et transmission"
-      title={history ? "Les présidents de SEAFA" : "Notre présidence"}
+      title="Les présidents de SEAFA"
       tone="warm"
     >
-      <article className="president-feature">
-        {president.photograph && (
-          <Image
-            {...president.photograph}
-            alt={president.photograph.alt}
-            sizes="(max-width: 768px) 90vw, 360px"
-            className="president-photo"
-          />
-        )}
-        <div>
-          <p className="eyebrow">Président actuel · depuis 2024</p>
-          <h3>{president.fullName}</h3>
-          <p className="lead-copy">Tugire Iteka</p>
-          <p>
-            Une communauté réunie autour du football, de la dignité et du
-            partage entre générations.
-          </p>
-          {!history && (
-            <TextLink href="/team">Découvrir notre organisation</TextLink>
-          )}
-        </div>
-      </article>
-      {history && (
-        <>
-          <h3 className="succession-title">Les présidences précédentes</h3>
-          <div className="president-succession">
-            {presidentialSuccession.map((member) => (
-              <article key={member.id}>
-                {member.photograph && (
-                  <Image
-                    {...member.photograph}
-                    alt={member.photograph.alt}
-                    sizes="(max-width: 640px) 90vw, 320px"
-                    className="president-photo"
-                  />
-                )}
-                <h4>{member.fullName}</h4>
-                <p>{member.biography}</p>
-                {member.id === "president-arnaud" && (
-                  <TextLink href="/interviews/arnaud-bados-badogomba">
-                    Lire son témoignage
-                  </TextLink>
-                )}
-              </article>
-            ))}
-          </div>
-        </>
+      <ol
+        className="presidency-timeline"
+        aria-label="Succession présidentielle, dans l’ordre chronologique"
+      >
+        {members.map((member, index) => {
+          const current = member.id === currentPresident.id;
+          return (
+            <li key={member.id} className={current ? "is-current" : undefined}>
+              <span className="presidency-step" aria-hidden="true">
+                0{index + 1}
+              </span>
+              {member.photograph && (
+                <Image
+                  {...member.photograph}
+                  alt={member.photograph.alt}
+                  sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 280px"
+                  className="president-photo"
+                />
+              )}
+              <p className="eyebrow">
+                {current ? "Président actuel" : "Ancien président"}
+              </p>
+              <h3>{member.fullName}</h3>
+              <p className="presidency-term">
+                {current
+                  ? "Depuis 2024"
+                  : member.termStart?.value +
+                    "–" +
+                    ("termEnd" in member ? member.termEnd?.value : "")}
+              </p>
+              <p>
+                {current
+                  ? "Tugire Iteka. Une communauté réunie autour du football, de la dignité et du partage entre générations."
+                  : member.id === "president-arnaud"
+                    ? "Premier président. Les dates de son mandat restent à réconcilier avec les archives fournies."
+                    : member.id === "president-romeo"
+                      ? "La transmission se poursuit. Son nom complet reste à confirmer."
+                      : "Une présidence qui précède celle de Jimmy Jambo."}
+              </p>
+              {history && member.id === "president-arnaud" && (
+                <TextLink href="/interviews/arnaud-bados-badogomba">
+                  Lire son témoignage
+                </TextLink>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+      <p className="presidency-note">
+        La succession présentée reprend les quatre présidents identifiés dans
+        les archives disponibles. Le mandat d’Arnaud est documenté comme
+        2013–2019 ; un ancien nom de fichier indique 2015–2022. La période entre
+        2019 et 2020 reste à préciser.
+      </p>
+      {!history && (
+        <TextLink href="/history#presidents">
+          Découvrir notre histoire et ses sources
+        </TextLink>
       )}
     </Section>
   );
