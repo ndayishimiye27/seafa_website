@@ -124,7 +124,8 @@
   white-space: nowrap;
 }
 .hero-control-buttons .hero-motion-toggle:focus-visible {
-  right: 0;
+  position: fixed;
+  right: 24px;
   bottom: 24px;
   width: auto;
   height: 44px;

@@ -71,6 +71,14 @@ test("slideshow controls are discreet until the motion control receives keyboard
     .poll(() => motion.evaluate((node) => node.getBoundingClientRect().width))
     .toBeGreaterThan(100);
   await expect(motion).toBeFocused();
+  await expect
+    .poll(() =>
+      motion.evaluate((node) => {
+        const bounds = node.getBoundingClientRect();
+        return bounds.top >= 0 && bounds.bottom <= innerHeight;
+      }),
+    )
+    .toBe(true);
   await expect(
     page.getByRole("link", { name: "Rejoindre SEAFA", exact: true }).first(),
   ).toBeVisible();
