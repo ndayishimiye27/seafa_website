@@ -7,12 +7,16 @@ export interface PortraitArchive {
 /** Historical context established by the supplied filenames; never a current roster. */
 export const archivedPeople: PortraitArchive[] = [
   {
-    name: "Tony — 2024",
+    name: "Tony Ezako",
     mediaId: "media-people-president-tony-2024",
     section: "leadership",
-    roleLabel: "Président — archive de 2024",
+    roleLabel: "Ancien président — portrait d’archive",
   },
-  { name: "Romeo", mediaId: "presidency-photo-2", section: "general" },
+  {
+    name: "Romeo Badogomba",
+    mediaId: "presidency-photo-2",
+    section: "general",
+  },
   {
     name: "Arnaud Badogomba",
     mediaId: "media-interviews-arnaud-badogomba-first-president",

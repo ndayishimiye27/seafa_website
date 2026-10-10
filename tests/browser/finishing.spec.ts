@@ -49,7 +49,7 @@ for (const width of [375, 1440]) {
         name: "Découvrir l’album Archives photographiques",
       }),
     ).toBeVisible();
-    if (width < 1280) await page.getByRole("button", { name: "Menu" }).click();
+    if (width < 1024) await page.getByRole("button", { name: "Menu" }).click();
     await page
       .getByRole("navigation")
       .getByRole("link", { name: "Espace membre" })

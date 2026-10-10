@@ -38,16 +38,6 @@
   font-size: 1.35rem;
   margin-bottom: 4px;
 }
-.presidency-timeline .presidency-term {
-  margin-top: 0;
-  font-weight: 700;
-  color: #071d3b;
-}
-.editorial-section .presidency-note {
-  font-size: 0.85rem;
-  max-width: 900px;
-  margin-top: 28px;
-}
 .purpose-composition {
   align-items: center;
 }
@@ -62,7 +52,7 @@
 .hero-slide {
   object-fit: cover;
   opacity: 0;
-  transition: opacity 1.2s ease;
+  transition: opacity 1s ease;
 }
 .hero-slide.is-active {
   opacity: 1;
@@ -123,6 +113,25 @@
   width: 18px;
   border-radius: 4px;
   background: #d0ad59;
+}
+.hero-control-buttons .hero-motion-toggle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.hero-control-buttons .hero-motion-toggle:focus-visible {
+  right: 0;
+  bottom: 24px;
+  width: auto;
+  height: 44px;
+  padding: 10px 16px;
+  clip-path: none;
+  border-radius: 6px;
+  background: #071d3b;
 }
 @media (max-width: 1023px) {
   .presidency-timeline {
@@ -879,7 +888,7 @@ video {
   margin-block: 35px;
   list-style: none;
 }
-.timeline li {
+.timeline > li {
   display: grid;
   grid-template-columns: 100px minmax(0, 1fr);
   gap: 28px;
@@ -912,6 +921,47 @@ video {
 .timeline-body {
   max-width: 850px;
   padding-bottom: 8px;
+}
+.timeline-event + .timeline-event {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #d8dee6;
+}
+.timeline-event h4 {
+  margin-top: 24px;
+  font-size: 1.25rem;
+}
+.founders-figure {
+  max-width: 680px;
+  margin-block: 28px;
+}
+.founders-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.founders-figure figcaption {
+  margin-top: 20px;
+  font-size: 0.875rem;
+  color: #526076;
+  line-height: 1.8;
+}
+.founders-figure figcaption strong {
+  color: #071d3b;
+}
+.founders-figure figcaption p {
+  margin-block: 8px;
+}
+.founders-figure ol {
+  padding-left: 20px;
+  list-style: decimal;
+}
+.founders-figure li + li {
+  margin-top: 8px;
+}
+section[aria-labelledby="heritage-members-title"] .text-link {
+  color: #e0c37e;
 }
 .empty-note {
   padding: 28px;
@@ -1081,7 +1131,7 @@ video {
   .interview-card .media-slot.portrait {
     aspect-ratio: 5/4;
   }
-  .timeline li {
+  .timeline > li {
     grid-template-columns: 58px minmax(0, 1fr);
     gap: 12px;
   }
@@ -1098,6 +1148,12 @@ video {
 @media (prefers-reduced-motion: reduce) {
   .timeline details[open] summary > span {
     transform: none;
+  }
+}
+@media (max-width: 639px) {
+  .timeline > li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
   }
 }
 
@@ -1190,6 +1246,9 @@ video {
   font-size: 14px;
   font-weight: 600;
   color: #e2e8f0;
+  transition:
+    color 180ms ease,
+    background-color 180ms ease;
 }
 .header-link:hover,
 .header-login:hover,
@@ -1273,7 +1332,7 @@ video {
     display: none;
   }
 }
-@media (min-width: 640px) and (max-width: 1279px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .header-actions {
     flex-direction: row;
   }
@@ -1281,10 +1340,10 @@ video {
     flex: 1;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .header-inner {
     flex-wrap: nowrap;
-    gap: 24px;
+    gap: 18px;
   }
   .header-toggle {
     display: none;
@@ -1295,8 +1354,8 @@ video {
     flex: 1;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    gap: 24px;
+    justify-content: space-between;
+    gap: 18px;
     width: auto;
     max-height: none;
     overflow: visible;
@@ -1312,7 +1371,7 @@ video {
   .header-link {
     white-space: nowrap;
     width: auto;
-    padding-inline: 12px;
+    padding-inline: 10px;
   }
   .header-group {
     position: relative;
@@ -1350,12 +1409,47 @@ video {
     align-items: center;
     border: 0;
     border-left: 1px solid #31465f;
-    padding: 0 0 0 24px;
+    padding: 0 0 0 18px;
     margin: 0;
   }
   .header-login {
     border-color: transparent;
     padding-inline: 10px;
+  }
+  .header-links {
+    margin-inline: auto;
+  }
+  .header-link[aria-current],
+  .header-link[data-active] {
+    background: transparent;
+    box-shadow: inset 0 -2px #d0ad59;
+    border-radius: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .header-motto {
+    display: none;
+  }
+  .header-inner,
+  .header-navigation {
+    gap: 10px;
+  }
+  .header-link {
+    padding-inline: 8px;
+    font-size: 13px;
+  }
+  .header-actions {
+    gap: 4px;
+    padding-left: 10px;
+  }
+  .header-actions a {
+    padding-inline: 10px;
+    font-size: 13px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .header-link {
+    transition: none;
   }
 }
 .delivery-choice,

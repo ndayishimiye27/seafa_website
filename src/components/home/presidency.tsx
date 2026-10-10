@@ -34,22 +34,7 @@ export function Presidency({ history = false }: { history?: boolean }) {
                 {current ? "Président actuel" : "Ancien président"}
               </p>
               <h3>{member.fullName}</h3>
-              <p className="presidency-term">
-                {current
-                  ? "Depuis 2024"
-                  : member.termStart?.value +
-                    "–" +
-                    ("termEnd" in member ? member.termEnd?.value : "")}
-              </p>
-              <p>
-                {current
-                  ? "Tugire Iteka. Une communauté réunie autour du football, de la dignité et du partage entre générations."
-                  : member.id === "president-arnaud"
-                    ? "Premier président. Les dates de son mandat restent à réconcilier avec les archives fournies."
-                    : member.id === "president-romeo"
-                      ? "La transmission se poursuit. Son nom complet reste à confirmer."
-                      : "Une présidence qui précède celle de Jimmy Jambo."}
-              </p>
+              <p>{member.biography}</p>
               {history && member.id === "president-arnaud" && (
                 <TextLink href="/interviews/arnaud-bados-badogomba">
                   Lire son témoignage
@@ -59,12 +44,6 @@ export function Presidency({ history = false }: { history?: boolean }) {
           );
         })}
       </ol>
-      <p className="presidency-note">
-        La succession présentée reprend les quatre présidents identifiés dans
-        les archives disponibles. Le mandat d’Arnaud est documenté comme
-        2013–2019 ; un ancien nom de fichier indique 2015–2022. La période entre
-        2019 et 2020 reste à préciser.
-      </p>
       {!history && (
         <TextLink href="/history#presidents">
           Découvrir notre histoire et ses sources

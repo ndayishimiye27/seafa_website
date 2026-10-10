@@ -8,7 +8,7 @@ for (const width of [320, 375, 768, 1024, 1280, 1440]) {
     await page.goto("/");
     const header = page.locator(".site-header");
     const nav = page.getByRole("navigation", { name: "Navigation principale" });
-    const mobile = width < 1280;
+    const mobile = width < 1024;
     if (mobile)
       await header.getByRole("button", { name: "Menu", exact: true }).click();
     await expect(

@@ -97,13 +97,6 @@ export function HeroBackground({ slides }: { slides: HeroSlide[] }) {
           {slides[active]?.alt}
         </span>
         <div className="hero-control-buttons">
-          <button
-            type="button"
-            onClick={() => show(active - 1)}
-            aria-label="Photographie précédente"
-          >
-            ←
-          </button>
           {slides.map((slide, index) => (
             <button
               type="button"
@@ -118,13 +111,7 @@ export function HeroBackground({ slides }: { slides: HeroSlide[] }) {
           ))}
           <button
             type="button"
-            onClick={() => show(active + 1)}
-            aria-label="Photographie suivante"
-          >
-            →
-          </button>
-          <button
-            type="button"
+            className="hero-motion-toggle"
             disabled={reduced}
             onClick={() => setPlaying((previous) => !previous)}
             aria-label={
@@ -133,7 +120,7 @@ export function HeroBackground({ slides }: { slides: HeroSlide[] }) {
                 : "Reprendre le diaporama"
             }
           >
-            {playing && !reduced ? "Ⅱ" : "▶"}
+            {playing && !reduced ? "Mettre en pause" : "Reprendre le diaporama"}
           </button>
         </div>
       </div>

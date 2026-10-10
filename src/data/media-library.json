@@ -2010,7 +2010,7 @@
     "width": 508,
     "height": 447,
     "id": "presidency-photo-2",
-    "alt": "Romeo, ancien président de SEAFA"
+    "alt": "Romeo Badogomba, ancien président de SEAFA"
   },
   {
     "id": "media-anniversaire-2026-001",
@@ -4765,15 +4765,15 @@
   },
   {
     "id": "media-events-2022-anniversary-anniversary-cover",
-    "src": "/media/events/2022/anniversary/anniversary-cover.jpg",
-    "alt": "Anniversaire SEAFA — 2022 : photographie 1",
+    "src": "/media/activities/bonne annee 2018/anniversary/anniversary-cover.jpg",
+    "alt": "Rencontre de la SEAFA pour le Nouvel An 2018.",
     "width": 720,
     "height": 720
   },
   {
     "id": "media-events-2022-anniversary-anniversary-group-01",
-    "src": "/media/events/2022/anniversary/anniversary-group-01.jpg",
-    "alt": "Anniversaire SEAFA — 2022 : photographie 2",
+    "src": "/media/activities/bonne annee 2018/anniversary/anniversary-group-01.jpg",
+    "alt": "Rencontre de la SEAFA pour le Nouvel An 2018.",
     "width": 720,
     "height": 720
   },
@@ -4814,10 +4814,10 @@
   },
   {
     "id": "media-history-2013-founding-members-01",
-    "src": "/media/history/2013/founding-members-01.png",
-    "alt": "Les membres fondateurs — 2013 : photographie 1",
-    "width": 256,
-    "height": 292
+    "src": "/media/history/2013/founders.png",
+    "alt": "Montage des membres fondateurs de la SEAFA, avec les noms sous chaque portrait.",
+    "width": 1174,
+    "height": 1339
   },
   {
     "id": "media-history-2014-first-seafa-team-01",
@@ -4885,7 +4885,7 @@
   {
     "id": "media-people-president-tony-2024",
     "src": "/media/president hierachy/president-tony-ezako.jpg",
-    "alt": "Portrait de Tony en 2024",
+    "alt": "Tony Ezako, ancien président de SEAFA",
     "width": 1056,
     "height": 1436
   }

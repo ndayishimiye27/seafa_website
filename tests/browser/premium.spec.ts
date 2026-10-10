@@ -31,7 +31,10 @@ for (const width of [390, 768, 1440, 1920]) {
           expect(Math.max(...tops) - Math.min(...tops)).toBeLessThan(2);
         }
         await expect(portraits.last()).toContainText("Jimmy Jambo");
-        await expect(portraits.last()).toContainText("Depuis 2024");
+        await expect(portraits.nth(1)).toContainText("Romeo Badogomba");
+        expect((await portraits.allTextContents()).join(" ")).not.toMatch(
+          /20\d{2}|confirmer|réconcilier/,
+        );
         for (const portrait of await portraits.locator("img").all()) {
           await portrait.scrollIntoViewIfNeeded();
           await expect
@@ -63,9 +66,11 @@ test("hero rotates, pauses and loads photographs progressively", async ({
       exact: true,
     }),
   ).toHaveAttribute("aria-current", "true", { timeout: 12000 });
-  await page
-    .getByRole("button", { name: "Mettre le diaporama en pause" })
-    .click();
+  const motion = page.getByRole("button", {
+    name: "Mettre le diaporama en pause",
+  });
+  await motion.focus();
+  await page.keyboard.press("Enter");
   const paused = await page
     .locator(".hero-indicator[aria-current]")
     .getAttribute("aria-label");
@@ -75,7 +80,9 @@ test("hero rotates, pauses and loads photographs progressively", async ({
     "aria-label",
     paused!,
   );
-  await page.getByRole("button", { name: "Photographie suivante" }).click();
+  await page
+    .getByRole("button", { name: "Afficher la photographie 3", exact: true })
+    .click();
   await expect(
     page.locator(".hero-indicator[aria-current]"),
   ).not.toHaveAttribute("aria-label", paused!);
@@ -101,7 +108,9 @@ test("reduced motion and mobile drawer keyboard behavior", async ({ page }) => {
       exact: true,
     }),
   ).toHaveAttribute("aria-current", "true");
-  await page.getByRole("button", { name: "Photographie suivante" }).click();
+  await page
+    .getByRole("button", { name: "Afficher la photographie 2", exact: true })
+    .click();
   await expect(
     page.getByRole("button", {
       name: "Afficher la photographie 2",

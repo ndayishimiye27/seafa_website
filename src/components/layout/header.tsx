@@ -99,7 +99,7 @@ function HeaderNavigation({
         setMobile(false);
       }
     }
-    const breakpoint = window.matchMedia("(min-width: 1280px)");
+    const breakpoint = window.matchMedia("(min-width: 1024px)");
     function resize() {
       setMobile(false);
       setOpenGroup(null);

@@ -74,7 +74,7 @@ export const excludedPhotoSources: Record<string, string> = {
     "/media/community/2019/walk/community-walk-01.jpg",
   "/media/events/2021/anniversary/anniversary-03.jpg":
     "/media/events/2018/karera-falls/karera-falls-group-02.jpg",
-  "/media/history/founders.png": "/media/history/2013/founding-members-01.png",
+  "/media/history/founders.png": "/media/history/2013/founders.png",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-016.jpg":
     "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-002.jpg",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-045.jpg":

@@ -1699,9 +1699,9 @@ const suppliedAlbums: Album[] = [
     publicationStatus: "published",
   },
   {
-    id: "events-2022-anniversary",
-    slug: "events-2022-anniversary",
-    title: "Anniversaire SEAFA — 2022",
+    id: "nouvel-an-2018",
+    slug: "nouvel-an-2018",
+    title: "Retrouvailles du Nouvel An — 2018",
     type: "event",
     category: "celebrations",
     categoryLabel: "Rencontres et événements",
@@ -1717,15 +1717,15 @@ const suppliedAlbums: Album[] = [
       },
     ],
     eventDate: {
-      value: "2022",
+      value: "2018",
       precision: "year",
     },
     summary:
-      "Football et retrouvailles pour célébrer les années partagées au sein de SEAFA.",
+      "Une rencontre pour commencer l’année ensemble, dans un esprit de fraternité.",
     relatedContent: [
       {
         type: "event",
-        id: "event-events-2022-anniversary",
+        id: "event-nouvel-an-2018",
       },
     ],
     featured: false,
@@ -1794,30 +1794,6 @@ const suppliedAlbums: Album[] = [
         id: "event-events-medical-session",
       },
     ],
-    featured: false,
-    publicationStatus: "published",
-  },
-  {
-    id: "history-2013",
-    slug: "history-2013",
-    title: "Les membres fondateurs — 2013",
-    type: "history",
-    category: "history",
-    categoryLabel: "Histoire et héritage",
-    coverMediaId: "media-history-2013-founding-members-01",
-    images: [
-      {
-        mediaId: "media-history-2013-founding-members-01",
-        order: 1,
-      },
-    ],
-    eventDate: {
-      value: "2013",
-      precision: "year",
-    },
-    summary:
-      "Les portraits des membres fondateurs conservés dans les archives de 2013.",
-    relatedContent: [],
     featured: false,
     publicationStatus: "published",
   },

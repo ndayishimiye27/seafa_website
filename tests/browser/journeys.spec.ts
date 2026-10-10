@@ -5,7 +5,7 @@ for (const width of [375, 1440]) {
   }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/");
-    if (width < 1280)
+    if (width < 1024)
       await page.getByRole("button", { name: "Menu", exact: true }).click();
     await expect(
       page

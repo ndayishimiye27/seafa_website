@@ -84,7 +84,7 @@ for (const width of [375, 1440]) {
     await page.getByRole("button", { name: "Archives", exact: true }).click();
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(4);
+    ).toHaveCount(3);
     await page.goto("/interviews");
     for (const img of await page.locator("main img").all()) {
       await img.scrollIntoViewIfNeeded();
@@ -260,6 +260,6 @@ for (const width of [375, 1440]) {
       .selectOption("all");
     await expect(
       page.getByRole("link", { name: /Découvrir l’album/ }),
-    ).toHaveCount(47);
+    ).toHaveCount(46);
   });
 }

@@ -137,9 +137,8 @@ export default function TeamPage() {
           </h1>
 
           <p className="mt-7 max-w-3xl text-lg leading-8 text-white/72">
-            Découvrez la présidence et l’organisation de SEAFA. Les fonctions
-            historiques sont présentées dans leur contexte ; l’effectif et la
-            direction actuels restent à confirmer.
+            Découvrez la présidence, l’organisation et les liens qui font vivre
+            la SEAFA.
           </p>
         </div>
       </section>
@@ -202,11 +201,6 @@ export default function TeamPage() {
             </div>
           ) : (
             <>
-              <p className="max-w-3xl leading-7 text-slate-600">
-                Le portrait de Tony est classé en 2024 dans la médiathèque.
-                Cette archive ne confirme pas la composition actuelle de la
-                direction.
-              </p>
               <ArchivedPortraits section="leadership" />
             </>
           )}
@@ -243,8 +237,8 @@ export default function TeamPage() {
           ) : (
             <>
               <p className="max-w-3xl leading-7 text-slate-600">
-                Portrait d’archive de Biggie, coach. La date de ce portrait et
-                l’encadrement actuel restent à confirmer.
+                La vie sportive de la SEAFA repose sur le partage des
+                compétences et l’entraide.
               </p>
               <ArchivedPortraits section="support" />
             </>
@@ -298,17 +292,9 @@ export default function TeamPage() {
               ))}
             </div>
           ) : (
-            <div className="mt-12">
-              <div className="navy mt-10 max-w-xl">
-                <MediaSlot
-                  mediaId="media-history-founders"
-                  label="Les fondateurs dans nos archives"
-                />
-                <TextLink href="/gallery/history-archives">
-                  Voir les archives des fondateurs
-                </TextLink>
-              </div>
-            </div>
+            <TextLink href="/history#year-2013">
+              Découvrir les origines de la SEAFA
+            </TextLink>
           )}
         </div>
       </section>

@@ -50,18 +50,27 @@ const earlyMilestones: HistoricalMilestone[] = stages.map(
     title,
     date: { value: String(year), precision: "year" },
     description,
-    albumId:
-      year === 2013
-        ? "history-2013"
-        : year === 2014
-          ? "history-2014"
-          : undefined,
+    albumId: year === 2014 ? "history-2014" : undefined,
+    mediaId:
+      year === 2013 ? "media-history-2013-founding-members-01" : undefined,
     source: `Livret historique SEAFA, p. ${pages}.`,
     verified: true,
     publicationStatus: "published",
   }),
 );
 const recentMilestones: HistoricalMilestone[] = [
+  {
+    id: "history-nouvel-an-2018",
+    slug: "nouvel-an-2018",
+    title: "Se retrouver pour le Nouvel An",
+    date: { value: "2018", precision: "year" },
+    albumId: "nouvel-an-2018",
+    description:
+      "Les membres se retrouvent pour commencer l’année ensemble. Ces photographies conservent un moment de fraternité au sein de la SEAFA.",
+    source: "Photographies réattribuées au Nouvel An 2018 par la SEAFA.",
+    verified: true,
+    publicationStatus: "published",
+  },
   {
     id: "history-badogomba-2020",
     slug: "rencontre-badogomba-2020",
@@ -158,3 +167,21 @@ export const getPublishedMilestones = () =>
   milestones
     .filter((item) => item.verified && item.publicationStatus === "published")
     .sort((a, b) => (a.date?.value ?? "").localeCompare(b.date?.value ?? ""));
+
+export function getHistoryYears() {
+  const years = new Map<string, HistoricalMilestone[]>();
+  for (const event of getPublishedMilestones()) {
+    const year = event.date?.value.slice(0, 4);
+    if (year) years.set(year, [...(years.get(year) ?? []), event]);
+  }
+  return [...years].map(([year, events]) => ({
+    year,
+    title:
+      year === "2026"
+        ? "Rencontres et célébration du 13e anniversaire"
+        : year === "2018"
+          ? "Retrouvailles et partage des savoirs"
+          : events[0].title,
+    events,
+  }));
+}

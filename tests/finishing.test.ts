@@ -24,7 +24,6 @@ test("gallery has one display per curated photo and only evidenced years", () =>
       ),
     ].sort(),
     [
-      "2013",
       "2014",
       "2015",
       "2016",

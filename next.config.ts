@@ -12,6 +12,31 @@ const config: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/gallery/history-2013",
+        destination: "/history#year-2013",
+        permanent: true,
+      },
+      {
+        source: "/gallery/events-2022-anniversary",
+        destination: "/gallery/nouvel-an-2018",
+        permanent: true,
+      },
+      {
+        source: "/events/events-2022-anniversary",
+        destination: "/events/nouvel-an-2018",
+        permanent: true,
+      },
+      {
+        source: "/media/history/2013/founding-members-01.png",
+        destination: "/media/history/2013/founders.png",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2022/anniversary/:file",
+        destination: "/media/activities/bonne%20annee%202018/anniversary/:file",
+        permanent: true,
+      },
+      {
         source: "/media/president%20hierachy/president-romeo.jpeg",
         destination:
           "/media/president%20hierachy/president-romeo-badogomba.jpeg",

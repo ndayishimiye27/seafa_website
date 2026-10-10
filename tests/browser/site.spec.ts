@@ -96,6 +96,9 @@ test("mobile menu and history are keyboard accessible", async ({ page }) => {
   await page.goto("/history");
   const first = page.locator("details summary").first();
   await first.focus();
+  await expect(page.locator("details").first()).toHaveAttribute("open", "");
+  await page.keyboard.press("Enter");
+  await expect(page.locator("details").first()).not.toHaveAttribute("open", "");
   await page.keyboard.press("Enter");
   await expect(page.locator("details").first()).toHaveAttribute("open", "");
 });
