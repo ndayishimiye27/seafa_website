@@ -63,13 +63,13 @@ test("slideshow controls are discreet until the motion control receives keyboard
     }),
   ).toHaveCount(0);
   const motion = page.locator(".hero-motion-toggle");
-  expect(
-    await motion.evaluate((node) => node.getBoundingClientRect().width),
-  ).toBe(1);
+  await expect
+    .poll(() => motion.evaluate((node) => node.getBoundingClientRect().width))
+    .toBe(1);
   await motion.focus();
-  expect(
-    await motion.evaluate((node) => node.getBoundingClientRect().width),
-  ).toBeGreaterThan(100);
+  await expect
+    .poll(() => motion.evaluate((node) => node.getBoundingClientRect().width))
+    .toBeGreaterThan(100);
   await expect(motion).toBeFocused();
   await expect(
     page.getByRole("link", { name: "Rejoindre SEAFA", exact: true }).first(),

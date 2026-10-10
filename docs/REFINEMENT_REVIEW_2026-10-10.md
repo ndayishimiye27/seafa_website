@@ -40,3 +40,9 @@ All 99 browser checks pass across runs: the initial focused run passed 16/16; th
 Booklet reading, page navigation and PDF download, gallery filters and lightbox controls, membership choices and position limits, login entry, and WhatsApp/e-mail draft composition pass. Enquiry tests prepare drafts without sending messages to recipients.
 
 Push, deployment status and custom-domain verification are reported in the final handoff after their actual completion. Temporary screenshots, browser reports and deployment responses are excluded from Git.
+
+## Production acceptance
+
+Vercel successfully deployed implementation commit `8a64e3d641f4e6794ff6dbb94045ed8573a1b0d9` to Production and the existing custom domain. Live acceptance passed 14 browser checks across the initial run and a targeted rerun. The sole initial failure measured the hidden motion control before layout had completed; direct inspection confirmed the correct styles and keyboard behavior. Its geometry assertions now poll for layout, and the production rerun passes.
+
+Live screenshots and checks at 390, 768, 1440 and 1920 px show no overflow or console errors. Presidency ordering and corrected names, automatic rotation, pause/reduced motion, hidden-document suspension, compact desktop navigation, founders-only history placement, gallery filtering, membership entry, booklet page navigation/PDF download, and editable contact drafts are verified. All five new redirects return 308 and their destinations return 200. The corrected founders montage and both moved New Year photographs match the local original bytes on production. Seven further affected page/download endpoints return 200. Final commit and deployment identifiers are provided in the release handoff.
