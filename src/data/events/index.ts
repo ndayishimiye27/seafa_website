@@ -126,16 +126,11 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-2018-karera-falls",
     slug: "events-2018-karera-falls",
-    title: "Sortie aux chutes de Karera — 2018",
+    title: "Archives · chutes de Karera",
     category: "trip",
     albumId: "events-2018-karera-falls",
-    startDate: {
-      value: "2018",
-      precision: "year",
-    },
     status: "completed",
-    summary:
-      "Retrouvez les photographies de cet album : Sortie aux chutes de Karera — 2018.",
+    summary: "Année à confirmer : ancien classement 2018, dossier fourni 2021.",
     featured: false,
     publicationStatus: "published",
   },
@@ -174,16 +169,12 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-2019-anniversary",
     slug: "events-2019-anniversary",
-    title: "Anniversaire SEAFA — 2019",
+    title: "Archives · anniversaire",
     category: "anniversary",
     albumId: "events-2019-anniversary",
-    startDate: {
-      value: "2019",
-      precision: "year",
-    },
     status: "completed",
     summary:
-      "Retrouvez les photographies de cet album : Anniversaire SEAFA — 2019.",
+      "Archives d’un anniversaire : le dossier porte les années contradictoires 2017 et 2019. Année à confirmer.",
     featured: false,
     publicationStatus: "published",
   },

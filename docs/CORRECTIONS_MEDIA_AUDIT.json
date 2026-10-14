@@ -1,0 +1,799 @@
+{
+  "moves": {
+    "/media/activities/bonne annee 2018/anniversary/anniversary-cover.jpg": "/media/activities/2018/bonne annee 2018/anniversary/anniversary-cover.jpg",
+    "/media/activities/bonne annee 2018/anniversary/anniversary-group-01.jpg": "/media/activities/2018/bonne annee 2018/anniversary/anniversary-group-01.jpg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-001.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-001.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-002.jpg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-002.jpg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-003.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-003.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-004.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-004.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-005.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-005.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-006.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-006.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-009.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-009.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-010.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-010.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-011.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-011.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-012.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-012.jpeg",
+    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-013.jpeg": "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-013.jpeg",
+    "/media/community/2019/gitega-trip/gitega-trip-01.jpg": "/media/community/2019/mabanda-trip/gitega-trip-01.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-02.jpg": "/media/community/2019/mabanda-trip/gitega-trip-02.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-03.jpg": "/media/community/2019/mabanda-trip/gitega-trip-03.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-04.jpg": "/media/community/2019/mabanda-trip/gitega-trip-04.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-05.jpg": "/media/community/2019/mabanda-trip/gitega-trip-05.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-06.jpg": "/media/community/2019/mabanda-trip/gitega-trip-06.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-07.jpg": "/media/community/2019/mabanda-trip/gitega-trip-07.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-08.jpg": "/media/community/2019/mabanda-trip/gitega-trip-08.jpg",
+    "/media/community/2019/gitega-trip/gitega-trip-09.jpg": "/media/community/2019/mabanda-trip/gitega-trip-09.jpg",
+    "/media/community/2019/jenda-excursion/jenda-excursion-01.png": "/media/activities/2021/jenda-excursion 2021/jenda-excursion-01.png",
+    "/media/events/2018/karera-falls/karera-falls-group-01.jpg": "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-01.jpg",
+    "/media/events/2018/karera-falls/karera-falls-group-02.jpg": "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
+    "/media/events/2019/anniversary/anniversary-01.jpg": "/media/events/2019/anniversary 2017/anniversary-01.jpg",
+    "/media/events/2019/anniversary/anniversary-02.jpg": "/media/events/2019/anniversary 2017/anniversary-02.jpg",
+    "/media/events/2019/anniversary/anniversary-03.jpg": "/media/events/2019/anniversary 2017/anniversary-03.jpg",
+    "/media/events/2019/anniversary/anniversary-04.jpg": "/media/events/2019/anniversary 2017/anniversary-04.jpg",
+    "/media/events/2019/anniversary/anniversary-05.jpg": "/media/events/2019/anniversary 2017/anniversary-05.jpg",
+    "/media/events/2019/anniversary/anniversary-06.jpg": "/media/events/2019/anniversary 2017/anniversary-06.jpg",
+    "/media/events/2019/anniversary/anniversary-07.jpg": "/media/events/2019/anniversary 2017/anniversary-07.jpg",
+    "/media/events/2019/anniversary/anniversary-08.jpg": "/media/events/2019/anniversary 2017/anniversary-08.jpg",
+    "/media/events/2019/anniversary/anniversary-09.jpg": "/media/events/2019/anniversary 2017/anniversary-09.jpg",
+    "/media/events/2019/anniversary/anniversary-10.jpg": "/media/events/2019/anniversary 2017/anniversary-10.jpg",
+    "/media/events/2019/anniversary/anniversary-11.jpg": "/media/events/2019/anniversary 2017/anniversary-11.jpg",
+    "/media/events/2019/anniversary/anniversary-12.jpg": "/media/events/2019/anniversary 2017/anniversary-12.jpg",
+    "/media/events/2021/anniversary/anniversary-01.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-01.jpg",
+    "/media/events/2021/anniversary/anniversary-02.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-02.jpg",
+    "/media/events/2021/anniversary/anniversary-03.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-03.jpg",
+    "/media/events/2021/anniversary/anniversary-04.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-04.jpg",
+    "/media/events/2021/anniversary/anniversary-05.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-05.jpg",
+    "/media/events/2021/anniversary/anniversary-06.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-06.jpg",
+    "/media/events/2021/anniversary/anniversary-07.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-07.jpg",
+    "/media/events/2021/anniversary/anniversary-08.jpg": "/media/events/2021/karera-falls-anniversary 2021/anniversary-08.jpg",
+    "/media/president hierachy/arnaud-badogomba.png": "/media/president hierachy/arnaud-badogomba-2014-2020.png",
+    "/media/president hierachy/president-jimmy-jambo.png": "/media/president hierachy/president-jimmy-jambo 2024-current.png",
+    "/media/president hierachy/president-romeo-badogomba.jpeg": "/media/president hierachy/president-romeo-badogomba...2020-2022.jpeg",
+    "/media/president hierachy/president-tony-ezako.jpg": "/media/president hierachy/president-tony-ezako...2022-2024.jpg"
+  },
+  "newImages": [
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG-20191223-WA0053.jpg",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG-20191223-WA0087.jpg",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG-20191223-WA0109.jpg",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG-20201218-WA0005.jpg",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_0997.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1038.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1168.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1180.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1229.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1449.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1499.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1500.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1501.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1504.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1506.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/IMG_1509.JPG",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2019/marche au college 2019/Screenshot_20200105-214922.png",
+      "albumId": "marche-college-2019",
+      "evidence": "activities/2019/marche au college 2019",
+      "year": "2019",
+      "sourceYear": "2019"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20181117-WA0001.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0006.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0009.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0024.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0029.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0005.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0056.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0057.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0063.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0064.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0065.jpg",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG_1677.JPG",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG_1729.JPG",
+      "albumId": "marche-bujumbura-2020",
+      "evidence": "activities/2020/marche aller retour jusqu'a la lpage de bujumbura",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20190928-WA0017.jpg",
+      "albumId": "medecine-2020",
+      "evidence": "activities/2020/SEAFA MEDICINE 2020",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20190928-WA0028.jpg",
+      "albumId": "medecine-2020",
+      "evidence": "activities/2020/SEAFA MEDICINE 2020",
+      "year": "2020",
+      "sourceYear": "2020"
+    },
+    {
+      "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190514-WA0002.jpg",
+      "albumId": "community-2019-jenda-excursion",
+      "evidence": "activities/2021/jenda-excursion 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190514-WA0058.jpg",
+      "albumId": "community-2019-jenda-excursion",
+      "evidence": "activities/2021/jenda-excursion 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190520-WA0003.jpg",
+      "albumId": "community-2019-jenda-excursion",
+      "evidence": "activities/2021/jenda-excursion 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190520-WA0010.jpg",
+      "albumId": "community-2019-jenda-excursion",
+      "evidence": "activities/2021/jenda-excursion 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190812-WA0002.jpg",
+      "albumId": "community-2019-jenda-excursion",
+      "evidence": "activities/2021/jenda-excursion 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/activities/2022/match de gala 2022-retour/IMG-20220829-WA0020.jpg",
+      "albumId": "match-gala-retour-2022",
+      "evidence": "activities/2022/match de gala 2022-retour",
+      "year": "2022",
+      "sourceYear": "2022"
+    },
+    {
+      "src": "/media/activities/2022/match de gala 2022-retour/IMG-20220829-WA0038.jpg",
+      "albumId": "match-gala-retour-2022",
+      "evidence": "activities/2022/match de gala 2022-retour",
+      "year": "2022",
+      "sourceYear": "2022"
+    },
+    {
+      "src": "/media/activities/2022/match de gala 2022-retour/IMG-20230906-WA0065.jpg",
+      "albumId": "match-gala-retour-2022",
+      "evidence": "activities/2022/match de gala 2022-retour",
+      "year": "2022",
+      "sourceYear": "2022"
+    },
+    {
+      "src": "/media/activities/2022/match de gala 2022-retour/IMG-20230906-WA0069.jpg",
+      "albumId": "match-gala-retour-2022",
+      "evidence": "activities/2022/match de gala 2022-retour",
+      "year": "2022",
+      "sourceYear": "2022"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.48 (1).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.48 (2).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.48.jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.49 (1).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.49 (2).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.49.jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.50 (1).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.50 (2).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.50.jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.51 (1).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.51 (2).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.51.jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.52 (1).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.52 (2).jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.52.jpeg",
+      "albumId": "match-basketteurs-2026",
+      "evidence": "activities/2026/match contre les meilleures basketteurs du burundi 2026",
+      "year": "2026",
+      "sourceYear": "2026"
+    },
+    {
+      "src": "/media/archives/IMG-20190201-WA0004.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/archives/IMG-20190812-WA0066.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/archives/IMG-20191007-WA0020.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/archives/IMG-20191007-WA0021.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/archives/IMG-20191007-WA0040.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/archives/IMG-20191007-WA0043.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/archives/IMG-20191011-WA0021.jpg",
+      "albumId": "archives-ajoutees",
+      "evidence": "archives",
+      "year": null,
+      "sourceYear": null
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0041.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0042.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0106.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0110.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0112.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0115.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0122.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0126.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0129.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0131.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0133.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0136.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0140.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0162.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0183.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0186.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0189.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0190.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0216.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0218.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0221.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0227.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0236.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0238.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0264.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0279.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0302.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0323.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0333.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0334.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0335.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0394.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0400.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0528.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0537.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0545.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    },
+    {
+      "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0607.jpg",
+      "albumId": "events-2021-anniversary",
+      "evidence": "events/2021/karera-falls-anniversary 2021",
+      "year": null,
+      "sourceYear": "2021",
+      "note": "Published in Archives; conflicting or uncertain event date."
+    }
+  ]
+}

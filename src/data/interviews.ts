@@ -58,17 +58,17 @@ export const interviews: Interview[] = [
   {
     portraitMediaId: "media-interviews-idane",
     id: "idan",
-    slug: "idan",
+    slug: "idane",
     fullName: "Nzisabira Idane Carlène",
-    nickname: "Idan",
+    nickname: "Idane",
     relationship:
       "Membre de la communauté ; étudiante en médecine au moment de l’entretien",
     kind: "interview",
     highlight: "Des rencontres qui deviennent une famille.",
     summary:
-      "Idan évoque l’accueil reçu au SEAFA et souhaite élargir la participation des femmes aux activités sportives et sociales.",
+      "Idane évoque l’accueil reçu au SEAFA et souhaite élargir la participation des femmes aux activités sportives et sociales.",
     paragraphs: [
-      "Invitée à une célébration par une amie, Idan retrouve des visages connus du Lycée et découvre une communauté où de nouvelles amitiés peuvent devenir des liens familiaux.",
+      "Invitée à une célébration par une amie, Idane retrouve des visages connus du Lycée et découvre une communauté où de nouvelles amitiés peuvent devenir des liens familiaux.",
       "Étudiante en médecine au moment du témoignage, elle représente une participation féminine qui dépasse le rôle de spectatrice. Le livret présente aussi l’apport de jeunes femmes aux activités médicales et à la vie collective.",
       "Elle souhaite accueillir davantage de femmes et développer d’autres pratiques, comme le basketball, le volleyball ou la course. Ces propositions expriment sa vision de l’avenir ; elles ne constituent pas un programme actuel confirmé.",
     ],

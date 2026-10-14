@@ -1,6 +1,11 @@
 import Image from "next/image";
 import { Section, TextLink } from "@/components/ui/editorial";
-import { currentPresident, presidentialSuccession } from "@/data/presidency";
+import {
+  currentPresident,
+  presidentialSuccession,
+  presidencyTermLabels,
+  presidencySourceNote,
+} from "@/data/presidency";
 
 export function Presidency({ history = false }: { history?: boolean }) {
   const members = [...presidentialSuccession, currentPresident];
@@ -34,6 +39,7 @@ export function Presidency({ history = false }: { history?: boolean }) {
                 {current ? "Président actuel" : "Ancien président"}
               </p>
               <h3>{member.fullName}</h3>
+              <p className="eyebrow">{presidencyTermLabels[member.id]}</p>
               <p>{member.biography}</p>
               {history && member.id === "president-arnaud" && (
                 <TextLink href="/interviews/arnaud-bados-badogomba">
@@ -44,6 +50,7 @@ export function Presidency({ history = false }: { history?: boolean }) {
           );
         })}
       </ol>
+      <p className="text-sm text-slate-600">{presidencySourceNote}</p>
       {!history && (
         <TextLink href="/history#presidents">
           Découvrir notre histoire et ses sources

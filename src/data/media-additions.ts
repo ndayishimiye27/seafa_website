@@ -2,7 +2,7 @@ import type { MediaAsset } from "@/types/content";
 export const addedMedia: MediaAsset[] = [
   {
     id: "photo-7a91d4b80dc76510",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-001.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-001.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 1",
     width: 1280,
     height: 853,
@@ -10,7 +10,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-77ca82cd78d1b6b4",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-009.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-009.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 2",
     width: 1080,
     height: 720,
@@ -18,7 +18,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-8e8545daa1f8e58f",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-010.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-010.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 3",
     width: 1080,
     height: 720,
@@ -26,7 +26,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-757994b1c6a44d8b",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-011.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-011.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 4",
     width: 1080,
     height: 720,
@@ -34,7 +34,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-52381f4c8b46683a",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-012.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-012.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 5",
     width: 1024,
     height: 683,
@@ -42,7 +42,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-f5bb0d6bdb7e4232",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-013.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-013.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 6",
     width: 1000,
     height: 750,
@@ -50,7 +50,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-883a83065df46aa9",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-003.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-003.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 7",
     width: 1080,
     height: 720,
@@ -58,7 +58,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-6c284d1a1dbee738",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-004.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-004.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 8",
     width: 1024,
     height: 683,
@@ -66,7 +66,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-1711214c262c7132",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-005.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-005.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 9",
     width: 1080,
     height: 720,
@@ -74,7 +74,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-03285a7eceda2bd5",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-006.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-006.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 10",
     width: 2048,
     height: 1365,
@@ -82,7 +82,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-81a9488f2666049c",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 11",
     width: 1080,
     height: 720,
@@ -90,7 +90,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-fd785df54e1a9505",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg",
     alt: "Anniversaire SEAFA — 2016 : photographie 12",
     width: 1080,
     height: 720,
@@ -658,7 +658,7 @@ export const addedMedia: MediaAsset[] = [
   },
   {
     id: "photo-759dab90cdb1097b",
-    src: "/media/anniversaire 2016/2016-anniversaire-seafa-photo-002.jpg",
+    src: "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-002.jpg",
     alt: "Anniversaire SEAFA — 2016 : photographie d’archive",
     width: 720,
     height: 1080,

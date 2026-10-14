@@ -202,7 +202,7 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-2019-gitega-trip",
     slug: "community-2019-gitega-trip",
-    title: "Voyage à Gitega — 2019",
+    title: "Voyage — 2019 · lieu à confirmer",
     category: "excursion",
     albumId: "community-2019-gitega-trip",
     date: {
@@ -210,7 +210,7 @@ const suppliedActivities: Activity[] = [
       precision: "year",
     },
     summary:
-      "Retrouvez les photographies de cet album : Voyage à Gitega — 2019.",
+      "Retrouvez les photographies de cet album : Voyage — 2019 · lieu à confirmer.",
     participants: [],
     featured: false,
     publicationStatus: "published",
@@ -218,15 +218,11 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-2019-jenda-excursion",
     slug: "community-2019-jenda-excursion",
-    title: "Excursion à Jenda — 2019",
+    title: "Archives · excursion à Jenda",
     category: "excursion",
     albumId: "community-2019-jenda-excursion",
-    date: {
-      value: "2019",
-      precision: "year",
-    },
     summary:
-      "Retrouvez les photographies de cet album : Excursion à Jenda — 2019.",
+      "Année des photographies à confirmer : le livret documente une sortie en 2019, le dossier fourni indique 2021.",
     participants: [],
     featured: false,
     publicationStatus: "published",
@@ -321,15 +317,10 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-events-2018-karera-falls",
     slug: "events-2018-karera-falls",
-    title: "Sortie aux chutes de Karera — 2018",
+    title: "Archives · chutes de Karera",
     category: "excursion",
     albumId: "events-2018-karera-falls",
-    date: {
-      value: "2018",
-      precision: "year",
-    },
-    summary:
-      "Retrouvez les photographies de cet album : Sortie aux chutes de Karera — 2018.",
+    summary: "Année à confirmer : ancien classement 2018, dossier fourni 2021.",
     participants: [],
     featured: false,
     publicationStatus: "published",

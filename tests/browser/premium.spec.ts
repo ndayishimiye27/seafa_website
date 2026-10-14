@@ -32,9 +32,10 @@ for (const width of [390, 768, 1440, 1920]) {
         }
         await expect(portraits.last()).toContainText("Jimmy Jambo");
         await expect(portraits.nth(1)).toContainText("Romeo Badogomba");
-        expect((await portraits.allTextContents()).join(" ")).not.toMatch(
-          /20\d{2}|confirmer|réconcilier/,
-        );
+        await expect(portraits.first()).toContainText("2014–2019 attestés");
+        await expect(portraits.nth(1)).toContainText("2020–2022");
+        await expect(portraits.nth(2)).toContainText("2022–2024");
+        await expect(portraits.last()).toContainText("Depuis 2024");
         for (const portrait of await portraits.locator("img").all()) {
           await portrait.scrollIntoViewIfNeeded();
           await expect

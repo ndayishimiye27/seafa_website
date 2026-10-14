@@ -25,7 +25,7 @@ test("owner's corrected founders montage is historical content, outside all publ
   assert.equal(founding?.albumId, undefined);
   assert.equal(
     mediaAssets.find((item) => item.id === founding?.mediaId)?.src,
-    "/media/history/2013/founders.png",
+    "/media/history/2013/founders-corrected.svg",
   );
   const images = getPublishedAlbums().flatMap((item) =>
     item.images.map((image) => image.mediaId),
@@ -36,8 +36,8 @@ test("owner's corrected founders montage is historical content, outside all publ
   assert.deepEqual(foundersRows[0], [
     "Arnaud Badogomba",
     "Igor Itangishaka",
-    "Axel Ndayizeye",
-    "Ghislain Mugisha",
+    "Axel Bayoboke",
+    "Mugisha Celestin",
   ]);
 });
 
@@ -51,6 +51,8 @@ test("moved New Year photographs retain their owner-confirmed 2018 allocation", 
     assert.ok(
       mediaAssets
         .find((item) => item.id === image.mediaId)
-        ?.src.startsWith("/media/activities/bonne annee 2018/anniversary/"),
+        ?.src.startsWith(
+          "/media/activities/2018/bonne annee 2018/anniversary/",
+        ),
     );
 });

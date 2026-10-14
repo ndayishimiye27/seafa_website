@@ -11,6 +11,336 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
+      ...[
+        {
+          source:
+            "/media/activities/bonne%20annee%202018/anniversary/anniversary-cover.jpg",
+          destination:
+            "/media/activities/2018/bonne%20annee%202018/anniversary/anniversary-cover.jpg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/activities/bonne%20annee%202018/anniversary/anniversary-group-01.jpg",
+          destination:
+            "/media/activities/2018/bonne%20annee%202018/anniversary/anniversary-group-01.jpg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-001.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-001.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-002.jpg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-002.jpg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-003.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-003.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-004.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-004.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-005.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-005.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-006.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-006.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-007.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-007.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-008.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-008.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-009.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-009.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-010.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-010.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-011.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-011.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-012.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-012.jpeg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/anniversaire%202016/2016-anniversaire-seafa-photo-013.jpeg",
+          destination:
+            "/media/activities/2016/anniversaire%202016/2016-anniversaire-seafa-photo-013.jpeg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-01.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-01.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-02.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-02.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-03.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-03.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-04.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-04.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-05.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-05.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-06.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-06.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-07.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-07.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-08.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-08.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/community/2019/gitega-trip/gitega-trip-09.jpg",
+          destination: "/media/community/2019/mabanda-trip/gitega-trip-09.jpg",
+          permanent: true,
+        },
+        {
+          source:
+            "/media/community/2019/jenda-excursion/jenda-excursion-01.png",
+          destination:
+            "/media/activities/2021/jenda-excursion%202021/jenda-excursion-01.png",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2018/karera-falls/karera-falls-group-01.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/karera-falls-group-01.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2018/karera-falls/karera-falls-group-02.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/karera-falls-group-02.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-01.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-01.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-02.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-02.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-03.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-03.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-04.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-04.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-05.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-05.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-06.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-06.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-07.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-07.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-08.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-08.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-09.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-09.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-10.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-10.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-11.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-11.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2019/anniversary/anniversary-12.jpg",
+          destination:
+            "/media/events/2019/anniversary%202017/anniversary-12.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-01.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-01.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-02.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-02.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-03.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-03.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-04.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-04.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-05.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-05.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-06.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-06.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-07.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-07.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/events/2021/anniversary/anniversary-08.jpg",
+          destination:
+            "/media/events/2021/karera-falls-anniversary%202021/anniversary-08.jpg",
+          permanent: true,
+        },
+        {
+          source: "/media/president%20hierachy/arnaud-badogomba.png",
+          destination:
+            "/media/president%20hierachy/arnaud-badogomba-2014-2020.png",
+          permanent: true,
+        },
+        {
+          source: "/media/president%20hierachy/president-jimmy-jambo.png",
+          destination:
+            "/media/president%20hierachy/president-jimmy-jambo%202024-current.png",
+          permanent: true,
+        },
+        {
+          source: "/media/president%20hierachy/president-romeo-badogomba.jpeg",
+          destination:
+            "/media/president%20hierachy/president-romeo-badogomba...2020-2022.jpeg",
+          permanent: true,
+        },
+        {
+          source: "/media/president%20hierachy/president-tony-ezako.jpg",
+          destination:
+            "/media/president%20hierachy/president-tony-ezako...2022-2024.jpg",
+          permanent: true,
+        },
+        {
+          source: "/interviews/idan",
+          destination: "/interviews/idane",
+          permanent: true,
+        },
+        {
+          source: "/media/history/2013/founders.png",
+          destination: "/media/history/2013/founders-corrected.svg",
+          permanent: true,
+        },
+        {
+          source: "/media/history/founders.png",
+          destination: "/media/history/2013/founders-corrected.svg",
+          permanent: true,
+        },
+      ],
       {
         source: "/gallery/history-2013",
         destination: "/history#year-2013",

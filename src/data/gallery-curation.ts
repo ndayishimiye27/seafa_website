@@ -3,6 +3,8 @@ import { octoberDuplicateSources } from "@/data/october-media";
 // Exact matches and visually repeated compositions reviewed; all originals retained.
 export const excludedPhotoSources: Record<string, string> = {
   ...octoberDuplicateSources,
+  "/media/history/2013/founders.png":
+    "/media/history/2013/founders-corrected.svg",
   "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-040.jpeg":
     "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-001.jpeg",
   "/media/activities/2026/match contre lumitel en mars 2026/2026-match-lumitel-photo-027.jpeg":
@@ -15,8 +17,8 @@ export const excludedPhotoSources: Record<string, string> = {
     "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-011.jpg",
   "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-017.jpg":
     "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-009.jpg",
-  "/media/events/2021/anniversary/anniversary-01.jpg":
-    "/media/events/2018/karera-falls/karera-falls-group-02.jpg",
+  "/media/events/2021/karera-falls-anniversary 2021/anniversary-01.jpg":
+    "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
   "/media/events/2018/medical-consultation/medical-consultation-01.png":
     "/media/events/medical-session.png",
   "/media/community/2019/saint-esprit-youth-mentoring.png":
@@ -68,12 +70,12 @@ export const excludedPhotoSources: Record<string, string> = {
     "/media/activities/2020/friendly-match/friendly-match-02.jpg",
   "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-023.jpg":
     "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-020.jpg",
-  "/media/community/2019/gitega-trip/gitega-trip-05.jpg":
-    "/media/community/2019/gitega-trip/gitega-trip-04.jpg",
+  "/media/community/2019/mabanda-trip/gitega-trip-05.jpg":
+    "/media/community/2019/mabanda-trip/gitega-trip-04.jpg",
   "/media/community/2019/walk/community-walk-02.jpg":
     "/media/community/2019/walk/community-walk-01.jpg",
-  "/media/events/2021/anniversary/anniversary-03.jpg":
-    "/media/events/2018/karera-falls/karera-falls-group-02.jpg",
+  "/media/events/2021/karera-falls-anniversary 2021/anniversary-03.jpg":
+    "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
   "/media/history/founders.png": "/media/history/2013/founders.png",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-016.jpg":
     "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-002.jpg",
@@ -93,8 +95,8 @@ export const excludedPhotoSources: Record<string, string> = {
     "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-034.jpg",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-058.jpg":
     "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-034.jpg",
-  "/media/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg":
-    "/media/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg",
+  "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-008.jpeg":
+    "/media/activities/2016/anniversaire 2016/2016-anniversaire-seafa-photo-007.jpeg",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-007.jpg":
     "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-005.jpg",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-009.jpg":

@@ -12,7 +12,7 @@
 - [ ] Pays, portraits et initiatives actuels de la diaspora ; ne pas réutiliser une résidence historique comme actuelle.
 - [x] Présidence actuelle : Jimmy Jambo, depuis 2024, avec le portrait fourni ; succession intégrée sur la page Histoire.
 - [ ] Autres membres de la direction : noms complets, fonctions et hiérarchie non fournis. Nom complet de Romeo à confirmer.
-- [ ] Mandat d’Arnaud Badogomba : le site documentait 2013–2019 ; le nouveau fichier indique 2015–2022. Les dates historiques existantes ont été conservées en attendant clarification.
+- [ ] Mandat d’Arnaud Badogomba : ancien site 2013–2019 ; portrait actuellement fourni 2014–2020. Le livret atteste sa présidence en 2014 et encore en 2019. Seules ces années attestées sont affichées, avec une réserve explicite sur les limites du mandat.
 - [ ] Portrait de Malolo supprimé du dossier source : la référence cassée a été retirée de l’album d’archives ; son prix historique reste publié.
 - [x] Conférence santé du 3 juin 2022 et tournoi du 4 octobre au 3 novembre 2024 : descriptions kirundi conservées, traductions françaises intégrées.
 - [x] Rencontre SEAFA–Lumitel de mars 2026 et sages–jeunes de décembre 2025 : albums et détails intégrés, sans inventer de jours précis ni de scores.

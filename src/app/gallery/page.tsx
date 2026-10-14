@@ -49,8 +49,9 @@ export default function GalleryPage() {
 
           <p className="mt-4 leading-7 text-slate-600">
             Parcourez les années ou les événements d’une même collection. Les
-            photographies sans date vérifiée sont réunies dans « Date à
-            confirmer ».
+            photographies sans date ou événement identifié sont conservées dans
+            les collections « Archives ». Le filtre « Date à confirmer » permet
+            de parcourir les collections non datées.
           </p>
         </div>
 

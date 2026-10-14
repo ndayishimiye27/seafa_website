@@ -3,6 +3,7 @@ import { octoberAlbums, tournamentDescription } from "@/data/october-content";
 import { octoberGroups } from "@/data/october-media";
 import type { Album } from "@/types/content";
 import { mediaAssets } from "@/data/media";
+import { correctionAlbums, correctionPhotos } from "@/data/correction-media";
 import { reorganizedAlbums } from "@/data/media-reorganization";
 import selectedCovers from "@/data/featured-album-covers.json";
 import selectedPhotos from "@/data/featured-album-photos.json";
@@ -1894,7 +1895,33 @@ export const albums: Album[] = [
   ...suppliedAlbums.filter((album) => album.id !== "community-2019-mentoring"),
   ...albumAdditions,
   ...reorganizedAlbums,
+  ...correctionAlbums,
 ].map((album) => {
+  if (album.id === "community-2019-gitega-trip")
+    album = {
+      ...album,
+      title: "Voyage — 2019 · lieu à confirmer",
+      summary:
+        "Archives d’un voyage classé en 2019. L’ancien dossier et ses légendes indiquent Gitega ; le dossier fourni indique Mabanda. Le lieu reste à confirmer.",
+    };
+  if (album.id === "community-2019-jenda-excursion")
+    album = {
+      ...album,
+      title: "Archives · excursion à Jenda",
+      eventDate: undefined,
+      categoryLabel: "Archives · année à confirmer",
+      summary:
+        "Le livret documente une sortie à Jenda en 2019 ; le dossier photographique fourni indique 2021. L’année de ces photographies reste à confirmer.",
+    };
+  if (album.id === "events-2019-anniversary")
+    album = {
+      ...album,
+      title: "Archives · anniversaire",
+      eventDate: undefined,
+      categoryLabel: "Archives · année à confirmer",
+      summary:
+        "Le dossier indique à la fois 2019 et « anniversary 2017 ». L’année de cet anniversaire reste à confirmer.",
+    };
   if (album.id === "events-2021-anniversary")
     album = {
       ...album,
@@ -1907,6 +1934,11 @@ export const albums: Album[] = [
   if (album.id === "events-2018-karera-falls")
     album = {
       ...album,
+      title: "Archives · chutes de Karera",
+      eventDate: undefined,
+      categoryLabel: "Archives · année à confirmer",
+      summary:
+        "Photographies des chutes de Karera. L’ancien classement indiquait 2018 ; le dossier fourni indique 2021. L’année reste à confirmer.",
       images: [
         ...album.images,
         {
@@ -1947,6 +1979,10 @@ export const albums: Album[] = [
   }
   const images = [
     ...album.images,
+    ...(correctionPhotos[album.id] ?? []).map((mediaId, index) => ({
+      mediaId,
+      order: album.images.length + index + 1,
+    })),
     ...(additionalAlbumPhotos[album.id] ?? []).map((mediaId, index) => ({
       mediaId,
       order: album.images.length + index + 1,

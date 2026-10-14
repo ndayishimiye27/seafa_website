@@ -43,7 +43,9 @@ const filters = [
   {
     id: "archives",
     label: "Archives",
-    matches: (album: Album) => album.type === "history",
+    matches: (album: Album) =>
+      album.type === "history" ||
+      /archives/i.test(album.title + " " + (album.categoryLabel ?? "")),
   },
 ];
 export function AlbumFilterGrid({

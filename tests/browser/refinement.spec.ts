@@ -99,7 +99,7 @@ test("history has one year row and confines founders to the 2013 entry", async (
   await expect(page.locator("#year-2026 .timeline-event")).toHaveCount(2);
   await expect(page.locator("#year-2013 .founders-figure")).toHaveCount(1);
   await expect(page.locator(".founders-figure figcaption")).toContainText(
-    "Axel Ndayizeye",
+    "Axel Bayoboke",
   );
   await expect(page.locator(".founders-figure figcaption")).toContainText(
     "Fidèle",

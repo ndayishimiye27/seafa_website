@@ -38,12 +38,12 @@ export default function CommunityPage() {
               l’organisation de la sortie à Jenda en 2019.
             </p>
             <p>
-              Dans son témoignage, Idan invite à élargir les possibilités de
+              Dans son témoignage, Idane invite à élargir les possibilités de
               participation et les pratiques sportives. Cette ambition nourrit
               une communauté où les idées de chacun comptent.
             </p>
-            <TextLink href="/interviews/idan">
-              Lire le témoignage d’Idan
+            <TextLink href="/interviews/idane">
+              Lire le témoignage d’Idane
             </TextLink>
           </div>
           <MediaSlot

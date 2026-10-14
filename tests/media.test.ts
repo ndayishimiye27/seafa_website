@@ -24,7 +24,7 @@ const localFiles = readdirSync("public/media", { recursive: true })
   .map(String)
   .map((p) => "/media/" + p.replaceAll("\\", "/"));
 test("catalogue covers every supplied image exactly once, with exact spelling and real dimensions", async () => {
-  const images = localFiles.filter((p) => /\.(png|jpg|jpeg)$/i.test(p));
+  const images = localFiles.filter((p) => /\.(png|jpg|jpeg|svg)$/i.test(p));
   assert.deepEqual(
     mediaAssets.map((m) => decodeURIComponent(m.src)).sort(),
     images.sort(),
@@ -42,7 +42,7 @@ test("catalogue covers every supplied image exactly once, with exact spelling an
 });
 test("albums are complete, chronological and connected to real detail records", () => {
   const albums = getPublishedAlbums();
-  assert.equal(albums.length, 46);
+  assert.equal(albums.length, 51);
   const covered = new Set(
     albums.flatMap((a) => [
       ...a.images.map((i) => i.mediaId),
@@ -58,7 +58,7 @@ test("albums are complete, chronological and connected to real detail records", 
         (m) =>
           !m.src.startsWith("/media/brand/logos/") &&
           !m.src.startsWith("/media/president hierachy/") &&
-          m.src !== "/media/history/2013/founders.png" &&
+          m.src !== "/media/history/2013/founders-corrected.svg" &&
           !excludedPhotoSources[m.src],
       )
       .map((m) => m.id)

@@ -45,7 +45,7 @@ export default function HomePage() {
     ["october-7193fe2e8c92c8c3", "Football · tournoi de la communauté 2024"],
     [
       "media-community-2019-gitega-trip-gitega-trip-01",
-      "Fraternité · voyage à Gitega 2019",
+      "Fraternité · voyage de 2019 · lieu à confirmer",
     ],
     [
       "media-events-2017-bubanza-orphanage-visit-bubanza-orphanage-visit-01",
