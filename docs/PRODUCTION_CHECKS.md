@@ -5,6 +5,7 @@ Le domaine canonique est `https://www.saintespritfootballacademyalumni.com` ; le
 ## Avant et après livraison
 
 - `npm run check` : lint, types, contenu et tests unitaires. `vercel.json` impose cette commande avant `npm run build` : un échec bloque ce build Vercel.
+- `npm test` lance les tests dans un processus enfant avec `NODE_ENV=test`, sans hériter des variables de livraison SEAFA/Resend/WhatsApp ni du stockage privé de l’hébergeur. Les tests configurent leurs propres mocks et dossiers temporaires. L’environnement de `next build` et les contrôles de sécurité de l’API en production restent inchangés.
 - `.github/workflows/quality.yml` : mêmes contrôles, audit des dépendances de production, build et tests Chromium ciblés des formulaires, métadonnées, erreurs, galerie et redirections sur les pushes `main` et les pull requests.
 - `npm run verify:production` : contrôle HTTP sans envoi de formulaire. Vérifie le domaine, les URL canoniques, JSON-LD, sitemap, politique robots, images sociales PNG 1200×630, une image d’album optimisée, redirections et 404.
 - `BASE_URL` permet de cibler le serveur local ou l’URL Vercel de production ; les origines attendues dans les métadonnées restent celles du domaine public. Les images sont demandées au serveur testé, même si leur URL canonique pointe vers le domaine public.

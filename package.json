@@ -16,7 +16,7 @@
     "verify:routes": "node scripts/verify-routes.mjs",
     "format": "prettier --write src tests scripts docs README.md next.config.ts vercel.json playwright.config.ts package.json tsconfig.json eslint.config.mjs",
     "format:check": "prettier --check src tests scripts docs README.md next.config.ts vercel.json playwright.config.ts package.json tsconfig.json eslint.config.mjs",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "node scripts/run-unit-tests.mjs",
     "test:browser": "node scripts/run-browser-tests.mjs",
     "verify:content": "tsx src/lib/validate-content.ts",
     "deliveries:retry": "tsx scripts/retry-deliveries.ts",

@@ -3,6 +3,16 @@ import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import { onRequestError } from "../src/instrumentation";
 
+test("unit runner isolates production mode and inherited delivery/storage configuration", () => {
+  assert.equal(process.env.NODE_ENV, "test");
+  const inherited = Object.keys(process.env).filter(
+    (key) =>
+      /^(SEAFA_|RESEND_|WHATSAPP_)/.test(key) ||
+      ["SUBMISSIONS_DIR", "TRUSTED_IP_HEADER"].includes(key),
+  );
+  assert.deepEqual(inherited, []);
+});
+
 test("production canonical origin survives stale environment; previews remain noindex", () => {
   for (const vercelEnv of ["production", "preview"]) {
     const result = spawnSync(
