@@ -8,6 +8,8 @@ The baseline inspection identified production SEO configuration, dependency main
 
 ## Authorized remediation — implementation and verification
 
+**Current outcome:** the five authorized improvements are implemented and deployed. The verification below was completed on **16 October 2026 (Africa/Nairobi)**, continuing the inspection dated 15 October. Production indexing remains disabled by the existing launch policy; no DNS change was made.
+
 1. **Dependencies (D2):** upgraded Next and eslint-config-next from 16.3.4 to **16.3.8**, retaining React 19.2.8 and the existing Node engine. Refreshed compatible lockfile dependencies to **sharp 0.35.5**, **source-map-js 1.2.2**, **brace-expansion 1.1.21/5.0.12**. No new runtime dependency or major framework upgrade. The fresh production audit reports **zero vulnerabilities**. The full audit still reports **five high development-tool entries**, all through the ESLint → fast-glob → micromatch → **braces 3.0.3** chain. [The braces advisory](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm) lists no patched version; the registry likewise publishes no later braces version. Its input is build/lint glob patterns, with no public visitor-controlled glob input identified. npm's proposed forced eslint-config-next downgrade to 14.2.35 is incompatible with the maintained framework/tooling line and was not applied. These remaining advisory entries are documented, not declared resolved.
 2. **Canonical origin (D1):** `src/lib/metadata.ts` now fixes the production/preview canonical origin to **https://www.saintespritfootballacademyalumni.com**, matching the existing apex → www HTTP 308. Stale SITE_URL/NEXT_PUBLIC_SITE_URL values cannot override production metadata. Canonicals, sitemap, robots sitemap and Organization JSON-LD share that origin. Development retains configurable local URLs. Existing **noindex remains intentional and unchanged**; preview builds remain non-indexable even when SITE_INDEXABLE is true. Unit regression checks exercise stale localhost configuration and both Vercel environments.
 3. **Error recovery (D3):** `src/components/forms/composer-form.tsx` measures the sticky header at activation time, focuses the summary/error target without automatic browser scrolling, then scrolls the target into view with header clearance. `src/styles/globals.css` adds a shared fallback scroll margin. The same logic covers text fields, Genre, checkbox consents and the positions/delivery fieldsets, without changing validation, recipients or message generation. New browser regressions check actual focused-target geometry via keyboard activation on all three forms at 390, 720 and 1440 px; these are viewport/reflow checks, not a claim of physical-device or browser-zoom certification.
@@ -24,15 +26,26 @@ The corrected Linux quality run for `124c196` [passed every step](https://github
 
 The isolated runner passed **32 unit tests** when launched from a production-mode parent with synthetic delivery settings present. Its new regression explicitly checks NODE_ENV=test and the absence of inherited delivery/storage variable names. Targeted lint and formatting passed. These are build/test-harness corrections; the public gallery, design and application message code remain unchanged.
 
-Baseline inspected: original production commit `3b8050d80a4d7e4300c9120a5b547545ff5f85c1`, followed by a fresh inspection of commit `e461741` and the actual working tree on 15 October 2026, installed Next.js documentation, production build output and `https://www.saintespritfootballacademyalumni.com/`. The duplicate-listing regression discovered below was already corrected in `e461741`; the follow-up verifies that correction rather than claiming a new implementation. Other findings remain recommendations for review; no dependencies, indexing settings, DNS or unrelated scripts were changed.
+### Verified production release — 16 October 2026
+
+- **Implementation release:** `7698c7960b9f99a5cc8df18c9b8acb7db2771fa4`, pushed without force to `personal/main`, following `7b45f87` and `124c196`. [Vercel deployment](https://vercel.com/tech-vision-labs-projects/seafa-website/3xGHWA4kd6wHoVU7Zh6D7PWipzVk) reports **success / Deployment has completed**.
+- **Both live hosts verified:** [custom domain](https://www.saintespritfootballacademyalumni.com/) and [production Vercel URL](https://seafa-website.vercel.app/) each passed the **16-response HTTP smoke suite** with `EXPECT_COMMIT=7698c7960b9f99a5cc8df18c9b8acb7db2771fa4`. The live release marker matches this SHA. Canonicals, all sitemap origins and Organization JSON-LD use the www HTTPS origin; social tags/images, optimized album image, legacy redirects and 404 are valid. The apex → www redirect is HTTP 308. There is **no custom-domain blocker** and DNS was not changed. Robots remains noindex/Disallow by the existing policy, with the corrected production sitemap URL.
+- **Automated quality actually exercised:** [Website quality run](https://github.com/ndayishimiye27/seafa_website/actions/runs/38823782363) **succeeded** after clean install, production audit, lint, types, content validation, 32 unit tests, production build, 32 targeted browser checks and local HTTP smoke. The complete Vercel build-command sequence also passed locally under NODE_ENV=production after test isolation.
+- **Live browser verification:** all **32 targeted Chromium checks passed on the custom domain**. These cover both draft channels on all three forms, membership choices/optional omissions, position limits and keyboard controls, long/blocked handoff fallbacks, presidency dates, November scheduling, reorganized gallery browsing, merged-story redirects, nine-page metadata and all nine form/viewport error-focus/axe checks. Error recovery was checked at 390, 720 and 1440 px. Screenshots in ignored `tmp/production-fixes/` show the focused targets below the sticky header. No application was sent. This does not certify physical devices, all assistive technology or native application delivery.
+- **Deployment-triggered monitoring actually exercised:** [Production monitoring run](https://github.com/ndayishimiye27/seafa_website/actions/runs/38824212930) **succeeded** on the Vercel success status, checking the exact live commit and re-auditing production dependencies. Both workflows are active in GitHub. The six-hour schedule is configured; no scheduled-trigger execution has yet been observed in this inspection. Notification preferences, alert delivery and branch-protection enforcement are not claimed as verified.
+- **Server logging limit:** the instrumentation hook is unit-tested and present in the production build's instrumentation bundle. No deliberate server error was injected into production and private Vercel log ingestion/retention/alerts were not inspected. Real-user Web Vitals and centralized browser error reporting remain external setup, not operational features of this release.
+
+A final report-only commit records these results; it does not change application behavior. Its final SHA/deployment status is supplied in the delivery message after verification. The original four media-maintenance script modifications remain outside these commits.
+
+Baseline inspected: original production commit `3b8050d80a4d7e4300c9120a5b547545ff5f85c1`, followed by a fresh inspection of commit `e461741` and the actual working tree on 15 October 2026, installed Next.js documentation, production build output and `https://www.saintespritfootballacademyalumni.com/`. The duplicate-listing regression discovered below was already corrected in `e461741`. The original inspection left dependencies/configuration unchanged; the later authorized remediation above resolves D1–D4 and implements E3's core checks. E1/E2/E4/E5/E6/E7 remain recommendations for review.
 
 Effort: **small** = localized change and checks; **medium** = several related files/configuration and regression testing; **large** = substantial redesign or migration. Priorities reflect this website's demonstrated exposure and visitor impact, rather than copying advisory severity without checking conditions.
 
-## Confirmed defects and dependency findings
+## Confirmed defects — baseline evidence and current status
 
 ### D1 — Production metadata uses localhost
 
-**Priority: high · Effort: small · Status: open, pre-existing.**
+**Priority: high · Effort: small · Status: canonical-origin defect fixed and verified in production; existing noindex policy preserved.**
 
 - **Routes/source:** all public routes; `src/lib/metadata.ts:3`, `src/app/robots.ts`, `src/app/sitemap.ts`, `src/app/layout.ts`.
 - **Observed/verified:** live `/` canonical is `http://localhost:3000/`; `/gallery` canonical is `http://localhost:3000/gallery`. Live sitemap locations and Organization JSON-LD also use this origin. `/robots.txt` returns `Disallow: /` and `Sitemap: http://localhost:3000/sitemap.xml`; sampled pages return `noindex, follow`. The code's local fallback explains the effective origin, but private Vercel settings were not available to distinguish an unset variable from an explicitly incorrect value.
@@ -41,7 +54,7 @@ Effort: **small** = localized change and checks; **medium** = several related fi
 
 ### D2 — Production dependency tree has published advisories
 
-**Priority: high · Effort: medium · Status: open, pre-existing.**
+**Priority: high · Effort: medium · Status: production dependency advisories resolved; unpatched development-only chain documented above.**
 
 - **Routes/source:** framework/image pipeline and build tooling; `package.json`, `package-lock.json`, `src/app/opengraph-image.tsx`, `src/app/twitter-image.tsx`, `next.config.ts`.
 - **Observed/verified:** a fresh `npm audit --omit=dev --json` on 15 October reports **four affected package entries: one critical and three high**: Next, sharp, source-map-js and PostCSS. PostCSS is reported through source-map-js, rather than as a fourth independent underlying advisory. The installed tree resolves Next **16.3.4**, sharp **0.35.4**, and source-map-js **1.2.1** through Next's PostCSS dependency. The Next entry includes several advisories; these counts do not represent confirmed attacks against this website.
@@ -51,7 +64,7 @@ Effort: **small** = localized change and checks; **medium** = several related fi
 
 ### D3 — Error-summary links focus fields behind the sticky header
 
-**Priority: medium · Effort: small · Status: open, pre-existing.**
+**Priority: medium · Effort: small · Status: fixed; local and production-browser verification recorded above.**
 
 - **Routes/source:** `/contact`, same shared pattern on `/join` and `/request-match`; `src/components/forms/composer-form.tsx:110`, `src/styles/globals.css:1182` and `.form-input`.
 - **Observed/verified:** submitted the empty live contact form, without sending data, then activated its “Nom complet” error link. The summary correctly received focus and announced French errors. After the link, the focused input's top/bottom were approximately **0/50 px**, while the sticky header's bottom was **77 px**, at both 390 and 1440 px. The entire input was behind the header. This is a manual finding that axe did not flag.
@@ -60,7 +73,7 @@ Effort: **small** = localized change and checks; **medium** = several related fi
 
 ### D4 — Most inspected child pages omit sharing-image tags
 
-**Priority: medium · Effort: small · Status: open, pre-existing.**
+**Priority: medium · Effort: small · Status: fixed; emitted tags and branded image responses verified in production.**
 
 - **Routes/source:** `/gallery`, `/gallery/community-2019-jenda-excursion`, `/join`, `/contact`, `/request-match`, `/activities`, `/events`, `/login`; `src/lib/metadata.ts:19`, `src/app/gallery/[slug]/page.tsx`, root `opengraph-image.tsx` and `twitter-image.tsx`.
 - **Observed/verified:** live homepage includes an `og:image` (currently localhost because of D1), but no `og:image` exists on these eight sampled child pages. Their metadata supplies its own Open Graph object without an explicit image fallback. The actual `/opengraph-image` endpoint returns a valid PNG.
@@ -97,6 +110,8 @@ Effort: **small** = localized change and checks; **medium** = several related fi
 ### E3 — Add production configuration gates and lightweight observability
 
 **Priority: medium · Effort: medium.**
+
+**Current status:** core build/quality/deployment smoke checks implemented and exercised; structured server hook implemented and unit-tested. External alert routing, log retention, branch protection and field/client telemetry still require setup/verification. The following evidence describes the baseline.
 
 - **Routes/source:** all deployments; `package.json`, `tests/browser/site.spec.ts:158`, `scripts/verify-routes.mjs`, `src/app/error.tsx`, `vercel.json`; no `.github/workflows` directory is present.
 - **Evidence:** strong local checks exist, but the metadata browser test verifies only the canonical pathname, so a localhost origin passes. No repository CI workflow or application error reporter was found. The error boundary offers retry but does not use/report its error/digest. External dashboards and branch protection were not available for inspection.
@@ -185,6 +200,6 @@ The follow-up inspection reran **29 unit tests**, content validation (**zero war
 
 Fresh live inspection again covered the ten routes at both viewport sizes: all expected HTTP statuses, no JavaScript page errors, no horizontal overflow and zero violations in all 20 axe scans. Manual screenshots and source tracing support the visual/gallery observations; the separate error-link geometry check reproduced D3. Fresh HTTP requests confirmed localhost sitemap URLs and `Disallow: /`. The GitHub commit-status API reports Vercel **success**, “Deployment has completed”, for existing correction commit `e461741`, with [its deployment status](https://vercel.com/tech-vision-labs-projects/seafa-website/HpuDpjzGmm13ZXU5xzPKmrF8sWh2). This public status does not expose private deployment settings or logs.
 
-The performance table above uses the refreshed browser measurements. The prior all-media HTTP audit is retained as earlier release evidence; it was **not** repeated in this follow-up. Current unit checks did independently recheck catalogue paths, dimensions, folder ownership and duplicate bytes. `tmp/inspection/npm-audit-refresh.json` contains the fresh four-entry advisory result. No additional application defect introduced by the requested changes was established beyond D5, already fixed in the existing release. Broader D1–D4 and E1–E7 remain for review before implementation.
+The performance table above records the pre-remediation browser measurements. The prior all-media HTTP audit is retained as earlier release evidence; it was **not** repeated in this follow-up. Unit checks independently rechecked catalogue paths, dimensions, folder ownership and duplicate bytes. `tmp/inspection/npm-audit-refresh.json` contains the original four-entry production advisory result, superseded by the patched production audit above. D5 was already fixed in the existing release. D1–D4 and E3 were subsequently authorized and implemented as documented above; the remaining broader enhancements await review.
 
 Historical release limitation: the earlier report-only follow-up was initially saved locally because automatic approval review required additional authorization for the production branch. The owner has since explicitly authorized committing/pushing the report and all five improvements to `personal/main`, including triggering and verifying Vercel production. Current release status is recorded in the remediation section; the earlier successful deployment evidence above concerns `e461741`.
