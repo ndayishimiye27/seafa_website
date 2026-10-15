@@ -1,5 +1,47 @@
 import { test, expect } from "@playwright/test";
 
+test("merged stories have one listing and old detail URLs redirect", async ({
+  page,
+  request,
+}) => {
+  await page.goto("/activities");
+  await expect(
+    page.getByRole("heading", {
+      name: "Excursion à Jenda — 2021",
+      exact: true,
+    }),
+  ).toHaveCount(1);
+  await page.goto("/events");
+  for (const name of [
+    "Anniversaire et chutes de Karera — 2021",
+    "Consultations médicales — 2018",
+  ])
+    await expect(page.getByRole("heading", { name, exact: true })).toHaveCount(
+      1,
+    );
+  for (const [source, destination] of [
+    [
+      "/activities/community-2019-teza-trip",
+      "/activities/community-2019-jenda-excursion",
+    ],
+    [
+      "/activities/community-jenda-group-photo",
+      "/activities/community-2019-jenda-excursion",
+    ],
+    ["/events/events-2018-karera-falls", "/events/events-2021-anniversary"],
+    [
+      "/events/events-medical-session",
+      "/events/events-2018-medical-consultation",
+    ],
+  ]) {
+    const response = await request.get(source, { maxRedirects: 0 });
+    expect(response.status()).toBe(308);
+    expect(
+      new URL(response.headers().location, "https://example.test").pathname,
+    ).toBe(destination);
+  }
+});
+
 for (const width of [390, 1440]) {
   test(`presidency, calendar and reorganized gallery at ${width}px`, async ({
     page,

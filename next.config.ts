@@ -11,6 +11,26 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/activities/community-2019-teza-trip",
+        destination: "/activities/community-2019-jenda-excursion",
+        permanent: true,
+      },
+      {
+        source: "/activities/community-jenda-group-photo",
+        destination: "/activities/community-2019-jenda-excursion",
+        permanent: true,
+      },
+      {
+        source: "/events/events-2018-karera-falls",
+        destination: "/events/events-2021-anniversary",
+        permanent: true,
+      },
+      {
+        source: "/events/events-medical-session",
+        destination: "/events/events-2018-medical-consultation",
+        permanent: true,
+      },
       ...[
         {
           source:

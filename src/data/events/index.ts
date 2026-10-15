@@ -125,18 +125,6 @@ const suppliedEvents: Event[] = [
     publicationStatus: "published",
   },
   {
-    id: "event-events-2018-karera-falls",
-    slug: "events-2018-karera-falls",
-    title: "Anniversaire et chutes de Karera — 2021",
-    category: "trip",
-    albumId: "events-2021-anniversary",
-    status: "completed",
-    summary: "Une célébration de SEAFA et une sortie aux chutes de Karera.",
-    featured: false,
-    publicationStatus: "published",
-    startDate: { value: "2021", precision: "year" },
-  },
-  {
     id: "event-events-2018-medical-consultation",
     slug: "events-2018-medical-consultation",
     title: "Consultations médicales — 2018",
@@ -222,18 +210,6 @@ const suppliedEvents: Event[] = [
     summary: "Retrouvez les photographies de cet album : Match de gala — 2024.",
     featured: true,
     publicationStatus: "published",
-  },
-  {
-    id: "event-events-medical-session",
-    slug: "events-medical-session",
-    title: "Consultations médicales — 2018",
-    category: "other",
-    albumId: "events-2018-medical-consultation",
-    status: "completed",
-    summary: "Les activités médicales de SEAFA.",
-    featured: false,
-    publicationStatus: "published",
-    startDate: { value: "2018", precision: "year" },
   },
 ];
 export const events: Event[] = [

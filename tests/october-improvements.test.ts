@@ -14,6 +14,24 @@ import {
   getUpcomingEvents,
   getPastEvents,
 } from "../src/lib/content";
+
+test("merged collections appear once in activity and event listings", () => {
+  assert.equal(
+    getPublishedActivities().filter(
+      (record) => record.albumId === "community-2019-jenda-excursion",
+    ).length,
+    1,
+  );
+  for (const albumId of [
+    "events-2021-anniversary",
+    "events-2018-medical-consultation",
+  ])
+    assert.equal(
+      getPublishedEvents().filter((record) => record.albumId === albumId)
+        .length,
+      1,
+    );
+});
 import { mediaAssets } from "../src/data/media";
 import { resolveAlbumImages } from "../src/lib/media";
 import {
