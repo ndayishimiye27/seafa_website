@@ -45,7 +45,7 @@ export default function HomePage() {
     ["october-7193fe2e8c92c8c3", "Football · tournoi de la communauté 2024"],
     [
       "media-community-2019-gitega-trip-gitega-trip-01",
-      "Fraternité · voyage de 2019 · lieu à confirmer",
+      "Fraternité · voyage à Mabanda 2019",
     ],
     [
       "media-events-2017-bubanza-orphanage-visit-bubanza-orphanage-visit-01",
@@ -62,7 +62,7 @@ export default function HomePage() {
   const stories = [
     "seafa-lumitel",
     "anniversaire-2026",
-    "events-2018-karera-falls",
+    "events-2021-anniversary",
     "conference-sante-2022",
   ]
     .map((id) => getPublishedAlbums().find((album) => album.id === id))

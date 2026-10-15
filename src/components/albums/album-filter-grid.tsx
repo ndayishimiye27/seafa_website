@@ -80,7 +80,7 @@ export function AlbumFilterGrid({
             <option value="all">Toutes les années</option>
             {years.map((y) => (
               <option key={y} value={y}>
-                {y === "unknown" ? "Date à confirmer" : y}
+                {y === "unknown" ? "Archives" : y}
               </option>
             ))}
           </select>
@@ -108,6 +108,15 @@ export function AlbumFilterGrid({
         {visible.length} {visible.length === 1 ? "album" : "albums"}
         {year !== "all" && year !== "unknown" ? ` · ${year}` : ""}
       </p>
+      <nav className="archive-year-nav" aria-label="Accès direct aux années">
+        {years
+          .filter((y) => visible.some((album) => yearOf(album) === y))
+          .map((y) => (
+            <a key={y} href={`#archive-${y}`}>
+              {y === "unknown" ? "Archives" : y}
+            </a>
+          ))}
+      </nav>
       {visible.length ? (
         years.map((y) => {
           const grouped = visible.filter((a) => yearOf(a) === y);
@@ -118,9 +127,7 @@ export function AlbumFilterGrid({
               className="archive-year"
               aria-labelledby={`archive-${y}`}
             >
-              <h2 id={`archive-${y}`}>
-                {y === "unknown" ? "Date à confirmer" : y}
-              </h2>
+              <h2 id={`archive-${y}`}>{y === "unknown" ? "Archives" : y}</h2>
               <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 {grouped.map((album) => (
                   <AlbumCard

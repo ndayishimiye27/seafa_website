@@ -38,6 +38,13 @@
   font-size: 1.35rem;
   margin-bottom: 4px;
 }
+.presidency-term {
+  margin: 0.55rem 0 0.8rem;
+  color: #715319;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
 .purpose-composition {
   align-items: center;
 }
@@ -1602,6 +1609,59 @@ section[aria-labelledby="heritage-members-title"] .text-link {
 }
 .archive-year {
   margin-block: 3rem;
+  scroll-margin-top: 7rem;
+}
+.archive-year-nav {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-block: 1rem 0.5rem;
+  scrollbar-width: thin;
+}
+.archive-year-nav a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.5rem;
+  min-height: 44px;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #cbd3dc;
+  border-radius: 999px;
+  color: #173f73;
+  font-weight: 700;
+  text-decoration: none;
+}
+.archive-year-nav a:hover {
+  background: #f6f3ec;
+  border-color: #b7923d;
+}
+.archive-year-nav a:focus-visible {
+  outline: 3px solid #b7923d;
+  outline-offset: 2px;
+}
+.album-card {
+  height: 100%;
+  box-shadow: 0 6px 24px rgb(7 29 59 / 4%);
+}
+.album-photo-grid figure {
+  overflow: hidden;
+  border: 1px solid #dce2e8;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.album-photo-grid button {
+  border-radius: 0;
+  background: #102943;
+}
+.photo-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.8rem 1rem;
+  color: #465568;
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 .archive-year > h2 {
   font-size: clamp(1.75rem, 3vw, 2.5rem);

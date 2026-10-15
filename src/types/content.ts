@@ -200,6 +200,7 @@ export interface AlbumImage {
 }
 
 export interface Album {
+  status?: EventStatus;
   videos?: {
     src: string;
     title: string;

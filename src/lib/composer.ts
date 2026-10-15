@@ -16,21 +16,33 @@ export function createDraft(kind: ComposerKind, data: SubmissionData) {
         : "SEAFA — Proposition de match";
   const body = [
     subject,
-    ...formFields[kind].map((field) => {
-      const value = data[field.name];
-      const label = (v: string) =>
-        field.options?.find(([key]) => key === v)?.[1] ?? v;
-      const text = Array.isArray(value)
-        ? value.map(label).join(", ")
-        : typeof value === "boolean"
-          ? value
-            ? "Oui"
-            : "Non"
-          : value
-            ? label(value)
-            : "Non renseigné";
-      return `${field.label} : ${text}`;
-    }),
+    ...formFields[kind]
+      .filter((field) => {
+        const value = data[field.name];
+        return (
+          field.required ||
+          (typeof value === "string"
+            ? Boolean(value.trim())
+            : Array.isArray(value)
+              ? value.length > 0
+              : value !== undefined && value !== false)
+        );
+      })
+      .map((field) => {
+        const value = data[field.name];
+        const label = (v: string) =>
+          field.options?.find(([key]) => key === v)?.[1] ?? v;
+        const text = Array.isArray(value)
+          ? value.map(label).join(", ")
+          : typeof value === "boolean"
+            ? value
+              ? "Oui"
+              : "Non"
+            : value
+              ? label(value)
+              : "Non renseigné";
+        return `${field.label} : ${text}`;
+      }),
     ...(kind === "match-requests"
       ? ["Date et heure : heure du Burundi (UTC+02:00)."]
       : []),

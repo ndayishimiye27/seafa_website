@@ -1,3 +1,4 @@
+import { reconcileGallery } from "@/data/gallery-reconciliation";
 import { anniversaryAlbum } from "@/data/anniversary-2026";
 import { octoberAlbums, tournamentDescription } from "@/data/october-content";
 import { octoberGroups } from "@/data/october-media";
@@ -622,8 +623,7 @@ const suppliedAlbums: Album[] = [
       value: "2014",
       precision: "year",
     },
-    summary:
-      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
+    summary: "Des photographies de remise de distinctions.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -646,8 +646,7 @@ const suppliedAlbums: Album[] = [
       value: "2015",
       precision: "year",
     },
-    summary:
-      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
+    summary: "Des photographies de remise de distinctions.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -670,8 +669,7 @@ const suppliedAlbums: Album[] = [
       value: "2016",
       precision: "year",
     },
-    summary:
-      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
+    summary: "Des photographies de remise de distinctions.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -702,8 +700,7 @@ const suppliedAlbums: Album[] = [
       value: "2018",
       precision: "year",
     },
-    summary:
-      "Des photographies de remise de distinctions. Les noms et les catégories non confirmés restent à préciser.",
+    summary: "Des photographies de remise de distinctions.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -1655,8 +1652,7 @@ const suppliedAlbums: Album[] = [
       },
       {
         mediaId: "media-events-2021-anniversary-anniversary-02",
-        caption:
-          "Aux chutes de Karera. La date de cette photographie reste à confirmer.",
+        caption: "Aux chutes de Karera.",
         order: 2,
       },
       {
@@ -1787,8 +1783,7 @@ const suppliedAlbums: Album[] = [
         order: 1,
       },
     ],
-    summary:
-      "Un moment de physiothérapie conservé dans les archives SEAFA. La date et le contexte précis restent à confirmer.",
+    summary: "Un moment de physiothérapie conservé dans les archives SEAFA.",
     relatedContent: [
       {
         type: "event",
@@ -1848,8 +1843,7 @@ const suppliedAlbums: Album[] = [
         order: 3,
       },
     ],
-    summary:
-      "Archives de SEAFA. Le contexte et la date des photographies non légendées restent à confirmer.",
+    summary: "Archives de SEAFA.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -1888,7 +1882,7 @@ const suppliedAlbums: Album[] = [
 ];
 const mediaById = new Map(mediaAssets.map((media) => [media.id, media]));
 const seen = new Set<string>();
-export const albums: Album[] = [
+const legacyAlbums: Album[] = [
   anniversaryAlbum,
   ...pendingAlbums.filter((album) => album.id !== "seafa-lumitel"),
   ...octoberAlbums,
@@ -1900,52 +1894,47 @@ export const albums: Album[] = [
   if (album.id === "community-2019-gitega-trip")
     album = {
       ...album,
-      title: "Voyage — 2019 · lieu à confirmer",
-      summary:
-        "Archives d’un voyage classé en 2019. L’ancien dossier et ses légendes indiquent Gitega ; le dossier fourni indique Mabanda. Le lieu reste à confirmer.",
+      title: "Voyage — 2019",
+      summary: "Archives d’un voyage classé en 2019.",
     };
   if (album.id === "community-2019-jenda-excursion")
     album = {
       ...album,
       title: "Archives · excursion à Jenda",
       eventDate: undefined,
-      categoryLabel: "Archives · année à confirmer",
+      categoryLabel: "Archives",
       summary:
-        "Le livret documente une sortie à Jenda en 2019 ; le dossier photographique fourni indique 2021. L’année de ces photographies reste à confirmer.",
+        "Le livret documente une sortie à Jenda en 2019 ; le dossier photographique fourni indique 2021.",
     };
   if (album.id === "events-2019-anniversary")
     album = {
       ...album,
       title: "Archives · anniversaire",
       eventDate: undefined,
-      categoryLabel: "Archives · année à confirmer",
-      summary:
-        "Le dossier indique à la fois 2019 et « anniversary 2017 ». L’année de cet anniversaire reste à confirmer.",
+      categoryLabel: "Archives",
+      summary: "Archives SEAFA",
     };
   if (album.id === "events-2021-anniversary")
     album = {
       ...album,
       title: "Souvenirs de rencontres",
       eventDate: undefined,
-      categoryLabel: "Archives · date à confirmer",
-      summary:
-        "Des retrouvailles et des remises de distinctions. L’année et l’événement précis restent à confirmer ; les photographies des chutes de Karera sont réunies dans leur propre album.",
+      categoryLabel: "Archives",
+      summary: "Des retrouvailles et des remises de distinctions.",
     };
   if (album.id === "events-2018-karera-falls")
     album = {
       ...album,
       title: "Archives · chutes de Karera",
       eventDate: undefined,
-      categoryLabel: "Archives · année à confirmer",
-      summary:
-        "Photographies des chutes de Karera. L’ancien classement indiquait 2018 ; le dossier fourni indique 2021. L’année reste à confirmer.",
+      categoryLabel: "Archives",
+      summary: "Photographies des chutes de Karera.",
       images: [
         ...album.images,
         {
           mediaId: "media-events-2021-anniversary-anniversary-02",
           order: 3,
-          caption:
-            "Aux chutes de Karera. La date de cette photographie reste à confirmer.",
+          caption: "Aux chutes de Karera.",
         },
       ],
     };
@@ -2037,3 +2026,5 @@ export const albums: Album[] = [
       : images[0]?.mediaId,
   };
 });
+
+export const albums: Album[] = reconcileGallery(legacyAlbums);

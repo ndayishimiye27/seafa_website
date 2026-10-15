@@ -172,85 +172,85 @@ const config: NextConfig = {
         {
           source: "/media/events/2018/karera-falls/karera-falls-group-01.jpg",
           destination:
-            "/media/events/2021/karera-falls-anniversary%202021/karera-falls-group-01.jpg",
+            "/media/events/2021/karera-falls-anniversary%202021/1.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2018/karera-falls/karera-falls-group-02.jpg",
           destination:
-            "/media/events/2021/karera-falls-anniversary%202021/karera-falls-group-02.jpg",
+            "/media/events/2021/karera-falls-anniversary%202021/2.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-01.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-01.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-01.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-02.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-02.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-02.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-03.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-03.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-03.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-04.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-04.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-04.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-05.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-05.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-05.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-06.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-06.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-06.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-07.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-07.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-07.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-08.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-08.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-08.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-09.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-09.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-09.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-10.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-10.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-10.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-11.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-11.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-11.jpg",
           permanent: true,
         },
         {
           source: "/media/events/2019/anniversary/anniversary-12.jpg",
           destination:
-            "/media/events/2019/anniversary%202017/anniversary-12.jpg",
+            "/media/events/2019/anniversary%202019/anniversary-12.jpg",
           permanent: true,
         },
         {
@@ -402,6 +402,374 @@ const config: NextConfig = {
       {
         source: "/match-request",
         destination: "/request-match",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG-20181117-WA0001.jpg",
+        destination:
+          "/media/activities/2020/SEAFA%20MEDICINE%202020/IMG-20181117-WA0001.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG-20190310-WA0006.jpg",
+        destination:
+          "/media/activities/2020/SEAFA%20MEDICINE%202020/IMG-20190310-WA0006.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG-20190310-WA0009.jpg",
+        destination: "/media/events/2018/gala-match/IMG-20190310-WA0009.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG-20190310-WA0024.jpg",
+        destination: "/media/events/2018/gala-match/IMG-20190310-WA0024.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG-20190310-WA0029.jpg",
+        destination: "/media/events/2018/gala-match/IMG-20190310-WA0029.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG_1677.JPG",
+        destination: "/media/events/2018/gala-match/IMG_1677.JPG",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/IMG_1729.JPG",
+        destination: "/media/events/2018/gala-match/IMG_1729.JPG",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-001.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-001.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-002.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-002.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-003.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-003.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-004.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-004.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-005.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-005.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-006.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-006.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-007.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-007.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-008.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-008.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-009.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-009.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/activities/2022/2022-conference-sante-photo-010.jpg",
+        destination:
+          "/media/activities/2022/conference/2022-conference-sante-photo-010.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-01.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-01.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-02.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-02.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-03.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-03.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-04.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-04.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-05.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-05.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-06.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-06.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-07.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-07.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-08.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-08.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-09.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-09.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-10.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-10.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-11.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-11.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-12.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-12.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/teza-trip/teza-trip-13.jpg",
+        destination:
+          "/media/activities/2021/jenda-excursion%202021/teza-trip-13.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-01.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-01.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-02.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-02.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-03.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-03.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-04.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-04.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-05.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-05.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-06.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-06.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-07.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-07.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-08.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-08.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-09.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-09.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-10.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-10.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-11.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-11.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-12.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-12.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-13.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-13.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/community/2019/walk/community-walk-14.jpg",
+        destination:
+          "/media/activities/2020/marche%20aller%20retour%20jusqu'a%20la%20lpage%20de%20bujumbura/community-walk-14.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-01.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-01.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-02.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-02.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-03.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-03.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-04.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-04.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-05.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-05.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-06.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-06.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-07.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-07.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-08.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-08.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-09.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-09.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-10.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-10.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-11.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-11.jpg",
+        permanent: true,
+      },
+      {
+        source: "/media/events/2019/anniversary%202017/anniversary-12.jpg",
+        destination: "/media/events/2019/anniversary%202019/anniversary-12.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/events/2021/karera-falls-anniversary%202021/karera-falls-group-01.jpg",
+        destination: "/media/events/2021/karera-falls-anniversary%202021/1.jpg",
+        permanent: true,
+      },
+      {
+        source:
+          "/media/events/2021/karera-falls-anniversary%202021/karera-falls-group-02.jpg",
+        destination: "/media/events/2021/karera-falls-anniversary%202021/2.jpg",
+        permanent: true,
+      },
+      {
+        source: "/gallery/community-2019-teza-trip",
+        destination: "/gallery/community-2019-jenda-excursion",
+        permanent: true,
+      },
+      {
+        source: "/gallery/community-2019-walk",
+        destination: "/gallery/marche-bujumbura-2020",
+        permanent: true,
+      },
+      {
+        source: "/gallery/events-2018-karera-falls",
+        destination: "/gallery/events-2021-anniversary",
+        permanent: true,
+      },
+      {
+        source: "/gallery/community-jenda-group-photo",
+        destination: "/gallery/community-2019-jenda-excursion",
+        permanent: true,
+      },
+      {
+        source: "/gallery/community-kibimba-group-photo",
+        destination: "/gallery/history-archives",
+        permanent: true,
+      },
+      {
+        source: "/gallery/events-medical-session",
+        destination: "/gallery/events-2018-medical-consultation",
         permanent: true,
       },
     ];

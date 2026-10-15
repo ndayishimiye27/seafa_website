@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-15",
+  "basis": "Current owner-organized folders; byte-for-byte moves, not filesystem timestamps.",
+  "registeredImages": 735,
+  "publishedAlbums": 45,
+  "newUniquePhotographs": 0,
+  "moves": [
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20181117-WA0001.jpg",
+      "to": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20181117-WA0001.jpg",
+      "sha256": "eef8dd38beab55f4aae73ccb89abfaa889bc1773f77b50b8bf8e57815330076f"
+    },
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0006.jpg",
+      "to": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20190310-WA0006.jpg",
+      "sha256": "66140f61858b511f76e938b3221f31e716097beef438536144c98c07d3a8ca0c"
+    },
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0009.jpg",
+      "to": "/media/events/2018/gala-match/IMG-20190310-WA0009.jpg",
+      "sha256": "41688f7b2bf56a911e51eb4de073be0f340818275382745f3d4638ad1ecf1002"
+    },
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0024.jpg",
+      "to": "/media/events/2018/gala-match/IMG-20190310-WA0024.jpg",
+      "sha256": "dc5767c92115c731bb15ce8a1d81d5e70d2f31fc2613c5411ff1de074647c786"
+    },
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0029.jpg",
+      "to": "/media/events/2018/gala-match/IMG-20190310-WA0029.jpg",
+      "sha256": "29e2ba03d2172ac9d4f7fac7cf0adb7062d31b5fb2488b1c41ee8e9bf3a458a7"
+    },
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG_1677.JPG",
+      "to": "/media/events/2018/gala-match/IMG_1677.JPG",
+      "sha256": "7ed020823f8bbbac2dbf2cf0ae1c6d2c79e5913dc2f648aba6aed7239f0b3d9b"
+    },
+    {
+      "from": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG_1729.JPG",
+      "to": "/media/events/2018/gala-match/IMG_1729.JPG",
+      "sha256": "b231112667e8b1b0131312445d483f8ee77d0f79850032b716f3e160703419f0"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-001.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-001.jpg",
+      "sha256": "e8c7a8120c621ca70034e938da7d33c44bd942a28f78fab2e16ce7a2214705c2"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-002.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-002.jpg",
+      "sha256": "7992f8e77b0ee31e34331d40b67ba76ecf96bb6f16ad8ed861cc199dd524fe3d"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-003.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-003.jpg",
+      "sha256": "55aa549a111f3a6c7ae069d8661ffe2b4e82a3630391a4310058dd0f9a813c74"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-004.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-004.jpg",
+      "sha256": "88eda401c46ff1f73eb44a74b52daf009c9ffede73e22ee2f906627fe4bce0dd"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-005.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-005.jpg",
+      "sha256": "44cedca26d12259cbe98f6fc18cec1900130b834a6e0b9d5949a7ac67be5a283"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-006.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-006.jpg",
+      "sha256": "3f5b00819c23fb6ef1c011fcf1e2c7a02352e7f6534290c30e9b93b99dec2fa9"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-007.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-007.jpg",
+      "sha256": "6c5467440a2d4e18cdb634045f1ca909110616a42b474ac141422c366f4ccabb"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-008.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-008.jpg",
+      "sha256": "00074bf429853f5beb01af800a721c13152e6faa3cd8af3ca544d967e229ad22"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-009.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-009.jpg",
+      "sha256": "d12f4b175f060dc9e115e1f09dd8ee7f818685ba72127a1d75720bd174f43f8d"
+    },
+    {
+      "from": "/media/activities/2022/2022-conference-sante-photo-010.jpg",
+      "to": "/media/activities/2022/conference/2022-conference-sante-photo-010.jpg",
+      "sha256": "4ea35f0c719f5b9d22ef16b38d02c6cd16d59a72c4cfc6f2d5c76ec723af4e00"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-01.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-01.jpg",
+      "sha256": "f541a74e7acab0734c1cc39551466ae6aa4fd0de92c9624549395d9926dfb35d"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-02.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-02.jpg",
+      "sha256": "adbef07b00855f04b3eefa45971c479add53d1448987de38896dafb70b492558"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-03.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-03.jpg",
+      "sha256": "ec5677adb47a16d635eec12278120ee56b119a56b4a2162615840f75163aaac4"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-04.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-04.jpg",
+      "sha256": "405a80a37f7a6c7281c31f989d6273f155ddc9137ec3da32cbc8db8eb677be98"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-05.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-05.jpg",
+      "sha256": "b67c22c4b19ba948913424c1281abd1e72e010be01f2005236a92fc541ca7f81"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-06.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-06.jpg",
+      "sha256": "8732581a5453ddf95b095db3910042ba74693a2fc64006fb1a58b73bee14a9ae"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-07.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-07.jpg",
+      "sha256": "1bec13591a584271ff69703903ecf71c79115c60fd4780908c21aa2712463ee0"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-08.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-08.jpg",
+      "sha256": "eaccd1c13060354b620d0a938973e7428f9fa26dd0fae2d7b23b9d782ce3c937"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-09.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-09.jpg",
+      "sha256": "6c62e51c2c714f0dbc47ccd9aafa3f610aa9281b4370bb7009a2478f724422e1"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-10.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-10.jpg",
+      "sha256": "98e565c497f3d56b86cf56150ada0b184c24e97ec50b1a159c7d8f03141734dd"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-11.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-11.jpg",
+      "sha256": "5c7ee4f3a7a3a072fe9979e15da21ff24725e0766ae0b9a270760b5a4723c842"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-12.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-12.jpg",
+      "sha256": "6111b12f1f122d6dec12c7de186fac5f61e3058c1b31f76f7438e94a61e3c7c6"
+    },
+    {
+      "from": "/media/community/2019/teza-trip/teza-trip-13.jpg",
+      "to": "/media/activities/2021/jenda-excursion 2021/teza-trip-13.jpg",
+      "sha256": "32ac2e11f45895e2948a685a0e1c534168b4ee2a40939a6d32c5413bee7ce684"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-01.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-01.jpg",
+      "sha256": "d8b2180fc4b6e9ac05aae6b592cdc7617fa58cc6714a9f50bbc7d08079bb890e"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-02.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-02.jpg",
+      "sha256": "171ee7819578622213033798006a3764eef64ea29b400e76e5a0ed7b167919ea"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-03.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-03.jpg",
+      "sha256": "37ac6d20f5695852a139f59c78b6589c8f7736d6b9f967051653df0f63b9469f"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-04.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-04.jpg",
+      "sha256": "b2382864f4af1666b73db051b534b6470e91c0419a5e74c3b50d73e4d317c88a"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-05.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-05.jpg",
+      "sha256": "009a4a3e27740e0c3568ddbdf682f021c0bc3cacb4e6ad97a804fe0574168094"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-06.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-06.jpg",
+      "sha256": "39728dbebb94300ddf675bc8e2dcf91819304e16a4a2e4d40c90c349e74f0142"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-07.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-07.jpg",
+      "sha256": "e07f268e4bc7b9a4d54d0a6d6f3c2a241c1a98892ee07812f58840253ac3b4d8"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-08.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-08.jpg",
+      "sha256": "930bce63e032dabbb228e6366c03f0a81c462004984e2c57797ed976471aca8c"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-09.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-09.jpg",
+      "sha256": "13199a0c47644d972239b74336c8086700ebf2a6a1035ba4822c2c29464dc3e6"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-10.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-10.jpg",
+      "sha256": "e0a4ed0545b268812192d2bdd28bc7b5dfe751e6c8f5a8cc45fe6d89ad3e7dd5"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-11.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-11.jpg",
+      "sha256": "662b6b627954a3d3cd77044c25aeaa6c85fe29620eaccc7268403c9ad4a99ab7"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-12.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-12.jpg",
+      "sha256": "2e557a0b29a61240837b83ae88e034c9ae2c698fd54ebc2c3ab4c094373f4da9"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-13.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-13.jpg",
+      "sha256": "9d506164809f63dc07a8cb9a0467ece2de46dca5896d90af7333344ef30fe1c9"
+    },
+    {
+      "from": "/media/community/2019/walk/community-walk-14.jpg",
+      "to": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-14.jpg",
+      "sha256": "206bcbc23b74fb27c5f1a7ab4b450e32c18768689fa7bd305c4e60820425ac6f"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-01.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-01.jpg",
+      "sha256": "339745fa30831ac11afda3720422817b592ea15b352a95618a774bb44dfd72d0"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-02.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-02.jpg",
+      "sha256": "1f66dcd6cc10b5d80dbf961b52a9df6fd13aa7d471014da3ae3a3f367c97d68d"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-03.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-03.jpg",
+      "sha256": "7541fe9e5c02e6132501000b2c5a51dd2883207fd390cc40dc78b04607570d69"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-04.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-04.jpg",
+      "sha256": "f432e480ce53c871cb70094cb7a0774081297e14ab9a9f4dd5fa0fd1a76b14c3"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-05.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-05.jpg",
+      "sha256": "67704a7c6d91ff466119e7744d91537689827df3a69247d527723c9f09cfc38b"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-06.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-06.jpg",
+      "sha256": "dbde15077d5d4783a937900d8b00f019c440b8342015f4c39978a95eff3f4410"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-07.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-07.jpg",
+      "sha256": "5b40c694f9c52510a9d597bf624eaa6796765ff05fd4b187eab592656336e78e"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-08.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-08.jpg",
+      "sha256": "229877ecd83d2b5bdbad3d64b1aaf8d803700a2f293761c363282aede7d8eb8d"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-09.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-09.jpg",
+      "sha256": "22a02b27a9e93840a69fa4ff4ac068eb7f1b34341317e3151ec42499d430e627"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-10.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-10.jpg",
+      "sha256": "6e4e82d42a1b5a012f64c6aa2af8fe3aa22d975b5204b1c6de3c6c85a3a5c271"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-11.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-11.jpg",
+      "sha256": "ddc9e5424e54415d60c8731d2eb641dce96ab3cd61d71c4589ce493d42d112fa"
+    },
+    {
+      "from": "/media/events/2019/anniversary 2017/anniversary-12.jpg",
+      "to": "/media/events/2019/anniversary 2019/anniversary-12.jpg",
+      "sha256": "7fb805f9fac73c2f82dd737b171daa760de7453a56c9dd29f36a751119940988"
+    },
+    {
+      "from": "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-01.jpg",
+      "to": "/media/events/2021/karera-falls-anniversary 2021/1.jpg",
+      "sha256": "3d01279af21be1a5e82437706344df2a24d17149526931c62f03e7db6e563ac8"
+    },
+    {
+      "from": "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
+      "to": "/media/events/2021/karera-falls-anniversary 2021/2.jpg",
+      "sha256": "5ad6c68efcd339ad588afeb5cbc530c2c9d78740a774339b8de776e4b6240794"
+    }
+  ],
+  "preserved": [
+    {
+      "original": "public/media/activities/2022/description of the event.txt",
+      "preserved": "sources/media-originals/activities/2022/description of the event.txt",
+      "sha256": "f3e47fddb27261cc3b271b8bb25a59e4b95884e951801384cda3b5847e6f5b31"
+    },
+    {
+      "original": "public/media/community/2019/saint-esprit-youth-mentoring.png",
+      "preserved": "sources/media-originals/community/2019/saint-esprit-youth-mentoring.png",
+      "sha256": "7ff62cbb0493769dcd87721af19a2635ae124c8b1804432c19a2b818fef671d6"
+    },
+    {
+      "original": "public/media/community/jenda-group-photo.png",
+      "preserved": "sources/media-originals/community/jenda-group-photo.png",
+      "sha256": "a97cd0decaead85b9c0708299929ae471e72055f9d690b9a389f71bb2478199a"
+    },
+    {
+      "original": "public/media/community/kibimba-group-photo.png",
+      "preserved": "sources/media-originals/community/kibimba-group-photo.png",
+      "sha256": "7726cf9456e49552cb750ac918890502e72b034fbca1282076d10bc76c286975"
+    },
+    {
+      "original": "public/media/events/medical-session.png",
+      "preserved": "sources/media-originals/events/medical-session.png",
+      "sha256": "72bf181d15f4436ade300946f9adda5592a2d3ac841d25e33f44796ab9af2d99"
+    }
+  ]
+}

@@ -23,3 +23,6 @@ export default async function AlbumPage({ params }: Props) {
 }
 
 export const dynamicParams = false;
+
+// Refresh calendar-based upcoming labels without requiring a new deployment.
+export const revalidate = 3600;

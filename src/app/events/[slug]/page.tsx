@@ -222,3 +222,6 @@ export default async function EventPage({ params }: EventPageProps) {
 }
 
 export const dynamicParams = false;
+
+// Refresh calendar-based upcoming labels without requiring a new deployment.
+export const revalidate = 3600;

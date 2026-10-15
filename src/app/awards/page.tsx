@@ -65,8 +65,7 @@ export default function AwardsPage() {
 
         <p className="mb-8 text-slate-600">
           Les albums photographiques suivent les années indiquées dans la
-          médiathèque. Certaines dates et identités diffèrent des récits du
-          livret et restent à confirmer.
+          médiathèque.
         </p>
         <AwardFilterGrid awards={awards} />
       </section>

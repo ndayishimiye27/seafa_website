@@ -1,7 +1,13 @@
 "use client";
 import { useRef, useState, type FormEvent } from "react";
 import Link from "next/link";
-import { formFields, validateSubmission } from "@/content/form-fields";
+import {
+  formFields,
+  validateSubmission,
+  genderOptions,
+  maritalStatusOptions,
+  type MembershipProfile,
+} from "@/content/form-fields";
 import { PositionSelector } from "./position-selector";
 import {
   createDraft,
@@ -14,6 +20,9 @@ import {
 export function ComposerForm({ kind }: { kind: ComposerKind }) {
   const [positions, setPositions] = useState<string[]>([]);
   const [category, setCategory] = useState("");
+  const [membershipProfile, setMembershipProfile] = useState<MembershipProfile>(
+    { gender: "", maritalStatus: "" },
+  );
   const [choice, setChoice] = useState<DeliveryChoice | "">("whatsapp");
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [draft, setDraft] = useState<ReturnType<typeof createDraft> | null>(
@@ -29,7 +38,11 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
     const raw: Record<string, unknown> = Object.fromEntries(fd);
     for (const field of fields)
       if (field.type === "checkbox") raw[field.name] = fd.has(field.name);
-    if (kind === "join") raw.positions = positions;
+    if (kind === "join") {
+      raw.positions = positions;
+      raw.gender = membershipProfile.gender;
+      raw.maritalStatus = membershipProfile.maritalStatus;
+    }
     const checked = validateSubmission(kind, raw);
     if (!choice) checked.errors.delivery = "Choisissez WhatsApp ou e-mail.";
     setErrors(checked.errors);
@@ -158,11 +171,42 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
                     <select
                       {...props}
                       className="form-input"
-                      defaultValue=""
+                      defaultValue={
+                        field.name === "gender" ||
+                        field.name === "maritalStatus"
+                          ? undefined
+                          : ""
+                      }
+                      value={
+                        field.name === "gender" ||
+                        field.name === "maritalStatus"
+                          ? membershipProfile[field.name]
+                          : undefined
+                      }
                       onChange={
                         field.name === "category"
                           ? (e) => setCategory(e.target.value)
-                          : undefined
+                          : field.name === "gender" ||
+                              field.name === "maritalStatus"
+                            ? (e) =>
+                                setMembershipProfile((profile) =>
+                                  field.name === "gender"
+                                    ? {
+                                        ...profile,
+                                        gender:
+                                          genderOptions.find(
+                                            ([code]) => code === e.target.value,
+                                          )?.[0] ?? "",
+                                      }
+                                    : {
+                                        ...profile,
+                                        maritalStatus:
+                                          maritalStatusOptions.find(
+                                            ([code]) => code === e.target.value,
+                                          )?.[0] ?? "",
+                                      },
+                                )
+                            : undefined
                       }
                     >
                       <option value="">Sélectionner une option</option>

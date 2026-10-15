@@ -12,11 +12,13 @@ export const currentPresident: LeadershipMember = {
   termStart: { value: "2024", precision: "year" },
   photograph: { ...jimmy, alt: "Jimmy Jambo, président de SEAFA" },
 };
-// Exact boundaries are not established by the booklet. See presidencyTermLabels.
+// Arnaud's term follows the owner's explicit correction of 15 October 2026.
 export const presidentialSuccession: FormerPresident[] = [
   {
     id: "president-arnaud",
     fullName: "Arnaud Badogomba",
+    termStart: { value: "2014", precision: "year" },
+    termEnd: { value: "2022", precision: "year" },
     photograph: {
       ...arnaud,
       alt: "Arnaud Badogomba, premier président de SEAFA",
@@ -44,10 +46,8 @@ export const presidentialSuccession: FormerPresident[] = [
 ];
 
 export const presidencyTermLabels: Record<string, string> = {
-  "president-arnaud": "2014–2019 attestés · mandat exact à confirmer",
+  "president-arnaud": "2014–2022",
   "president-romeo": "2020–2022",
   "president-tony": "2022–2024",
   "president-jimmy": "Depuis 2024",
 };
-export const presidencySourceNote =
-  "Le livret atteste Arnaud à la présidence en 2014 et encore en 2019. Les limites exactes restent à confirmer : les anciennes données indiquaient 2013–2019, tandis que le portrait fourni indique 2014–2020. Les périodes de Romeo, Tony et Jimmy suivent les noms des portraits fournis.";

@@ -32,7 +32,7 @@ for (const width of [390, 768, 1440, 1920]) {
         }
         await expect(portraits.last()).toContainText("Jimmy Jambo");
         await expect(portraits.nth(1)).toContainText("Romeo Badogomba");
-        await expect(portraits.first()).toContainText("2014–2019 attestés");
+        await expect(portraits.first()).toContainText("2014–2022");
         await expect(portraits.nth(1)).toContainText("2020–2022");
         await expect(portraits.nth(2)).toContainText("2022–2024");
         await expect(portraits.last()).toContainText("Depuis 2024");
@@ -93,7 +93,7 @@ test("hero rotates, pauses and loads photographs progressively", async ({
   expect(links).toEqual([
     "/gallery/seafa-lumitel",
     "/gallery/anniversaire-2026",
-    "/gallery/events-2018-karera-falls",
+    "/gallery/events-2021-anniversary",
     "/gallery/conference-sante-2022",
   ]);
 });

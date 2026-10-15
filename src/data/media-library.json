@@ -172,7 +172,7 @@
     "src": "/media/history/saitn esprtit tam b.jpg",
     "alt": "Archives historiques : photographie 4",
     "width": 540,
-    "height": 960,
+    "height": 798,
     "caption": "Archives historiques"
   },
   {
@@ -985,7 +985,7 @@
   },
   {
     "id": "october-3f5b00819c23fb6e",
-    "src": "/media/activities/2022/2022-conference-sante-photo-006.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-006.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 1",
     "width": 2048,
     "height": 1365,
@@ -993,7 +993,7 @@
   },
   {
     "id": "october-6c5467440a2d4e18",
-    "src": "/media/activities/2022/2022-conference-sante-photo-007.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-007.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 2",
     "width": 2048,
     "height": 1365,
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "october-00074bf429853f5b",
-    "src": "/media/activities/2022/2022-conference-sante-photo-008.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-008.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 3",
     "width": 2048,
     "height": 1366,
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "october-d12f4b175f060dc9",
-    "src": "/media/activities/2022/2022-conference-sante-photo-009.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-009.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 4",
     "width": 1365,
     "height": 2048,
@@ -1017,7 +1017,7 @@
   },
   {
     "id": "october-4ea35f0c719f5b9d",
-    "src": "/media/activities/2022/2022-conference-sante-photo-010.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-010.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 5",
     "width": 2048,
     "height": 1365,
@@ -1025,7 +1025,7 @@
   },
   {
     "id": "october-7992f8e77b0ee31e",
-    "src": "/media/activities/2022/2022-conference-sante-photo-002.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-002.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 6",
     "width": 2048,
     "height": 1366,
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "october-55aa549a111f3a6c",
-    "src": "/media/activities/2022/2022-conference-sante-photo-003.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-003.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 7",
     "width": 2048,
     "height": 1365,
@@ -1041,7 +1041,7 @@
   },
   {
     "id": "october-88eda401c46ff1f7",
-    "src": "/media/activities/2022/2022-conference-sante-photo-004.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-004.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 8",
     "width": 2048,
     "height": 1365,
@@ -1049,7 +1049,7 @@
   },
   {
     "id": "october-44cedca26d12259c",
-    "src": "/media/activities/2022/2022-conference-sante-photo-005.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-005.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 9",
     "width": 2048,
     "height": 1365,
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "october-e8c7a8120c621ca7",
-    "src": "/media/activities/2022/2022-conference-sante-photo-001.jpg",
+    "src": "/media/activities/2022/conference/2022-conference-sante-photo-001.jpg",
     "alt": "Santé des adolescents — 2022 : photographie 10",
     "width": 2048,
     "height": 1365,
@@ -4045,276 +4045,269 @@
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-01",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-01.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-02",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-02.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 682,
     "height": 1024,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-03",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-03.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-04",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-04.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-05",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-05.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-06",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-06.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-07",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-07.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-08",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-08.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 1024,
     "height": 682,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-gitega-trip-gitega-trip-09",
     "src": "/media/community/2019/mabanda-trip/gitega-trip-09.jpg",
-    "alt": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)",
+    "alt": "Voyage à Mabanda — 2019",
     "width": 682,
     "height": 1024,
-    "caption": "Voyage SEAFA — 2019 · lieu à confirmer (Gitega / Mabanda)"
+    "caption": "Voyage à Mabanda — 2019"
   },
   {
     "id": "media-community-2019-jenda-excursion-jenda-excursion-01",
     "src": "/media/activities/2021/jenda-excursion 2021/jenda-excursion-01.png",
-    "alt": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)",
+    "alt": "Excursion à Jenda — 2021",
     "width": 668,
     "height": 659,
-    "caption": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)"
-  },
-  {
-    "id": "media-community-2019-saint-esprit-youth-mentoring",
-    "src": "/media/community/2019/saint-esprit-youth-mentoring.png",
-    "alt": "Accompagnement des jeunes du Saint Esprit — 2019 : photographie 1",
-    "width": 733,
-    "height": 568
+    "caption": "Excursion à Jenda — 2021"
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-01",
-    "src": "/media/community/2019/teza-trip/teza-trip-01.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 1",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-01.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1080,
     "height": 810
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-02",
-    "src": "/media/community/2019/teza-trip/teza-trip-02.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 2",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-02.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1080,
     "height": 810
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-03",
-    "src": "/media/community/2019/teza-trip/teza-trip-03.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 3",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-03.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 810,
     "height": 1080
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-04",
-    "src": "/media/community/2019/teza-trip/teza-trip-04.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 4",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-04.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1080,
     "height": 810
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-05",
-    "src": "/media/community/2019/teza-trip/teza-trip-05.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 5",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-05.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-06",
-    "src": "/media/community/2019/teza-trip/teza-trip-06.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 6",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-06.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-07",
-    "src": "/media/community/2019/teza-trip/teza-trip-07.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 7",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-07.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-08",
-    "src": "/media/community/2019/teza-trip/teza-trip-08.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 8",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-08.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-09",
-    "src": "/media/community/2019/teza-trip/teza-trip-09.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 9",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-09.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-10",
-    "src": "/media/community/2019/teza-trip/teza-trip-10.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 10",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-10.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-11",
-    "src": "/media/community/2019/teza-trip/teza-trip-11.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 11",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-11.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-12",
-    "src": "/media/community/2019/teza-trip/teza-trip-12.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 12",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-12.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-teza-trip-teza-trip-13",
-    "src": "/media/community/2019/teza-trip/teza-trip-13.jpg",
-    "alt": "Voyage à Teza — 2019 : photographie 13",
+    "src": "/media/activities/2021/jenda-excursion 2021/teza-trip-13.jpg",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682
   },
   {
     "id": "media-community-2019-walk-community-walk-01",
-    "src": "/media/community/2019/walk/community-walk-01.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 1",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-01.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1040,
     "height": 780
   },
   {
     "id": "media-community-2019-walk-community-walk-02",
-    "src": "/media/community/2019/walk/community-walk-02.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 2",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-02.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1040,
     "height": 780
   },
   {
     "id": "media-community-2019-walk-community-walk-03",
-    "src": "/media/community/2019/walk/community-walk-03.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 3",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-03.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-04",
-    "src": "/media/community/2019/walk/community-walk-04.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 4",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-04.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-05",
-    "src": "/media/community/2019/walk/community-walk-05.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 5",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-05.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-06",
-    "src": "/media/community/2019/walk/community-walk-06.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 6",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-06.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-07",
-    "src": "/media/community/2019/walk/community-walk-07.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 7",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-07.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 1019
   },
   {
     "id": "media-community-2019-walk-community-walk-08",
-    "src": "/media/community/2019/walk/community-walk-08.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 8",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-08.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-09",
-    "src": "/media/community/2019/walk/community-walk-09.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 9",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-09.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 720,
     "height": 1080
   },
   {
     "id": "media-community-2019-walk-community-walk-10",
-    "src": "/media/community/2019/walk/community-walk-10.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 10",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-10.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-11",
-    "src": "/media/community/2019/walk/community-walk-11.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 11",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-11.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-12",
-    "src": "/media/community/2019/walk/community-walk-12.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 12",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-12.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-13",
-    "src": "/media/community/2019/walk/community-walk-13.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 13",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-13.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720
   },
   {
     "id": "media-community-2019-walk-community-walk-14",
-    "src": "/media/community/2019/walk/community-walk-14.jpg",
-    "alt": "Marche communautaire — 2019 : photographie 14",
+    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-14.jpg",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 903,
     "height": 622
   },
@@ -4324,20 +4317,6 @@
     "alt": "Conférence de Placide au Saint Esprit — 2021 : photographie 1",
     "width": 1425,
     "height": 1104
-  },
-  {
-    "id": "media-community-jenda-group-photo",
-    "src": "/media/community/jenda-group-photo.png",
-    "alt": "Photo de groupe à Jenda : photographie 1",
-    "width": 713,
-    "height": 673
-  },
-  {
-    "id": "media-community-kibimba-group-photo",
-    "src": "/media/community/kibimba-group-photo.png",
-    "alt": "Photo de groupe à Kibimba : photographie 1",
-    "width": 656,
-    "height": 569
   },
   {
     "id": "media-events-2014-anniversary-anniversary-01",
@@ -4461,39 +4440,39 @@
   {
     "id": "media-events-2018-gala-match-gala-match-01",
     "src": "/media/events/2018/gala-match/gala-match-01.png",
-    "alt": "Match de gala — 2018 : photographie 1",
+    "alt": "Match de gala — 2018",
     "width": 818,
     "height": 775
   },
   {
     "id": "media-events-2018-gala-match-gala-match-02",
     "src": "/media/events/2018/gala-match/gala-match-02.png",
-    "alt": "Match de gala — 2018 : photographie 2",
+    "alt": "Match de gala — 2018",
     "width": 818,
     "height": 727
   },
   {
     "id": "media-events-2018-gala-match-gala-match-03",
     "src": "/media/events/2018/gala-match/gala-match-03.png",
-    "alt": "Match de gala — 2018 : photographie 3",
+    "alt": "Match de gala — 2018",
     "width": 652,
     "height": 899
   },
   {
     "id": "media-events-2018-karera-falls-karera-falls-group-01",
-    "src": "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-01.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "src": "/media/events/2021/karera-falls-anniversary 2021/1.jpg",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 729,
     "height": 729,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2018-karera-falls-karera-falls-group-02",
-    "src": "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "src": "/media/events/2021/karera-falls-anniversary 2021/2.jpg",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 726,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2018-medical-consultation-medical-consultation-01",
@@ -4637,163 +4616,163 @@
   },
   {
     "id": "media-events-2019-anniversary-anniversary-01",
-    "src": "/media/events/2019/anniversary 2017/anniversary-01.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-01.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 810,
     "height": 1080,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-02",
-    "src": "/media/events/2019/anniversary 2017/anniversary-02.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-02.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 810,
     "height": 1080,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-03",
-    "src": "/media/events/2019/anniversary 2017/anniversary-03.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-03.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-04",
-    "src": "/media/events/2019/anniversary 2017/anniversary-04.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-04.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-05",
-    "src": "/media/events/2019/anniversary 2017/anniversary-05.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-05.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-06",
-    "src": "/media/events/2019/anniversary 2017/anniversary-06.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-06.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-07",
-    "src": "/media/events/2019/anniversary 2017/anniversary-07.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-07.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-08",
-    "src": "/media/events/2019/anniversary 2017/anniversary-08.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-08.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-09",
-    "src": "/media/events/2019/anniversary 2017/anniversary-09.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-09.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-10",
-    "src": "/media/events/2019/anniversary 2017/anniversary-10.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-10.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-11",
-    "src": "/media/events/2019/anniversary 2017/anniversary-11.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-11.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2019-anniversary-anniversary-12",
-    "src": "/media/events/2019/anniversary 2017/anniversary-12.jpg",
-    "alt": "Archives · anniversaire · année à confirmer (2017 / 2019)",
+    "src": "/media/events/2019/anniversary 2019/anniversary-12.jpg",
+    "alt": "Anniversaire SEAFA — 2019",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · anniversaire · année à confirmer (2017 / 2019)"
+    "caption": "Anniversaire SEAFA — 2019"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-01",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-01.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-02",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-02.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-03",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-03.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-04",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-04.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-05",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-05.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-06",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-06.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-07",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-07.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2021-anniversary-anniversary-08",
     "src": "/media/events/2021/karera-falls-anniversary 2021/anniversary-08.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 720,
     "height": 515,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "media-events-2022-anniversary-anniversary-cover",
@@ -4838,13 +4817,6 @@
     "height": 1571
   },
   {
-    "id": "media-events-medical-session",
-    "src": "/media/events/medical-session.png",
-    "alt": "Un moment de physiothérapie dans les archives SEAFA ; date à confirmer.",
-    "width": 731,
-    "height": 674
-  },
-  {
     "id": "media-history-2013-founding-members-01",
     "src": "/media/history/2013/founders-corrected.svg",
     "alt": "Membres fondateurs, dont Axel Bayoboke, Mugisha Celestin et Butungunu Fleury ; portraits dans leur ordre original.",
@@ -4868,14 +4840,14 @@
   {
     "id": "media-history-archive-photo-01",
     "src": "/media/history/archive-photo-01.png",
-    "alt": "Photographie d’archive de SEAFA, contexte et date à confirmer",
+    "alt": "Archives SEAFA",
     "width": 732,
     "height": 636
   },
   {
     "id": "media-history-archive-photo-02",
     "src": "/media/history/archive-photo-02.png",
-    "alt": "Photographie d’archive de SEAFA, contexte et date à confirmer",
+    "alt": "Archives SEAFA",
     "width": 733,
     "height": 612
   },
@@ -5059,48 +5031,48 @@
   },
   {
     "id": "correction-18cd5ea1e83625ed",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20181117-WA0001.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 1",
+    "src": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20181117-WA0001.jpg",
+    "alt": "SEAFA médecine — 2020",
     "width": 1024,
     "height": 576,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "SEAFA médecine — 2020"
   },
   {
     "id": "correction-8428469af744a393",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0006.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 2",
+    "src": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20190310-WA0006.jpg",
+    "alt": "SEAFA médecine — 2020",
     "width": 2048,
     "height": 1365,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "SEAFA médecine — 2020"
   },
   {
     "id": "correction-aaf3b2a572d4613b",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0009.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 3",
+    "src": "/media/events/2018/gala-match/IMG-20190310-WA0009.jpg",
+    "alt": "Match de gala — 2018",
     "width": 1500,
     "height": 1000,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "Match de gala — 2018"
   },
   {
     "id": "correction-65a77fc72e6e4092",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0024.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 4",
+    "src": "/media/events/2018/gala-match/IMG-20190310-WA0024.jpg",
+    "alt": "Match de gala — 2018",
     "width": 2048,
     "height": 1365,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "Match de gala — 2018"
   },
   {
     "id": "correction-cbdc3599c48b3f3b",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190310-WA0029.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 5",
+    "src": "/media/events/2018/gala-match/IMG-20190310-WA0029.jpg",
+    "alt": "Match de gala — 2018",
     "width": 1500,
     "height": 1000,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "Match de gala — 2018"
   },
   {
     "id": "correction-26b4a28e25946465",
     "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0005.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 6",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 720,
     "caption": "Marche à Bujumbura — 2020"
@@ -5108,7 +5080,7 @@
   {
     "id": "correction-d6c7aa60f49bf264",
     "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0056.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 7",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1600,
     "height": 1200,
     "caption": "Marche à Bujumbura — 2020"
@@ -5116,7 +5088,7 @@
   {
     "id": "correction-4d1d05a4a249f5ba",
     "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0057.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 8",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1600,
     "height": 1200,
     "caption": "Marche à Bujumbura — 2020"
@@ -5124,7 +5096,7 @@
   {
     "id": "correction-bafa0de403092e8f",
     "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0063.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 9",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 607,
     "caption": "Marche à Bujumbura — 2020"
@@ -5132,7 +5104,7 @@
   {
     "id": "correction-3a829c7d4c8a996e",
     "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0064.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 10",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 607,
     "caption": "Marche à Bujumbura — 2020"
@@ -5140,31 +5112,31 @@
   {
     "id": "correction-38c61b84682beb0d",
     "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG-20190929-WA0065.jpg",
-    "alt": "Marche à Bujumbura — 2020 : photographie 11",
+    "alt": "Marche à Bujumbura — 2020",
     "width": 1080,
     "height": 607,
     "caption": "Marche à Bujumbura — 2020"
   },
   {
     "id": "correction-64d1a0c315ee2b1f",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG_1677.JPG",
-    "alt": "Marche à Bujumbura — 2020 : photographie 12",
+    "src": "/media/events/2018/gala-match/IMG_1677.JPG",
+    "alt": "Match de gala — 2018",
     "width": 4898,
     "height": 3265,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "Match de gala — 2018"
   },
   {
     "id": "correction-4ba901256af93b78",
-    "src": "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/IMG_1729.JPG",
-    "alt": "Marche à Bujumbura — 2020 : photographie 13",
+    "src": "/media/events/2018/gala-match/IMG_1729.JPG",
+    "alt": "Match de gala — 2018",
     "width": 4898,
     "height": 3265,
-    "caption": "Marche à Bujumbura — 2020"
+    "caption": "Match de gala — 2018"
   },
   {
     "id": "correction-cf58b87145a313c3",
     "src": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20190928-WA0017.jpg",
-    "alt": "SEAFA médecine — 2020 : photographie 1",
+    "alt": "SEAFA médecine — 2020",
     "width": 1080,
     "height": 810,
     "caption": "SEAFA médecine — 2020"
@@ -5172,7 +5144,7 @@
   {
     "id": "correction-6a6e88b1edb095bf",
     "src": "/media/activities/2020/SEAFA MEDICINE 2020/IMG-20190928-WA0028.jpg",
-    "alt": "SEAFA médecine — 2020 : photographie 2",
+    "alt": "SEAFA médecine — 2020",
     "width": 1080,
     "height": 810,
     "caption": "SEAFA médecine — 2020"
@@ -5180,42 +5152,42 @@
   {
     "id": "correction-4f56d740b7230eee",
     "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190514-WA0002.jpg",
-    "alt": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682,
-    "caption": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)"
+    "caption": "Excursion à Jenda — 2021"
   },
   {
     "id": "correction-e86d292256facca8",
     "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190514-WA0058.jpg",
-    "alt": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)"
+    "caption": "Excursion à Jenda — 2021"
   },
   {
     "id": "correction-c40fc00aaf0f53f9",
     "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190520-WA0003.jpg",
-    "alt": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682,
-    "caption": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)"
+    "caption": "Excursion à Jenda — 2021"
   },
   {
     "id": "correction-fb0a7cc1abbddd88",
     "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190520-WA0010.jpg",
-    "alt": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1024,
     "height": 682,
-    "caption": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)"
+    "caption": "Excursion à Jenda — 2021"
   },
   {
     "id": "correction-64e3f40590809154",
     "src": "/media/activities/2021/jenda-excursion 2021/IMG-20190812-WA0002.jpg",
-    "alt": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)",
+    "alt": "Excursion à Jenda — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · excursion à Jenda · année à confirmer (2019 / 2021)"
+    "caption": "Excursion à Jenda — 2021"
   },
   {
     "id": "correction-42cb6ead278b256c",
@@ -5252,474 +5224,474 @@
   {
     "id": "correction-1e4439a26cf001a9",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.48 (1).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 1",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-3ab8e69ed7a9ab6c",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.48 (2).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 2",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-767b8926719172b8",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.48.jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 3",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1020,
     "height": 768,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-b1327b40730378e4",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.49 (1).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 4",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-06b25e95c63b21eb",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.49 (2).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 5",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-e671734270af3231",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.49.jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 6",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-da9e56f7b4ea63b4",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.50 (1).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 7",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-a677465c5e6d2c96",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.50 (2).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 8",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-5da6e1f482fb8466",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.50.jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 9",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-161270cfad4a8262",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.51 (1).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 10",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-9104f0be82a954a5",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.51 (2).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 11",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-f87c2e928a064781",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.51.jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 12",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-98e58aa22bef3f0e",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.52 (1).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 13",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-efec81c377970df5",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.52 (2).jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 14",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-8f99ff664eb7f5d2",
     "src": "/media/activities/2026/match contre les meilleures basketteurs du burundi 2026/WhatsApp Image 2026-10-14 at 13.07.52.jpeg",
-    "alt": "Rencontre avec les basketteurs du Burundi — 2026 : photographie 15",
+    "alt": "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     "width": 1080,
     "height": 810,
-    "caption": "Rencontre avec les basketteurs du Burundi — 2026"
+    "caption": "Rencontre avec les basketteurs du Burundi — Novembre 2026"
   },
   {
     "id": "correction-ae1b37284b70ecf0",
     "src": "/media/archives/IMG-20190201-WA0004.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-9e2d151d1f49b7e1",
     "src": "/media/archives/IMG-20190812-WA0066.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-1380072186465623",
     "src": "/media/archives/IMG-20191007-WA0020.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-bc5f2e916b5c8a25",
     "src": "/media/archives/IMG-20191007-WA0021.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-b3168a5ab27e3edd",
     "src": "/media/archives/IMG-20191007-WA0040.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-5e4eb28f2c3d74e6",
     "src": "/media/archives/IMG-20191007-WA0043.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-288a133f3235b80c",
     "src": "/media/archives/IMG-20191011-WA0021.jpg",
-    "alt": "Archives SEAFA : date et événement non confirmés",
+    "alt": "Archives SEAFA",
     "width": 720,
     "height": 1080,
-    "caption": "Archives · date et événement à confirmer"
+    "caption": "Archives"
   },
   {
     "id": "correction-07c91e0795f4e6de",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0041.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-de59d4cf08127a79",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0042.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-360ed0a8341d1d2d",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0106.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-e3513e4f59363287",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0110.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-4c88758338b42fe7",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0112.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-12c3edd20410795d",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0115.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-5ae00cfba72eefab",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0122.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-01f29713a85b6097",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0126.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-39cb8936e9593a3d",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0129.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-f01b9551ef6599b9",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0131.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-5814b8c7c65cf2fd",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0133.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-420a3f7c497a0843",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0136.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-f01bc27951f2adf1",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0140.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-9b25a8c24907a05f",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0162.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-6ad6334808bd253d",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0183.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-dfe876b2110817c2",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0186.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-9b2b481ceb287258",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0189.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-620c9f9f19ae2da1",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0190.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-41c0c6850c90f9aa",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0216.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-e87aad33d620d356",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0218.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-de79d7e39949c2ba",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0221.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-f5305d06efc9f1d9",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0227.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-8972502c05f738d9",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0236.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 726,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-2405ae2ac3828a28",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0238.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 806,
     "height": 740,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-5b36178ade45fd17",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0264.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-f47174e6c93a7f8e",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0279.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-6c22709f94bba90e",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0302.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-d260c7c929ae0aed",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0323.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-a624eae31a8a4009",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0333.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-d9daffd7aa66ef32",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0334.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-ee6396dbc8c7cf80",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0335.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-6da6e20aff29e478",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0394.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-7d3df0889c76dab2",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0400.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-b23b3977784536e6",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0528.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-f57b1ac755724498",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0537.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-bd45974f51044430",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0545.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "correction-fc91166fcfa8c363",
     "src": "/media/events/2021/karera-falls-anniversary 2021/IMG-20210901-WA0607.jpg",
-    "alt": "Archives · rencontres et chutes de Karera · année à confirmer",
+    "alt": "Anniversaire et chutes de Karera — 2021",
     "width": 1080,
     "height": 720,
-    "caption": "Archives · rencontres et chutes de Karera · année à confirmer"
+    "caption": "Anniversaire et chutes de Karera — 2021"
   },
   {
     "id": "source-founders-original",

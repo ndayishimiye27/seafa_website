@@ -46,7 +46,7 @@ for (const width of [390, 1440]) {
       )
       .toBe(true);
     const presidents = page.locator(".presidency-timeline li");
-    await expect(presidents.first()).toContainText("2014–2019 attestés");
+    await expect(presidents.first()).toContainText("2014–2022");
     await expect(presidents.nth(1)).toContainText("2020–2022");
     await expect(presidents.nth(2)).toContainText("2022–2024");
     await expect(presidents.last()).toContainText("Depuis 2024");
@@ -61,10 +61,10 @@ for (const width of [390, 1440]) {
     ).toBeVisible();
     await expect(
       page.locator('a[href="/gallery/community-2019-jenda-excursion"]'),
-    ).toBeVisible();
+    ).toHaveCount(0);
     await expect(
       page.locator('a[href="/gallery/events-2019-anniversary"]'),
-    ).toBeVisible();
+    ).toHaveCount(0);
     for (const album of correctionAlbums) {
       await page.goto(`/gallery/${album.slug}`);
       await expect(page.locator("h1")).toContainText(album.title);

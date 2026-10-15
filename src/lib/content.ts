@@ -9,7 +9,7 @@ import {
   compareDatesAscending,
   compareDatesDescending,
   compareDisplayOrder,
-  getSortableDateValue,
+  getDateRangeEnd,
   isPublished,
 } from "@/lib/content-utils";
 import type {
@@ -32,9 +32,16 @@ function copyArray<T>(items: readonly T[]): T[] {
 /* -------------------------------------------------------------------------- */
 
 export function getAllAlbums(): Album[] {
-  return copyArray(albums).sort((first, second) =>
-    compareDatesDescending(first.eventDate, second.eventDate),
-  );
+  return copyArray(albums)
+    .map((album): Album =>
+      album.status === "upcoming" &&
+      getDateRangeEnd(album.eventDate) < Date.now()
+        ? { ...album, status: "completed" }
+        : album,
+    )
+    .sort((first, second) =>
+      compareDatesDescending(first.eventDate, second.eventDate),
+    );
 }
 
 export function getPublishedAlbums(): Album[] {
@@ -131,7 +138,12 @@ export function getPublishedEvents(): Event[] {
 }
 
 export function getEventBySlug(slug: string): Event | null {
-  return getPublishedEvents().find((event) => event.slug === slug) ?? null;
+  const event = getPublishedEvents().find((event) => event.slug === slug);
+  if (!event) return null;
+  return event.status === "upcoming" &&
+    getDateRangeEnd(event.endDate ?? event.startDate) < Date.now()
+    ? { ...event, status: "completed" }
+    : event;
 }
 
 export function getEventById(id: string): Event | null {
@@ -143,7 +155,7 @@ export function getUpcomingEvents(referenceDate = new Date()): Event[] {
 
   return getPublishedEvents()
     .filter((event) => {
-      const eventTime = getSortableDateValue(event.startDate);
+      const eventTime = getDateRangeEnd(event.endDate ?? event.startDate);
 
       return (
         event.status === "upcoming" &&
@@ -164,7 +176,7 @@ export function getPastEvents(referenceDate = new Date()): Event[] {
 
   return getPublishedEvents()
     .filter((event) => {
-      const eventTime = getSortableDateValue(event.endDate ?? event.startDate);
+      const eventTime = getDateRangeEnd(event.endDate ?? event.startDate);
 
       return (
         event.status === "completed" ||

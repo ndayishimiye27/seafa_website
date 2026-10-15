@@ -18,6 +18,6 @@ export const siteSettings: SiteSettings = {
     "Depuis 2013, une famille issue des anciens du Lycée du Saint Esprit, unie par le football, la fraternité et le service.",
   heroMediaId: "media-brand-seafa-main-background-2013",
   introductionMediaId: "media-brand-seafa-hero-background-02",
-  communityMediaId: "media-community-jenda-group-photo",
+  communityMediaId: "media-community-2019-teza-trip-teza-trip-08",
   socialLinks: [],
 };

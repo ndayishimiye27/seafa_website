@@ -25,6 +25,54 @@ async function fill(page: Page, kind: "contact" | "join" | "match-requests") {
   }
 }
 
+for (const width of [390, 1440])
+  test(`membership profile choices and optional omissions at ${width}px`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 950 });
+    await page.addInitScript(() => {
+      window.open = () => null;
+    });
+    await page.goto("/join");
+    const gender = page.locator('[name="gender"]');
+    const marital = page.locator('[name="maritalStatus"]');
+    await expect(gender).toHaveValue("");
+    await expect(marital).toHaveValue("");
+    await fill(page, "join");
+    await gender.selectOption("");
+    await marital.selectOption("");
+    await page.locator('button[type="submit"]').click();
+    await expect(page.locator("#draft-message")).toHaveCount(0);
+    await expect(page.locator("form")).toContainText(
+      "Veuillez sélectionner votre genre.",
+    );
+    for (const [code, label, status] of [
+      ["female", "Femme", ""],
+      ["male", "Homme", "married"],
+    ]) {
+      await gender.selectOption(code);
+      await marital.selectOption(status);
+      for (const channel of ["whatsapp", "email"]) {
+        await page.locator(`[name="delivery"][value="${channel}"]`).check();
+        await page.locator('button[type="submit"]').click();
+        const body = await page.locator("#draft-message").inputValue();
+        expect(body).toContain(`Genre : ${label}`);
+        if (status) expect(body).toContain("Situation matrimoniale : Marié(e)");
+        else expect(body).not.toContain("Situation matrimoniale");
+        const link = page
+          .getByRole("region", { name: "Brouillon de votre demande" })
+          .getByRole("link");
+        const url = new URL((await link.getAttribute("href"))!);
+        expect(
+          url.searchParams.get(channel === "email" ? "body" : "text"),
+        ).toBe(body);
+      }
+    }
+    await expect(page.locator(".form-message.success")).toHaveCount(0);
+    await gender.scrollIntoViewIfNeeded();
+    await page.screenshot({ path: `tmp/oct15/membership-${width}.png` });
+  });
+
 for (const width of [375, 1440])
   for (const kind of ["contact", "join", "match-requests"] as const)
     for (const channel of ["whatsapp", "email"] as const) {

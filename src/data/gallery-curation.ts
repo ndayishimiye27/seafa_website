@@ -1,7 +1,8 @@
+import { mediaAssets } from "@/data/media";
 import type { Album } from "@/types/content";
 import { octoberDuplicateSources } from "@/data/october-media";
 // Exact matches and visually repeated compositions reviewed; all originals retained.
-export const excludedPhotoSources: Record<string, string> = {
+const suppliedExclusions: Record<string, string> = {
   ...octoberDuplicateSources,
   "/media/history/2013/founders.png":
     "/media/history/2013/founders-corrected.svg",
@@ -18,7 +19,7 @@ export const excludedPhotoSources: Record<string, string> = {
   "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-017.jpg":
     "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-009.jpg",
   "/media/events/2021/karera-falls-anniversary 2021/anniversary-01.jpg":
-    "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
+    "/media/events/2021/karera-falls-anniversary 2021/2.jpg",
   "/media/events/2018/medical-consultation/medical-consultation-01.png":
     "/media/events/medical-session.png",
   "/media/community/2019/saint-esprit-youth-mentoring.png":
@@ -72,10 +73,10 @@ export const excludedPhotoSources: Record<string, string> = {
     "/media/activities/2024/tournament/2024-tournoi-saint-esprit-photo-020.jpg",
   "/media/community/2019/mabanda-trip/gitega-trip-05.jpg":
     "/media/community/2019/mabanda-trip/gitega-trip-04.jpg",
-  "/media/community/2019/walk/community-walk-02.jpg":
-    "/media/community/2019/walk/community-walk-01.jpg",
+  "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-02.jpg":
+    "/media/activities/2020/marche aller retour jusqu'a la lpage de bujumbura/community-walk-01.jpg",
   "/media/events/2021/karera-falls-anniversary 2021/anniversary-03.jpg":
-    "/media/events/2021/karera-falls-anniversary 2021/karera-falls-group-02.jpg",
+    "/media/events/2021/karera-falls-anniversary 2021/2.jpg",
   "/media/history/founders.png": "/media/history/2013/founders.png",
   "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-016.jpg":
     "/media/activities/2020/kuramukanya chez les badogomba/2020-rencontre-badogomba-photo-002.jpg",
@@ -149,8 +150,7 @@ export const albumAdditions: Album[] = [
     title: "Archives photographiques",
     type: "history",
     images: [],
-    summary:
-      "Archives photographiques. La date de ces photographies reste à confirmer.",
+    summary: "Archives photographiques.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -162,8 +162,7 @@ export const albumAdditions: Album[] = [
     title: "Visite chez les Badogomba",
     type: "community",
     images: [],
-    summary:
-      "Visite chez les Badogomba. La date de ces photographies reste à confirmer.",
+    summary: "Visite chez les Badogomba.",
     relatedContent: [],
     featured: false,
     publicationStatus: "published",
@@ -283,3 +282,13 @@ export const additionalAlbumPhotos: Record<string, string[]> = {
     "photo-fe2a4455319ed6bc",
   ],
 };
+
+const currentSources = new Set(mediaAssets.map((media) => media.src));
+export const excludedPhotoSources: Record<string, string> = Object.fromEntries(
+  Object.entries(suppliedExclusions).filter(
+    ([source, target]) =>
+      source !== target &&
+      currentSources.has(source) &&
+      currentSources.has(target),
+  ),
+);

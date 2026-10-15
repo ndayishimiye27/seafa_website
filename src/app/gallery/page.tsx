@@ -49,9 +49,9 @@ export default function GalleryPage() {
 
           <p className="mt-4 leading-7 text-slate-600">
             Parcourez les années ou les événements d’une même collection. Les
-            photographies sans date ou événement identifié sont conservées dans
-            les collections « Archives ». Le filtre « Date à confirmer » permet
-            de parcourir les collections non datées.
+            photographies de la vie de SEAFA vous accompagnent au fil des
+            rencontres. Explorez une année, un événement ou nos collections
+            d’archives.
           </p>
         </div>
 
@@ -60,3 +60,6 @@ export default function GalleryPage() {
     </main>
   );
 }
+
+// Refresh calendar-based upcoming labels without requiring a new deployment.
+export const revalidate = 3600;

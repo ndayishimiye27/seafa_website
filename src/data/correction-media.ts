@@ -9,8 +9,7 @@ export const correctionAlbums: Album[] = [
       value: "2019",
       precision: "year",
     },
-    summary:
-      "Une marche au collège, conservée dans les archives de 2019. Le jour précis reste à confirmer.",
+    summary: "Une marche au collège, conservée dans les archives de 2019.",
     images: [],
     relatedContent: [],
     featured: false,
@@ -26,7 +25,7 @@ export const correctionAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Les photographies de SEAFA médecine conservées dans les archives de 2020. Le jour et le lieu précis restent à confirmer.",
+      "Les photographies de SEAFA médecine conservées dans les archives de 2020.",
     images: [],
     relatedContent: [],
     featured: false,
@@ -42,7 +41,7 @@ export const correctionAlbums: Album[] = [
       precision: "year",
     },
     summary:
-      "Une marche aller-retour vers la plage de Bujumbura, conservée dans les archives de 2020. Le jour précis reste à confirmer.",
+      "Une marche aller-retour vers la plage de Bujumbura, conservée dans les archives de 2020.",
     images: [],
     relatedContent: [],
     featured: false,
@@ -57,8 +56,7 @@ export const correctionAlbums: Album[] = [
       value: "2022",
       precision: "year",
     },
-    summary:
-      "Les photographies du match de gala retour de 2022. Le jour, le lieu précis et le score restent à confirmer.",
+    summary: "Les photographies du match de gala retour de 2022.",
     images: [],
     relatedContent: [],
     featured: false,
@@ -67,14 +65,14 @@ export const correctionAlbums: Album[] = [
   {
     id: "match-basketteurs-2026",
     slug: "match-basketteurs-2026",
-    title: "Rencontre avec les basketteurs du Burundi — 2026",
+    title: "Rencontre avec les basketteurs du Burundi — Novembre 2026",
     type: "activity",
     eventDate: {
-      value: "2026",
-      precision: "year",
+      value: "2026-11",
+      precision: "month",
     },
     summary:
-      "Une rencontre avec les basketteurs du Burundi, conservée dans les archives de 2026. Le jour, le lieu précis et le score restent à confirmer.",
+      "Un rendez-vous sportif entre SEAFA et les basketteurs du Burundi en novembre 2026.",
     images: [],
     relatedContent: [],
     featured: false,

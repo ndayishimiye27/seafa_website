@@ -1,5 +1,24 @@
 import { positionOptions, legacyPositions } from "@/content/positions";
-export type SubmissionData = Record<string, string | boolean | string[]>;
+export const genderOptions = [
+  ["male", "Homme"],
+  ["female", "Femme"],
+] as const;
+export const maritalStatusOptions = [
+  ["single", "Célibataire"],
+  ["married", "Marié(e)"],
+  ["other", "Autre"],
+  ["prefer_not_to_say", "Préfère ne pas préciser"],
+] as const;
+export type MembershipGender = (typeof genderOptions)[number][0];
+export type MaritalStatus = (typeof maritalStatusOptions)[number][0];
+export interface MembershipProfile {
+  gender: MembershipGender | "";
+  maritalStatus: MaritalStatus | "";
+}
+export type SubmissionData = Record<string, string | boolean | string[]> & {
+  gender?: MembershipGender | "";
+  maritalStatus?: MaritalStatus | "";
+};
 export type FormKind = "contact" | "join" | "match-requests";
 export interface FormField {
   name: string;
@@ -91,6 +110,19 @@ export const contactFields: FormField[] = [
 ];
 export const membershipFields: FormField[] = [
   fullName,
+  {
+    name: "gender",
+    label: "Genre",
+    type: "select",
+    required: true,
+    options: genderOptions,
+  },
+  {
+    name: "maritalStatus",
+    label: "Situation matrimoniale",
+    type: "select",
+    options: maritalStatusOptions,
+  },
   email,
   telephone,
   { name: "profession", label: "Profession", type: "text", max: 200 },
@@ -262,8 +294,23 @@ export function validateSubmission(
       typeof raw[f.name] === "string"
         ? normalizeText(raw[f.name] as string)
         : "";
-    data[f.name] = f.type === "email" ? value.toLowerCase() : value;
-    if (f.required && !value) errors[f.name] = "Veuillez renseigner ce champ.";
+    if (f.name === "gender")
+      data.gender = genderOptions.find(([code]) => code === value)?.[0] ?? "";
+    else if (f.name === "maritalStatus")
+      data.maritalStatus =
+        maritalStatusOptions.find(([code]) => code === value)?.[0] ?? "";
+    else data[f.name] = f.type === "email" ? value.toLowerCase() : value;
+    if (
+      f.type === "select" &&
+      raw[f.name] !== undefined &&
+      typeof raw[f.name] !== "string"
+    )
+      errors[f.name] = "Choisissez une option proposée.";
+    if (f.required && !value)
+      errors[f.name] =
+        f.name === "gender"
+          ? "Veuillez sélectionner votre genre."
+          : "Veuillez renseigner ce champ.";
     else if (value) {
       if (f.min && value.length < f.min)
         errors[f.name] = `Saisissez au moins ${f.min} caractères.`;

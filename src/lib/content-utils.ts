@@ -68,6 +68,18 @@ export function compareDatesDescending(
   return a === b ? 0 : b - a;
 }
 
+/** A month-only event remains upcoming throughout its documented month. */
+export function getDateRangeEnd(date: EventDate | undefined): number {
+  const start = getSortableDateValue(date);
+  if (!date || !Number.isFinite(start)) return start;
+  const year = Number(date.value.slice(0, 4));
+  if (date.precision === "year") return Date.UTC(year + 1, 0, 1) - 1;
+  if (date.precision === "month")
+    return Date.UTC(year, Number(date.value.slice(5, 7)), 1) - 1;
+  if (date.precision === "day") return start + 86400000 - 1;
+  return start;
+}
+
 export function compareDatesAscending(
   first: EventDate | undefined,
   second: EventDate | undefined,
@@ -99,7 +111,9 @@ export function formatEventDate(
         month: "long",
         year: "numeric",
         timeZone: "UTC",
-      }).format(parsedDate);
+      })
+        .format(parsedDate)
+        .replace(/^./, (letter) => letter.toLocaleUpperCase("fr"));
 
     case "day":
       return new Intl.DateTimeFormat(locale, {

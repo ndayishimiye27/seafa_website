@@ -32,13 +32,13 @@ export function AlbumCard({
   const category = album.categoryLabel ?? albumTypeLabels[album.type];
 
   return (
-    <article className="group overflow-hidden rounded-md border border-slate-200 bg-white transition duration-300 hover:border-[#b7923d] focus-within:ring-2 focus-within:ring-[#b7923d] focus-within:ring-offset-4">
+    <article className="album-card group overflow-hidden rounded-md border border-slate-200 bg-white transition duration-300 hover:border-[#b7923d] focus-within:ring-2 focus-within:ring-[#b7923d] focus-within:ring-offset-4">
       <Link
         href={href}
         className="block focus:outline-none"
         aria-label={`Découvrir l’album ${album.title}`}
       >
-        <div className="relative aspect-[4/3] overflow-hidden bg-slate-100">
+        <div className="relative aspect-[4/3] overflow-hidden bg-[#102943]">
           {cover ? (
             <Image
               src={cover.src}
@@ -46,8 +46,7 @@ export function AlbumCard({
               fill
               preload={priority}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="object-cover transition duration-500 group-hover:scale-[1.04]"
-              style={{ objectPosition: "center 40%" }}
+              className="object-contain transition-opacity duration-300 group-hover:opacity-95 motion-reduce:transition-none"
             />
           ) : (
             <BrandedMediaPlaceholder
@@ -63,7 +62,7 @@ export function AlbumCard({
 
           <div className="absolute left-4 top-4 flex flex-wrap gap-2">
             <span className="rounded-full bg-[#071d3b]/90 px-3 py-1 text-xs font-semibold text-white backdrop-blur">
-              {category}
+              {album.status === "upcoming" ? "À venir" : category}
             </span>
 
             {album.featured ? (

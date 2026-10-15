@@ -55,8 +55,7 @@ const photographicAwards: Award[] = [2014, 2015, 2016, 2018].map((year) => ({
   year,
   recipients: [],
   memberIds: [],
-  description:
-    "Album classé selon l’année du dossier fourni. Les identités, intitulés et dates des distinctions restent à confirmer lorsque les informations du livret divergent.",
+  description: "Album classé selon l’année du dossier fourni.",
   source: "Médiathèque SEAFA : dossier awards/" + year,
   featured: false,
   publicationStatus: "published",

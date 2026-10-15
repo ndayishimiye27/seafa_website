@@ -2,7 +2,7 @@ import type { MediaAsset } from "@/types/content";
 export const octoberMedia: MediaAsset[] = [
   {
     id: "october-3f5b00819c23fb6e",
-    src: "/media/activities/2022/2022-conference-sante-photo-006.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-006.jpg",
     alt: "Santé des adolescents — 2022 : photographie 1",
     width: 2048,
     height: 1365,
@@ -10,7 +10,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-6c5467440a2d4e18",
-    src: "/media/activities/2022/2022-conference-sante-photo-007.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-007.jpg",
     alt: "Santé des adolescents — 2022 : photographie 2",
     width: 2048,
     height: 1365,
@@ -18,7 +18,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-00074bf429853f5b",
-    src: "/media/activities/2022/2022-conference-sante-photo-008.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-008.jpg",
     alt: "Santé des adolescents — 2022 : photographie 3",
     width: 2048,
     height: 1366,
@@ -26,7 +26,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-d12f4b175f060dc9",
-    src: "/media/activities/2022/2022-conference-sante-photo-009.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-009.jpg",
     alt: "Santé des adolescents — 2022 : photographie 4",
     width: 1365,
     height: 2048,
@@ -34,7 +34,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-4ea35f0c719f5b9d",
-    src: "/media/activities/2022/2022-conference-sante-photo-010.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-010.jpg",
     alt: "Santé des adolescents — 2022 : photographie 5",
     width: 2048,
     height: 1365,
@@ -42,7 +42,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-7992f8e77b0ee31e",
-    src: "/media/activities/2022/2022-conference-sante-photo-002.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-002.jpg",
     alt: "Santé des adolescents — 2022 : photographie 6",
     width: 2048,
     height: 1366,
@@ -50,7 +50,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-55aa549a111f3a6c",
-    src: "/media/activities/2022/2022-conference-sante-photo-003.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-003.jpg",
     alt: "Santé des adolescents — 2022 : photographie 7",
     width: 2048,
     height: 1365,
@@ -58,7 +58,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-88eda401c46ff1f7",
-    src: "/media/activities/2022/2022-conference-sante-photo-004.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-004.jpg",
     alt: "Santé des adolescents — 2022 : photographie 8",
     width: 2048,
     height: 1365,
@@ -66,7 +66,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-44cedca26d12259c",
-    src: "/media/activities/2022/2022-conference-sante-photo-005.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-005.jpg",
     alt: "Santé des adolescents — 2022 : photographie 9",
     width: 2048,
     height: 1365,
@@ -74,7 +74,7 @@ export const octoberMedia: MediaAsset[] = [
   },
   {
     id: "october-e8c7a8120c621ca7",
-    src: "/media/activities/2022/2022-conference-sante-photo-001.jpg",
+    src: "/media/activities/2022/conference/2022-conference-sante-photo-001.jpg",
     alt: "Santé des adolescents — 2022 : photographie 10",
     width: 2048,
     height: 1365,

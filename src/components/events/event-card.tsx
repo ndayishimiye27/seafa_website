@@ -13,7 +13,7 @@ export function EventCard({ event }: { event: Event; priority?: boolean }) {
       />
       <div className="card-body">
         <p className="eyebrow">
-          {formatEventDate(event.startDate) ?? "Date à confirmer"}
+          {formatEventDate(event.startDate) ?? "Archives"}
         </p>
         <h3>{event.title}</h3>
         {event.location && <p>{event.location}</p>}

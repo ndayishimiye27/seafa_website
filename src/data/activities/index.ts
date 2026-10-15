@@ -1,4 +1,5 @@
 import type { Activity } from "@/types/content";
+import { basketballActivity } from "@/data/basketball";
 import {
   octoberActivities,
   tournamentDescription,
@@ -202,15 +203,12 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-2019-gitega-trip",
     slug: "community-2019-gitega-trip",
-    title: "Voyage — 2019 · lieu à confirmer",
+    title: "Voyage à Mabanda — 2019",
     category: "excursion",
     albumId: "community-2019-gitega-trip",
-    date: {
-      value: "2019",
-      precision: "year",
-    },
+    date: { value: "2019", precision: "year" },
     summary:
-      "Retrouvez les photographies de cet album : Voyage — 2019 · lieu à confirmer.",
+      "Les photographies du voyage à Mabanda et des moments de fraternité partagés par SEAFA.",
     participants: [],
     featured: false,
     publicationStatus: "published",
@@ -218,14 +216,14 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-2019-jenda-excursion",
     slug: "community-2019-jenda-excursion",
-    title: "Archives · excursion à Jenda",
+    title: "Excursion à Jenda — 2021",
     category: "excursion",
     albumId: "community-2019-jenda-excursion",
-    summary:
-      "Année des photographies à confirmer : le livret documente une sortie en 2019, le dossier fourni indique 2021.",
+    summary: "Une excursion à Jenda avec la communauté SEAFA.",
     participants: [],
     featured: false,
     publicationStatus: "published",
+    date: { value: "2021", precision: "year" },
   },
   {
     id: "activity-community-2019-mentoring",
@@ -246,14 +244,11 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-2019-teza-trip",
     slug: "community-2019-teza-trip",
-    title: "Voyage à Teza — 2019",
+    title: "Excursion à Jenda — 2021",
     category: "excursion",
-    albumId: "community-2019-teza-trip",
-    date: {
-      value: "2019",
-      precision: "year",
-    },
-    summary: "Retrouvez les photographies de cet album : Voyage à Teza — 2019.",
+    albumId: "community-2019-jenda-excursion",
+    date: { value: "2021", precision: "year" },
+    summary: "Une excursion à Jenda avec la communauté SEAFA.",
     participants: [],
     featured: false,
     publicationStatus: "published",
@@ -261,15 +256,11 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-2019-walk",
     slug: "community-2019-walk",
-    title: "Marche communautaire — 2019",
+    title: "Marche à Bujumbura — 2020",
     category: "community-project",
-    albumId: "community-2019-walk",
-    date: {
-      value: "2019",
-      precision: "year",
-    },
-    summary:
-      "Retrouvez les photographies de cet album : Marche communautaire — 2019.",
+    albumId: "marche-bujumbura-2020",
+    date: { value: "2020", precision: "year" },
+    summary: "Une marche aller-retour vers la plage de Bujumbura.",
     participants: [],
     featured: false,
     publicationStatus: "published",
@@ -293,23 +284,22 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-community-jenda-group-photo",
     slug: "community-jenda-group-photo",
-    title: "Photo de groupe à Jenda",
+    title: "Excursion à Jenda — 2021",
     category: "community-project",
-    albumId: "community-jenda-group-photo",
-    summary:
-      "Retrouvez les photographies de cet album : Photo de groupe à Jenda.",
+    albumId: "community-2019-jenda-excursion",
+    summary: "La communauté SEAFA en excursion à Jenda.",
     participants: [],
     featured: false,
     publicationStatus: "published",
+    date: { value: "2021", precision: "year" },
   },
   {
     id: "activity-community-kibimba-group-photo",
     slug: "community-kibimba-group-photo",
-    title: "Photo de groupe à Kibimba",
+    title: "Archives SEAFA",
     category: "community-project",
-    albumId: "community-kibimba-group-photo",
-    summary:
-      "Retrouvez les photographies de cet album : Photo de groupe à Kibimba.",
+    albumId: "history-archives",
+    summary: "Les souvenirs photographiques de la communauté SEAFA.",
     participants: [],
     featured: false,
     publicationStatus: "published",
@@ -317,13 +307,14 @@ const suppliedActivities: Activity[] = [
   {
     id: "activity-events-2018-karera-falls",
     slug: "events-2018-karera-falls",
-    title: "Archives · chutes de Karera",
+    title: "Anniversaire et chutes de Karera — 2021",
     category: "excursion",
-    albumId: "events-2018-karera-falls",
-    summary: "Année à confirmer : ancien classement 2018, dossier fourni 2021.",
+    albumId: "events-2021-anniversary",
+    summary: "Une célébration de SEAFA et une sortie aux chutes de Karera.",
     participants: [],
     featured: false,
     publicationStatus: "published",
+    date: { value: "2021", precision: "year" },
   },
   {
     id: "activity-events-2018-physiotherapy",
@@ -343,6 +334,7 @@ const suppliedActivities: Activity[] = [
   },
 ];
 export const activities: Activity[] = [
+  basketballActivity,
   ...pendingActivities.filter(
     (activity) => activity.id !== "activite-seafa-lumitel",
   ),

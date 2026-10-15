@@ -4,7 +4,6 @@ import {
   currentPresident,
   presidentialSuccession,
   presidencyTermLabels,
-  presidencySourceNote,
 } from "@/data/presidency";
 
 export function Presidency({ history = false }: { history?: boolean }) {
@@ -39,7 +38,9 @@ export function Presidency({ history = false }: { history?: boolean }) {
                 {current ? "Président actuel" : "Ancien président"}
               </p>
               <h3>{member.fullName}</h3>
-              <p className="eyebrow">{presidencyTermLabels[member.id]}</p>
+              <p className="presidency-term">
+                {presidencyTermLabels[member.id]}
+              </p>
               <p>{member.biography}</p>
               {history && member.id === "president-arnaud" && (
                 <TextLink href="/interviews/arnaud-bados-badogomba">
@@ -50,7 +51,6 @@ export function Presidency({ history = false }: { history?: boolean }) {
           );
         })}
       </ol>
-      <p className="text-sm text-slate-600">{presidencySourceNote}</p>
       {!history && (
         <TextLink href="/history#presidents">
           Découvrir notre histoire et ses sources

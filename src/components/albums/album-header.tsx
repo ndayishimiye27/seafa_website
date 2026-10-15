@@ -64,7 +64,7 @@ export function AlbumHeader({
         )}
         <div className="mt-8">
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-white/85">
-            {category}
+            {album.status === "upcoming" ? "À venir" : category}
           </span>
 
           <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">

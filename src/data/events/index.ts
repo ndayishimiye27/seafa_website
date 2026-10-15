@@ -1,4 +1,5 @@
 import { anniversaryEvent } from "@/data/anniversary-2026";
+import { basketballEvent } from "@/data/basketball";
 import { octoberEvents } from "@/data/october-content";
 import type { Event } from "@/types/content";
 
@@ -126,13 +127,14 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-2018-karera-falls",
     slug: "events-2018-karera-falls",
-    title: "Archives · chutes de Karera",
+    title: "Anniversaire et chutes de Karera — 2021",
     category: "trip",
-    albumId: "events-2018-karera-falls",
+    albumId: "events-2021-anniversary",
     status: "completed",
-    summary: "Année à confirmer : ancien classement 2018, dossier fourni 2021.",
+    summary: "Une célébration de SEAFA et une sortie aux chutes de Karera.",
     featured: false,
     publicationStatus: "published",
+    startDate: { value: "2021", precision: "year" },
   },
   {
     id: "event-events-2018-medical-consultation",
@@ -169,27 +171,26 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-2019-anniversary",
     slug: "events-2019-anniversary",
-    title: "Archives · anniversaire",
+    title: "Anniversaire SEAFA — 2019",
     category: "anniversary",
     albumId: "events-2019-anniversary",
     status: "completed",
-    summary:
-      "Archives d’un anniversaire : le dossier porte les années contradictoires 2017 et 2019. Année à confirmer.",
+    summary: "Football et célébration de l’anniversaire de SEAFA.",
     featured: false,
     publicationStatus: "published",
+    startDate: { value: "2019", precision: "year" },
   },
   {
     id: "event-events-2021-anniversary",
     slug: "events-2021-anniversary",
-    title: "Souvenirs de rencontres",
+    title: "Anniversaire et chutes de Karera — 2021",
     category: "other",
     albumId: "events-2021-anniversary",
-
     status: "completed",
-    summary:
-      "Des rencontres conservées dans les archives de SEAFA. La date et l’événement précis restent à confirmer.",
+    summary: "Une célébration de SEAFA et une sortie aux chutes de Karera.",
     featured: false,
     publicationStatus: "published",
+    startDate: { value: "2021", precision: "year" },
   },
   {
     id: "event-nouvel-an-2018",
@@ -225,17 +226,18 @@ const suppliedEvents: Event[] = [
   {
     id: "event-events-medical-session",
     slug: "events-medical-session",
-    title: "Séance de physiothérapie",
+    title: "Consultations médicales — 2018",
     category: "other",
-    albumId: "events-medical-session",
+    albumId: "events-2018-medical-consultation",
     status: "completed",
-    summary:
-      "Un moment de physiothérapie conservé dans les archives SEAFA. La date et le contexte précis restent à confirmer.",
+    summary: "Les activités médicales de SEAFA.",
     featured: false,
     publicationStatus: "published",
+    startDate: { value: "2018", precision: "year" },
   },
 ];
 export const events: Event[] = [
+  basketballEvent,
   anniversaryEvent,
   ...octoberEvents,
   ...pendingEvents,
