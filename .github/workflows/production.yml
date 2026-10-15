@@ -13,15 +13,15 @@ jobs:
       (github.event.state == 'success' &&
        startsWith(github.event.context, 'Vercel') &&
        contains(github.event.branches.*.name, 'main'))
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     env:
       EXPECT_INDEXABLE: "false"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
       - name: Check domain, metadata, sitemap, images, redirects and 404

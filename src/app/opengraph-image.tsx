@@ -35,7 +35,6 @@ export default function SocialImage() {
         }}
       >
         {/* ImageResponse renders the supplied crest directly; next/image is for browser UI. */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={logoSrc} alt="Écusson SEAFA" width={104} height={104} />
         <span>Depuis 2013</span>
       </div>
