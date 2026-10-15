@@ -32,6 +32,16 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
   const [copyMessage, setCopyMessage] = useState("");
   const summary = useRef<HTMLDivElement>(null);
   const fields = formFields[kind];
+  function focusTarget(target: HTMLElement | null) {
+    if (!target) return;
+    const headerBottom =
+      document.querySelector(".site-header")?.getBoundingClientRect().bottom ??
+      0;
+    // Measure at activation time, including wrapped navigation and browser zoom.
+    target.style.scrollMarginBlockStart = `${Math.max(0, headerBottom) + 40}px`;
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ block: "start", behavior: "instant" });
+  }
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const fd = new FormData(event.currentTarget);
@@ -50,7 +60,7 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
     setCopyMessage("");
     if (Object.keys(checked.errors).length || !choice) {
       setMessage("Veuillez corriger les champs indiqués.");
-      requestAnimationFrame(() => summary.current?.focus());
+      requestAnimationFrame(() => focusTarget(summary.current));
       return;
     }
     const nextDraft = createDraft(kind, checked.data);
@@ -78,7 +88,7 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
       }
     }
     setMessage(note);
-    requestAnimationFrame(() => summary.current?.focus());
+    requestAnimationFrame(() => focusTarget(summary.current));
   }
   return (
     <form
@@ -107,7 +117,13 @@ export function ComposerForm({ kind }: { kind: ComposerKind }) {
           <ul>
             {Object.entries(errors).map(([key, error]) => (
               <li key={key}>
-                <a href={`#${kind}-${key}`}>
+                <a
+                  href={`#${kind}-${key}`}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    focusTarget(document.getElementById(`${kind}-${key}`));
+                  }}
+                >
                   {fields.find((f) => f.name === key)?.label ??
                     "Mode de transmission"}{" "}
                   : {error}

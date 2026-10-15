@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
-import { siteUrl } from "@/lib/metadata";
+import { siteUrl, siteIndexable } from "@/lib/metadata";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
-      ...(process.env.SITE_INDEXABLE === "true"
+      ...(siteIndexable
         ? {
             allow: "/",
             disallow: ["/api", "/admin", "/portal", "/dashboard", "/private"],

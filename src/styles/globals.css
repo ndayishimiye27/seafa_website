@@ -1014,6 +1014,10 @@ section[aria-labelledby="heritage-members-title"] .text-link {
 .form-input[aria-invalid="true"] {
   border-color: #b42318;
 }
+.public-form
+  :is(input, select, textarea, fieldset, [role="alert"], [role="status"]) {
+  scroll-margin-block-start: 8rem;
+}
 .public-form label {
   font-size: 0.88rem;
   font-weight: 600;

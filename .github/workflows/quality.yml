@@ -1,0 +1,38 @@
+name: Website quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SITE_INDEXABLE: "false"
+      NEXT_ENABLE_ADAPTER: "0"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm audit --omit=dev --audit-level=moderate
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run verify:content
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser -- tests/browser/production.spec.ts tests/browser/composer.spec.ts tests/browser/october-improvements.spec.ts
+      - name: HTTP production-contract checks against the local build
+        run: |
+          npm start -- --port 3100 > /tmp/seafa-server.log 2>&1 &
+          trap 'kill $!' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://localhost:3100/ > /dev/null; then break; fi
+            sleep 1
+          done
+          BASE_URL=http://localhost:3100 npm run verify:production

@@ -1,0 +1,33 @@
+name: Production monitoring
+on:
+  status:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    if: >-
+      github.event_name != 'status' ||
+      (github.event.state == 'success' &&
+       startsWith(github.event.context, 'Vercel') &&
+       contains(github.event.branches.*.name, 'main'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      EXPECT_INDEXABLE: "false"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check domain, metadata, sitemap, images, redirects and 404
+        env:
+          EXPECT_COMMIT: ${{ github.event_name == 'status' && github.event.sha || '' }}
+        run: node scripts/verify-production.mjs
+      - name: Recheck production dependency advisories from the lockfile
+        if: always()
+        run: npm audit --omit=dev --audit-level=moderate

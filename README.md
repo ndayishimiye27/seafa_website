@@ -31,9 +31,9 @@ Ces parcours n’appellent pas les routes API, n’enregistrent pas les réponse
 
 ## Configuration
 
-- `SITE_URL` : URL canonique confirmée. Repli local : `http://localhost:3000`.
-- `NEXT_PUBLIC_SITE_URL` : ancien nom encore accepté si `SITE_URL` est absent.
-- `SITE_INDEXABLE=true` : autorise l’indexation après validation du lancement. Sinon, noindex et robots bloqué.
+- Les builds de production et de preview utilisent toujours `https://www.saintespritfootballacademyalumni.com` comme origine canonique, conformément à la redirection du domaine racine vers `www`. Une ancienne variable d’environnement ne peut plus publier une URL localhost ou de preview.
+- `SITE_URL` et son ancien nom `NEXT_PUBLIC_SITE_URL` : origine de développement uniquement. Repli local : `http://localhost:3000`.
+- `SITE_INDEXABLE=true` : autorise l’indexation après validation du lancement. Sinon, noindex et robots bloqué. Les previews Vercel restent toujours non indexables.
 - `SUBMISSIONS_DIR` : configuration facultative des anciennes API ; chemin **absolu**, privé, hors de `public`, sur un volume **persistant**. Les formulaires publics et la notice de confidentialité sont statiques et restent disponibles sans ce volume.
 - `TRUSTED_IP_HEADER` : facultatif ; nom d’un en-tête réseau que le proxy de confiance **écrase**. Ne pas le configurer si les visiteurs peuvent le falsifier. Sans cet en-tête, limite partagée de 30 demandes/10 minutes ; sinon 5 par identifiant/10 minutes.
 

@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import { productionSiteUrl } from "../../src/lib/metadata";
 const routes = [
   "/",
   "/about",
@@ -169,6 +170,7 @@ test("links, metadata and reduced motion", async ({ page, request }) => {
       .locator('link[rel="canonical"]')
       .getAttribute("href");
     expect(new URL(canonical!).pathname).toBe(route);
+    expect(new URL(canonical!).origin).toBe(productionSiteUrl);
     const found = await page
       .locator("a[href]")
       .evaluateAll((items) => items.map((a) => a.getAttribute("href")!));

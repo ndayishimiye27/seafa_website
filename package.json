@@ -11,6 +11,8 @@
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "typecheck": "next typegen && tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm run verify:content && npm test",
+    "verify:production": "node scripts/verify-production.mjs",
     "verify:routes": "node scripts/verify-routes.mjs",
     "format": "prettier --write src tests scripts docs README.md next.config.ts vercel.json playwright.config.ts package.json tsconfig.json eslint.config.mjs",
     "format:check": "prettier --check src tests scripts docs README.md next.config.ts vercel.json playwright.config.ts package.json tsconfig.json eslint.config.mjs",
@@ -21,7 +23,7 @@
     "verify:rendering": "node scripts/audit-rendering.mjs"
   },
   "dependencies": {
-    "next": "16.3.4",
+    "next": "16.3.8",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -33,7 +35,7 @@
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.7",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.3.4",
+    "eslint-config-next": "16.3.8",
     "prettier": "3.9.6",
     "tailwindcss": "4.3.3",
     "tsx": "4.23.13",
